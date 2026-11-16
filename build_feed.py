@@ -423,14 +423,26 @@ def collect_source(src: dict, resolved: dict) -> tuple[list[dict], str]:
     person = src.get("person") or name
     posts = []
     if src.get("youtube"):
-        cid, ch = resolve_youtube(src["youtube"], resolved)
-        feed = f"https://www.youtube.com/feeds/videos.xml?playlist_id=UUSH{cid[2:]}"
-        for e in parse_feed(fetch(feed, tries=3)):
-            vid = e.get("video_id") or e["link"].rsplit("=", 1)[-1]
-            posts.append({**e, "id": f"yt:{vid}", "kind": "video", "video_id": vid,
-                          "link": f"https://www.youtube.com/shorts/{vid}",
-                          "image": e["image"] or f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
-        where = f"YouTube Shorts: {ch} ({cid})"
+        specs = src["youtube"] if isinstance(src["youtube"], list) else [src["youtube"]]
+        found, empty = [], []
+        for spec in specs:
+            cid, ch = resolve_youtube(spec, resolved)
+            feed = f"https://www.youtube.com/feeds/videos.xml?playlist_id=UUSH{cid[2:]}"
+            try:
+                entries = parse_feed(fetch(feed, tries=3))
+            except RuntimeError as e:
+                if "404" in str(e):  # YouTube has no Shorts list for this channel
+                    empty.append(cid)
+                    continue
+                raise
+            for e in entries:
+                vid = e.get("video_id") or e["link"].rsplit("=", 1)[-1]
+                posts.append({**e, "id": f"yt:{vid}", "kind": "video", "video_id": vid,
+                              "link": f"https://www.youtube.com/shorts/{vid}",
+                              "image": e["image"] or f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
+            found.append(cid)
+        where = "YouTube Shorts: " + (", ".join(found) or "none") + \
+                (f" (no Shorts on {', '.join(empty)})" if empty else "")
     elif src.get("podcast"):
         feed, show = resolve_podcast(src["podcast"], resolved)
         for e in parse_feed(fetch(feed))[:10]:
@@ -445,6 +457,8 @@ def collect_source(src: dict, resolved: dict) -> tuple[list[dict], str]:
         else:
             posts = [{**e, "kind": "story"} for e in scrape_links(target, fetch(target))]
             where = f"Page links: {target}"
+    if src.get("skip_titles"):
+        posts = [p for p in posts if not re.search(src["skip_titles"], p.get("title", ""), re.I)]
     for p in posts:
         p.update(source=name, person=person, category=cat)
         p["id"] = uid(name, p["id"])

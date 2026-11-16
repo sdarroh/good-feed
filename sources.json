@@ -1,10 +1,9 @@
 {
-  "_help": "Your sources. 'person' groups a leader's Shorts and podcast under one cap. youtube can be '@handle', a 'UC...' channel id, or 'search:Name'. podcast can be an Apple Podcasts id or 'search:Show name'. url can be a feed or any web page.",
+  "_help": "Your sources. 'person' groups a leader's Shorts and podcast under one cap. youtube can be '@handle', a 'UC...' channel id, or 'search:Name'. podcast can be an Apple Podcasts id or 'search:Show name'. url can be a feed or any web page. skip_titles drops posts whose title matches.",
   "sources": [
-    {"name": "Andrew Wommack", "category": "leaders", "person": "Andrew Wommack", "youtube": "UCQeu3sLd-TmsgZFnerbMniQ"},
+    {"name": "Andrew Wommack", "category": "leaders", "person": "Andrew Wommack", "youtube": ["UCQeu3sLd-TmsgZFnerbMniQ", "UC8H3lzJU5Qm-s3WVroB87kw"]},
     {"name": "Andrew Wommack", "category": "leaders", "person": "Andrew Wommack", "podcast": "search:The Gospel Truth Andrew Wommack"},
     {"name": "Vlad Savchuk", "category": "leaders", "person": "Vlad Savchuk", "youtube": "UC1DuOQg0-nr99t17Ca8Hlag"},
-    {"name": "Vlad Savchuk", "category": "leaders", "person": "Vlad Savchuk", "podcast": "1809382794"},
     {"name": "Jamie Winship", "category": "leaders", "person": "Jamie Winship", "youtube": "UCwf90eP2NFZ3CY-wb4A_qUg"},
     {"name": "Jamie Winship", "category": "leaders", "person": "Jamie Winship", "podcast": "search:The Jamie & Donna Winship Podcast"},
     {"name": "Ashley & Carlie Terradez", "category": "leaders", "person": "Terradez", "youtube": "UC4NTgAbqbES_ttAGZN88dwA"},
@@ -17,7 +16,7 @@
     {"name": "IMB", "category": "missions", "url": "https://www.imb.org/stories/"},
     {"name": "Voice of the Martyrs", "category": "missions", "url": "https://www.persecution.com/stories/"},
     {"name": "Mission Network News", "category": "missions", "url": "https://www.mnnonline.org/news/"},
-    {"name": "Faith Driven Entrepreneur", "category": "business", "url": "https://faithdrivenentrepreneur.org/blog?format=rss"},
+    {"name": "Faith Driven Entrepreneur", "category": "business", "url": "https://faithdrivenentrepreneur.org/feed/", "skip_titles": "^Episode"},
     {"name": "Faithwire", "category": "politics", "url": "https://www.faithwire.com/feed/"},
     {"name": "The Babylon Bee", "category": "entertainment", "url": "https://babylonbee.com/feed"},
     {"name": "Movieguide", "category": "entertainment", "url": "https://www.movieguide.org/feed"}
