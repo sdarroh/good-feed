@@ -272,7 +272,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "11056d9333ab4211": {
    "id": "11056d9333ab4211",
@@ -285,7 +286,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "83bf37b5cc274831": {
    "id": "83bf37b5cc274831",
@@ -298,7 +300,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "4f5bc966e35da189": {
    "id": "4f5bc966e35da189",
@@ -311,7 +314,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "c1581097656db80b": {
    "id": "c1581097656db80b",
@@ -324,7 +328,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "75f6ab13dd3f0820": {
    "id": "75f6ab13dd3f0820",
@@ -337,7 +342,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "8ae64d58db3ef5d1": {
    "id": "8ae64d58db3ef5d1",
@@ -350,7 +356,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "a26983f3f3fd8bf3": {
    "id": "a26983f3f3fd8bf3",
@@ -363,7 +370,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "cbc596008a4a0604": {
    "id": "cbc596008a4a0604",
@@ -376,7 +384,8 @@
    "source": "K-LOVE",
    "person": "K-LOVE",
    "category": "news",
-   "seen": "2026-11-16T12:29:00-06:00"
+   "seen": "2026-11-16T12:29:00-06:00",
+   "scraped": true
   },
   "dbb7a2518d4b1557": {
    "id": "dbb7a2518d4b1557",
@@ -946,136 +955,6 @@
    "source": "Mission Network News",
    "person": "Mission Network News",
    "category": "missions",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "ad951766b0cb7fe6": {
-   "id": "ad951766b0cb7fe6",
-   "title": "Reading PlansDaily Scripture for the journey→",
-   "link": "https://faithdrivenentrepreneur.org/bible-reading-plans/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "d19312099d547657": {
-   "id": "d19312099d547657",
-   "title": "Find a GroupFor entrepreneurs at every stage→",
-   "link": "https://faithdrivenentrepreneur.org/find-a-group/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "c0ae9ca005faf59f": {
-   "id": "c0ae9ca005faf59f",
-   "title": "Lead a GroupStart a group→",
-   "link": "https://faithdrivenentrepreneur.org/lead-a-group/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "2584297b7b8bc41d": {
-   "id": "2584297b7b8bc41d",
-   "title": "Church Foundation GroupsResources for church-based groups→",
-   "link": "https://faithdrivenentrepreneur.org/facilitator-hub/church-foundation-groups/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "c8c004164f780d4f": {
-   "id": "c8c004164f780d4f",
-   "title": "Connect Your ChurchBring the movement to church→",
-   "link": "https://faithdrivenentrepreneur.org/connect-your-church/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "c14a5d76127d8c58": {
-   "id": "c14a5d76127d8c58",
-   "title": "Research & InsightsDiscover What We're Learning→",
-   "link": "https://faithdrivenentrepreneur.org/research-insights-for-faith-driven-entrepreneurs/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "dee410ad0afeae2c": {
-   "id": "dee410ad0afeae2c",
-   "title": "Mission & VisionWhy we exist→",
-   "link": "https://faithdrivenentrepreneur.org/mission-and-vision/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "51076afa0921bdd4": {
-   "id": "51076afa0921bdd4",
-   "title": "Statement of FaithConvictions that shape our work→",
-   "link": "https://faithdrivenentrepreneur.org/statement-of-faith/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "d8e6608b41bbf6fd": {
-   "id": "d8e6608b41bbf6fd",
-   "title": "Board of AdvisorsLeaders guiding our direction→",
-   "link": "https://faithdrivenentrepreneur.org/board-of-advisors/",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
-   "seen": "2026-11-16T12:29:00-06:00"
-  },
-  "b8c66de229816a0a": {
-   "id": "b8c66de229816a0a",
-   "title": "A Structure for your Prayers",
-   "link": "https://faithdrivenentrepreneur.org/blog/a-structure-for-your-prayers",
-   "published": "",
-   "summary": "",
-   "image": "",
-   "kind": "story",
-   "source": "Faith Driven Entrepreneur",
-   "person": "Faith Driven Entrepreneur",
-   "category": "business",
    "seen": "2026-11-16T12:29:00-06:00"
   },
   "df95628992dd31d5": {

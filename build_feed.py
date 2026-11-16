@@ -22,6 +22,7 @@ import random
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -86,16 +87,21 @@ def uid(*parts) -> str:
 # --------------------------------------------------------------------------
 # Fetching and parsing
 # --------------------------------------------------------------------------
-UA = ("Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) "
-      "Chrome/126.0 Mobile Safari/537.36 GoodFeed/1.0")
+UAS = [
+    "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Mobile Safari/537.36",
+    "GoodFeed/1.0 (personal RSS reader; +https://github.com/sdarroh/good-feed)",
+]
 
 
 def fetch(url: str, timeout=25, tries=2) -> str:
+    """Download a page. On a block (403/429) it retries once as a plain feed reader."""
     last = None
     for i in range(tries):
+        ua = UAS[i % len(UAS)] if isinstance(last, urllib.error.HTTPError) and last.code in (403, 429) else UAS[0]
         try:
             req = urllib.request.Request(url, headers={
-                "User-Agent": UA, "Accept-Language": "en-US,en;q=0.9",
+                "User-Agent": ua, "Accept-Language": "en-US,en;q=0.9",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Cookie": "CONSENT=YES+1; SOCS=CAI"})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 data = r.read(4_000_000)
@@ -110,7 +116,7 @@ def fetch(url: str, timeout=25, tries=2) -> str:
             last = e
             if i + 1 < tries:
                 time.sleep(2)
-    raise last
+    raise RuntimeError(f"{type(last).__name__}: {last} ({url[:120]})")
 
 
 def plain(s: str | None) -> str:
@@ -305,7 +311,8 @@ def scrape_links(page_url: str, page_html: str, limit=12) -> list[dict]:
             continue
         seen.add(path)
         url = urllib.parse.urlunparse((u.scheme, u.netloc, u.path, "", u.query, ""))
-        out.append({"id": url, "title": text, "link": url, "published": "", "summary": "", "image": ""})
+        out.append({"id": url, "title": text, "link": url, "published": "", "summary": "", "image": "",
+                    "scraped": True})
         if len(out) >= limit:
             break
     return out
@@ -315,7 +322,8 @@ def page_meta(url: str) -> dict:
     p = LinkScan()
     p.feed(fetch(url, timeout=20, tries=1))
     m = p.meta
-    return {"image": m.get("og:image") or m.get("twitter:image") or "",
+    return {"title": m.get("og:title") or m.get("twitter:title") or "",
+            "image": m.get("og:image") or m.get("twitter:image") or "",
             "summary": m.get("og:description") or m.get("description") or "",
             "published": m.get("article:published_time") or ""}
 
@@ -638,14 +646,18 @@ def memory_post(p: dict, style: str, now: datetime, base: str, notice: str, rng)
 # --------------------------------------------------------------------------
 def enrich(post: dict, budget: list) -> None:
     """Fill in a missing picture/summary from the article's own preview tags."""
-    if post["kind"] not in ("story",) or (post.get("image") and plain(post.get("summary"))):
+    if post["kind"] != "story" or (post.get("image") and plain(post.get("summary"))
+                                   and not post.get("scraped")):
         return
-    if budget[0] <= 0:
+    if budget[0] <= 0 and not post.get("scraped"):
         return
     budget[0] -= 1
     try:
         m = page_meta(post["link"])
         post["image"] = post.get("image") or m["image"]
+        if post.get("scraped") and plain(m["title"]):
+            # link text on listing pages is messy; the article's own title is clean
+            post["title"] = re.split(r"\s+[|\u2013\u2014]\s+", plain(m["title"]))[0]
         if not plain(post.get("summary")):
             post["summary"] = m["summary"]
     except Exception as e:  # noqa: BLE001
