@@ -1,0 +1,31 @@
+{
+  "feed_title": "Good Feed",
+  "timezone": "America/Chicago",
+
+  "posts_per_day": 40,
+  "batch_hours": [6, 9, 12, 15, 18, 21],
+  "pool_days": 14,
+
+  "person_cap": 5,
+  "category_caps": {
+    "leaders": 15,
+    "news": 5,
+    "missions": 5,
+    "business": 5,
+    "politics": 5,
+    "entertainment": 5,
+    "memory": 5,
+    "devotional": 2
+  },
+  "default_category_cap": 5,
+  "podcast_cap": 2,
+
+  "memory_cards_per_day": 4,
+  "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
+  "scripture_notice": "Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
+
+  "true_vine": true,
+  "true_vine_repeat": true,
+
+  "warn_after_days": 3
+}

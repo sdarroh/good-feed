@@ -1,0 +1,11 @@
+# MEMORY PASSAGES
+#
+# Each passage starts with a line beginning with == and the reference.
+# Then the text, one verse per line, each starting with its verse number.
+# Lines starting with # are ignored. The whole passage shows on every card.
+#
+# Example:
+# == Psalm 121
+# 1 I will lift up my eyes to the hills...
+# 2 My help comes from the LORD...
+

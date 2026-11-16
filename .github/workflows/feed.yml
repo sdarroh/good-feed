@@ -1,0 +1,42 @@
+name: Update feed
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly; the script only posts at batch times
+  workflow_dispatch:        # "Run workflow" button posts a batch right away
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build feed
+        env:
+          BATCH_NOW: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[batch]') }}
+        run: |
+          if [ "$BATCH_NOW" = "true" ]; then python build_feed.py --batch-now; else python build_feed.py; fi
+      - name: Save changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A feed.xml state.json status.json truevine
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update feed"
+            git pull --rebase
+            git push
+          fi
