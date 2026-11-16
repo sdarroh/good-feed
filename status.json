@@ -1,0 +1,173 @@
+{
+ "Andrew Wommack (YouTube)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": false,
+  "error": "RuntimeError: no YouTube channel found for 'Andrew Wommack Ministries'",
+  "last_error": "2026-11-16T12:29:00-06:00"
+ },
+ "Andrew Wommack (podcast)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 10,
+  "added": 10,
+  "using": "Podcast: The Gospel Truth (https://www.spreaker.com/show/3271115/episodes/feed)",
+  "error": ""
+ },
+ "Ashley & Carlie Terradez (YouTube)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": false,
+  "error": "RuntimeError: no YouTube channel found for 'Terradez Ministries'",
+  "last_error": "2026-11-16T12:29:00-06:00"
+ },
+ "Ashley & Carlie Terradez (podcast)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 8,
+  "added": 0,
+  "using": "Podcast: T-Time with Ashley and Carlie Terradez (https://feeds.captivate.fm/t-time-podcast/)",
+  "error": ""
+ },
+ "Crosswalk": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 10,
+  "added": 10,
+  "using": "Feed: https://www.crosswalk.com/headlines/topics/positive-stories/rss.xml",
+  "error": ""
+ },
+ "Faith Driven Entrepreneur": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 12,
+  "added": 12,
+  "using": "Page links: https://faithdrivenentrepreneur.org/blog",
+  "error": ""
+ },
+ "Faithwire": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 10,
+  "added": 10,
+  "using": "Feed: https://www.faithwire.com/feed/",
+  "error": ""
+ },
+ "God Reports": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 20,
+  "added": 10,
+  "using": "Feed: https://godreports.com/feed/",
+  "error": ""
+ },
+ "GodTube": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 20,
+  "added": 0,
+  "using": "Feed: https://www.godtube.com/blog/god-stories/rss.xml",
+  "error": ""
+ },
+ "IMB": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 8,
+  "added": 0,
+  "using": "Feed: https://www.imb.org/stories/feed/",
+  "error": ""
+ },
+ "Jamie Winship (YouTube)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": false,
+  "error": "RuntimeError: no YouTube channel found for 'Jamie Winship Identity Exchange'",
+  "last_error": "2026-11-16T12:29:00-06:00"
+ },
+ "Jamie Winship (podcast)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 10,
+  "added": 2,
+  "using": "Podcast: The Jamie & Donna Winship Podcast (https://feeds.transistor.fm/jamiedonnawinshippodcast-identityexchange)",
+  "error": ""
+ },
+ "Joel News": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 0,
+  "added": 0,
+  "using": "Page links: https://www.joelnews.org",
+  "error": ""
+ },
+ "K-LOVE": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 12,
+  "added": 12,
+  "using": "Page links: https://www.klove.com/faith/news/god-stories",
+  "error": ""
+ },
+ "Mission Network News": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 10,
+  "added": 10,
+  "using": "Feed: https://www.mnnonline.org/news/feed/",
+  "error": ""
+ },
+ "Movieguide": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": false,
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "last_error": "2026-11-16T12:29:00-06:00"
+ },
+ "Relevant": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 1,
+  "added": 0,
+  "using": "Feed: https://relevantmagazine.com/tag/hopeful-news/feed/",
+  "error": ""
+ },
+ "The Babylon Bee": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 2,
+  "added": 2,
+  "using": "Feed: https://babylonbee.com/feed",
+  "error": ""
+ },
+ "Vlad Savchuk (YouTube)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": false,
+  "error": "RuntimeError: couldn't find a channel for @vladhungrygen",
+  "last_error": "2026-11-16T12:29:00-06:00"
+ },
+ "Vlad Savchuk (podcast)": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": false,
+  "error": "HTTPError: HTTP Error 403: Forbidden",
+  "last_error": "2026-11-16T12:29:00-06:00"
+ },
+ "Voice of the Martyrs": {
+  "first_tried": "2026-11-16T12:29:00-06:00",
+  "ok": true,
+  "last_ok": "2026-11-16T12:29:00-06:00",
+  "found": 10,
+  "added": 8,
+  "using": "Feed: https://www.persecution.com/stories/feed/",
+  "error": ""
+ }
+}
