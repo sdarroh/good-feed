@@ -16,7 +16,7 @@
     {"name": "IMB", "category": "missions", "url": "https://www.imb.org/stories/"},
     {"name": "Voice of the Martyrs", "category": "missions", "url": "https://www.persecution.com/stories/"},
     {"name": "Mission Network News", "category": "missions", "url": "https://www.mnnonline.org/news/"},
-    {"name": "Faith Driven Entrepreneur", "category": "business", "url": "https://faithdrivenentrepreneur.org/feed/", "skip_titles": "^Episode"},
+    {"name": "Faith Driven Entrepreneur", "category": "business", "url": "https://faithdrivenentrepreneur.org/feed/"},
     {"name": "Faithwire", "category": "politics", "url": "https://www.faithwire.com/feed/"},
     {"name": "The Babylon Bee", "category": "entertainment", "url": "https://babylonbee.com/feed"},
     {"name": "Movieguide", "category": "entertainment", "url": "https://www.movieguide.org/feed"}
