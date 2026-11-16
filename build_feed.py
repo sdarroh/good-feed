@@ -49,7 +49,7 @@ DEFAULTS = {
     "batch_hours": [6, 9, 12, 15, 18, 21], "pool_days": 14,
     "person_cap": 5, "category_caps": {}, "default_category_cap": 5, "podcast_cap": 2,
     "memory_cards_per_day": 4, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
-    "scripture_notice": "", "true_vine": True, "true_vine_repeat": True, "warn_after_days": 3,
+    "scripture_notice": "", "true_vine": True, "warn_after_days": 3,
 }
 
 
@@ -870,9 +870,9 @@ def main():
     # 2) extras: True Vine (first batch of the day), memory card, broken-source notices
     extra = []
     if cfg["true_vine"] and state.get("vine_last") != today:
-        start = date.fromisoformat(state.setdefault("vine_start", today))
-        n = (now.date() - start).days
-        day = n % 31 + 1 if cfg["true_vine_repeat"] else n + 1
+        # Day N on the Nth of each month (30-day months skip Day 31; February
+        # stops at 28 or 29)
+        day = now.day
         if 1 <= day <= 31:
             extra.append(true_vine_post(day, now, base))
             state["vine_last"] = today
