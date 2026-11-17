@@ -49,7 +49,7 @@ DEFAULTS = {
     "batch_hours": [6, 9, 12, 15, 18, 21], "pool_days": 14,
     "person_cap": 5, "category_caps": {}, "default_category_cap": 5, "podcast_cap": 2,
     "memory_cards_per_day": 4, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
-    "scripture_notice": "", "true_vine": True, "warn_after_days": 3,
+    "scripture_notice": "", "watch_words": [], "must_see_per_day": 3, "true_vine": True, "warn_after_days": 3,
 }
 
 
@@ -404,7 +404,7 @@ def resolve_page(url: str, resolved: dict) -> tuple[str, str]:
             feeds = [f for f in feeds if last and last in f.lower()]
             guesses = [url.rstrip("/") + "/feed/"]
         else:
-            guesses = [urllib.parse.urljoin(url, g) for g in ("/feed/", "/rss", "/feed.xml", "/rss.xml")]
+            guesses = [urllib.parse.urljoin(url, g) for g in ("/feed/", "/rss", "/feed.xml", "/rss.xml", "/blog-feed.xml")]
         for cand in feeds + guesses:
             try:
                 t = fetch(cand, timeout=15, tries=1)
@@ -460,7 +460,7 @@ def collect_source(src: dict, resolved: dict) -> tuple[list[dict], str]:
     if src.get("skip_titles"):
         posts = [p for p in posts if not re.search(src["skip_titles"], p.get("title", ""), re.I)]
     for p in posts:
-        p.update(source=name, person=person, category=cat)
+        p.update(source=name, person=person, category=cat, must_see_source=bool(src.get("must_see")))
         p["id"] = uid(name, p["id"])
     return posts, where
 
@@ -716,8 +716,16 @@ def render(post: dict, base: str) -> dict:
 # --------------------------------------------------------------------------
 # Picking a batch
 # --------------------------------------------------------------------------
+def is_must_see(post: dict, cfg: dict) -> bool:
+    """From a must-see source, or mentions a watch word in its title or preview."""
+    if post.get("must_see_source"):
+        return True
+    text = f"{post.get('title', '')} {plain(post.get('summary', ''))}"
+    return any(re.search(r"\b" + re.escape(w) + r"\b", text, re.I) for w in cfg["watch_words"] if w.strip())
+
+
 def pick_batch(pool: list[dict], recent: list[dict], size: int, cfg: dict, now: datetime, rng,
-               extra: list[dict]) -> list[dict]:
+               extra: list[dict], must_see_left: int = 0) -> list[dict]:
     """Choose up to `size` posts so that, counting the last day of posts, no person,
     category or podcast count goes over its cap."""
     caps = cfg["category_caps"]
@@ -749,19 +757,28 @@ def pick_batch(pool: list[dict], recent: list[dict], size: int, cfg: dict, now: 
 
     history = list(recent)
     chosen = []
+    # must-see posts skip the caps and go first (oldest first, up to the daily limit)
+    must = sorted((x for x in pool if is_must_see(x, cfg)),
+                  key=lambda x: parse_date(x.get("published")) or parse_date(x.get("seen")) or now)
+    for x in must[:max(0, must_see_left)]:
+        x["must_see"] = True
+        chosen.append(x)
     for x in extra:  # devotional / memory / notices go in if they fit
         if fits(x, history + chosen):
             chosen.append(x)
     for x in sorted(pool, key=score, reverse=True):
-        if len([c for c in chosen if c["kind"] not in ("devotional", "notice")]) >= size:
+        if x in chosen:
+            continue
+        if len([c for c in chosen if c["kind"] not in ("devotional", "notice") and not c.get("must_see")]) >= size:
             break
         if fits(x, history + chosen):
             chosen.append(x)
 
     # spread out: avoid the same category twice in a row where possible
-    rest = [c for c in chosen if c["kind"] != "devotional"]
+    top = [c for c in chosen if c.get("must_see")] + [c for c in chosen if c["kind"] == "devotional"]
+    rest = [c for c in chosen if c not in top]
     rng.shuffle(rest)
-    ordered = [c for c in chosen if c["kind"] == "devotional"]
+    ordered = top
     while rest:
         prev = ordered[-1]["category"] if ordered else None
         i = next((k for k, c in enumerate(rest) if c["category"] != prev), 0)
@@ -913,12 +930,17 @@ def main():
     day_ago = (now - timedelta(hours=25)).isoformat()
     recent = [{"person": e["person"], "category": e["category"], "kind": e["kind"]}
               for e in feed if e["posted"] > day_ago]
-    batch = pick_batch(list(pool.values()), recent, size, cfg, now, rng, extra)
+    must_today = sum(1 for e in feed if e.get("must_see") and e["posted"][:10] == today)
+    batch = pick_batch(list(pool.values()), recent, size, cfg, now, rng, extra,
+                       cfg["must_see_per_day"] - must_today)
     budget = [15]
     new_entries = []
     for i, post in enumerate(batch):
         enrich(post, budget)
         e = render(post, base)
+        if post.get("must_see"):
+            e["must_see"] = True
+            e["title"] = "\u2B50 " + e["title"]
         e["posted"] = (now - timedelta(minutes=i)).isoformat()
         for k in ("summary", "seen", "published"):
             e.pop(k, None)

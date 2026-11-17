@@ -17,6 +17,8 @@ Every hour GitHub runs `build_feed.py`. At each batch time (6 AM, 9 AM, noon, 3,
 
 If a source stops working for 3 days, a "Feed check" card shows up in the feed.
 
+**Must-see:** posts from sources marked `"must_see": true` in `sources.json`, or that mention a watch word in `config.json` (`watch_words`), skip the caps and go to the top with a ⭐ (up to 3 a day; extras wait a day).
+
 ## Making changes
 
 The easy way: ask Claude ("add this pastor", "less politics", "add Psalm 121").
