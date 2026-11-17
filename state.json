@@ -114,6 +114,11 @@
    "mode": "feed",
    "url": "https://faithdrivenentrepreneur.org/feed/",
    "at": "2026-11-16T18:33:33.240209+00:00"
+  },
+  "web:https://www.freeburmarangers.org/": {
+   "mode": "feed",
+   "url": "https://www.freeburmarangers.org/blog-feed.xml",
+   "at": "2026-11-17T01:48:27.848227+00:00"
   }
  },
  "batches_done": [
@@ -122,6 +127,7 @@
   "2026-11-16@12",
   "2026-11-16@12",
   "2026-11-16@15",
+  "2026-11-16@18",
   "2026-11-16@18"
  ],
  "pool": {
@@ -1855,6 +1861,38 @@
    "person": "Movieguide",
    "category": "entertainment",
    "seen": "2026-11-16T19:33:00-06:00"
+  },
+  "4247ebebeb514039": {
+   "id": "4247ebebeb514039",
+   "title": "Jesus Sent Me Here to Help: Rangers Get the News Out from Taw Oo",
+   "link": "https://www.freeburmarangers.org/post/jesus-sent-me-here-to-help-rangers-get-the-news-out-from-taw-oo",
+   "published": "Mon, 16 Nov 2026 06:14:31 GMT",
+   "summary": "Taw Oo mission team, offering relief to a displaced family in central Burma.   Aung Zay Ya, a Ranger from Sagaing, Burma, led a team of Rangers on a relief mission into Taw Oo District (also called Toungoo), a highly contested northern region of Karen State, bordering Bago Division, that has Burma Army bases laced throughout the villages and Internally Displaced Persons (IDP) communities. Despite difficult roads, limited supplies, and the constant threat of Burma Army violence, Rangers...",
+   "image": "https://static.wixstatic.com/media/b5a899_24521f09ee7d48d3b93f741cb012caf0~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Free Burma Rangers",
+   "person": "Free Burma Rangers",
+   "category": "missions",
+   "must_see_source": true,
+   "seen": "2026-11-16T19:48:00-06:00"
+  },
+  "1ab6ebe0ed974dbd": {
+   "id": "1ab6ebe0ed974dbd",
+   "title": "WEEKLY DISPATCH | November 12, 2026",
+   "link": "https://www.freeburmarangers.org/post/weekly-dispatch-november-12-2026",
+   "published": "Thu, 12 Nov 2026 06:56:27 GMT",
+   "summary": "",
+   "image": "https://static.wixstatic.com/media/b5a899_df7b759e30b3425dbf32fe032efe2f6a~mv2.jpg/v1/fit/w_1000,h_732,al_c,q_80/file.png",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Free Burma Rangers",
+   "person": "Free Burma Rangers",
+   "category": "missions",
+   "must_see_source": true,
+   "seen": "2026-11-16T19:48:00-06:00"
   }
  },
  "released_ids": {
@@ -1897,10 +1935,61 @@
   "7512e9c49bb6814c": "2026-11-16",
   "72b094e3e45cc98a": "2026-11-16",
   "5351eadc5a931be7": "2026-11-16",
-  "b8e092cee5df9cdc": "2026-11-16"
+  "b8e092cee5df9cdc": "2026-11-16",
+  "fba5d31974556e1c": "2026-11-16",
+  "a5448b1b6f7cc407": "2026-11-16",
+  "94acf6d488bfb9b8": "2026-11-16"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "fba5d31974556e1c",
+   "title": "⭐ 🌍 Free Burma Rangers · Humanitarian Gap in War: Burma Conflict Update by Dave Eubank",
+   "link": "https://www.freeburmarangers.org/post/humanitarian-gap-in-war-burma-conflict-update-by-dave-eubank",
+   "image": "https://static.wixstatic.com/media/b5a899_c18960eb85cc403baa7727dd7ea17673~mv2.jpeg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Free Burma Rangers",
+   "person": "Free Burma Rangers",
+   "category": "missions",
+   "must_see_source": true,
+   "must_see": true,
+   "html": "<p><img src=\"https://static.wixstatic.com/media/b5a899_c18960eb85cc403baa7727dd7ea17673~mv2.jpeg/v1/fit/w_1000,h_1000,al_c,q_80/file.png\" alt=\"\"></p><p>The Free Burma Rangers was started in 1997, in response to a Burma Army offensive that displaced over five hundred thousand people. Since then, it has grown to include many different ethnic groups across Burma and the world. FBR is made up of Christians, Buddhists, Muslims, animists, Yezidis…</p><p><a href=\"https://www.freeburmarangers.org/post/humanitarian-gap-in-war-burma-conflict-update-by-dave-eubank\">Read the full story →</a></p>",
+   "posted": "2026-11-16T19:48:00-06:00"
+  },
+  {
+   "id": "a5448b1b6f7cc407",
+   "title": "⭐ 🌍 Free Burma Rangers · WEEKLY DISPATCH | November 5, 2026",
+   "link": "https://www.freeburmarangers.org/post/weekly-dispatch-november-5-2026",
+   "image": "https://static.wixstatic.com/media/b5a899_bff04c4c4e194d0fa0007ec67c98f318~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Free Burma Rangers",
+   "person": "Free Burma Rangers",
+   "category": "missions",
+   "must_see_source": true,
+   "must_see": true,
+   "html": "<p><img src=\"https://static.wixstatic.com/media/b5a899_bff04c4c4e194d0fa0007ec67c98f318~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png\" alt=\"\"></p><p><a href=\"https://www.freeburmarangers.org/post/weekly-dispatch-november-5-2026\">Read the full story →</a></p>",
+   "posted": "2026-11-16T19:47:00-06:00"
+  },
+  {
+   "id": "94acf6d488bfb9b8",
+   "title": "⭐ 🌍 Free Burma Rangers · The Gospel on the Frontlines: FBR's Team Chaplain Program",
+   "link": "https://www.freeburmarangers.org/post/the-gospel-on-the-frontlines-fbr-s-team-chaplain-program",
+   "image": "https://static.wixstatic.com/media/b5a899_ddc7794a2cca4ed2ac0887803c843e85~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Free Burma Rangers",
+   "person": "Free Burma Rangers",
+   "category": "missions",
+   "must_see_source": true,
+   "must_see": true,
+   "html": "<p><img src=\"https://static.wixstatic.com/media/b5a899_ddc7794a2cca4ed2ac0887803c843e85~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png\" alt=\"\"></p><p>A Ranger team chaplain studying scripture at training camp. In Burma, there is need around every corner. Our Rangers in the field come face-to-face with many of these needs while on relief missions. Children need education; parents struggle for economic support; resistance groups are desperate for…</p><p><a href=\"https://www.freeburmarangers.org/post/the-gospel-on-the-frontlines-fbr-s-team-chaplain-program\">Read the full story →</a></p>",
+   "posted": "2026-11-16T19:46:00-06:00"
+  },
   {
    "id": "bef4dc5f7e732e84",
    "title": "🏛️ Faithwire · Fishermen Miraculously Spot Cruise Ship Pianist Who Spent 9 Hours in Open Sea After Falling Overboard",
