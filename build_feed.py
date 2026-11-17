@@ -815,6 +815,8 @@ def write_feed(entries: list[dict], cfg: dict, base: str):
            'xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">',
            "<channel>", f"<title>{esc(cfg['feed_title'])}</title>", f"<link>{esc(base)}</link>",
            f'<atom:link href="{esc(base)}feed.xml" rel="self" type="application/rss+xml"/>',
+           # WebSub: lets Inoreader get pinged the moment a batch is published
+           '<atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>',
            "<description>A hand-picked feed</description>", "<language>en-us</language>", "<ttl>30</ttl>",
            f"<image><url>{esc(base)}cards/icon.png</url><title>{esc(cfg['feed_title'])}</title>"
            f"<link>{esc(base)}</link></image>"]
