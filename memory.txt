@@ -1,11 +1,144 @@
-# MEMORY PASSAGES
+# MEMORY PASSAGES (NKJV)
 #
 # Each passage starts with a line beginning with == and the reference.
-# Then the text, one verse per line, each starting with its verse number.
-# Lines starting with # are ignored. The whole passage shows on every card.
-#
-# Example:
-# == Psalm 121
-# 1 I will lift up my eyes to the hills...
-# 2 My help comes from the LORD...
+# Then the text line by line, as printed. A blank line starts a new stanza.
+# Verse numbers are dropped automatically. Lines starting with # are ignored.
+# The whole passage shows on every card, with the reference at the bottom.
 
+== Psalm 1
+Blessed is the man
+Who walks not in the counsel of the ungodly,
+Nor stands in the path of sinners,
+Nor sits in the seat of the scornful;
+But his delight is in the law of the LORD,
+And in His law he meditates day and night.
+He shall be like a tree
+Planted by the rivers of water,
+That brings forth its fruit in its season,
+Whose leaf also shall not wither;
+And whatever he does shall prosper.
+
+The ungodly are not so,
+But are like the chaff which the wind drives away.
+Therefore the ungodly shall not stand in the judgment,
+Nor sinners in the congregation of the righteous.
+For the LORD knows the way of the righteous,
+But the way of the ungodly shall perish.
+
+== Psalm 23
+The LORD is my shepherd;
+I shall not want.
+He makes me to lie down in green pastures;
+He leads me beside the still waters.
+He restores my soul;
+He leads me in the paths of righteousness
+For His name’s sake.
+
+Yea, though I walk through the valley of the shadow of death,
+I will fear no evil;
+For You are with me;
+Your rod and Your staff, they comfort me.
+
+You prepare a table before me in the presence of my enemies;
+You anoint my head with oil;
+My cup runs over.
+Surely goodness and mercy shall follow me
+All the days of my life;
+And I will dwell in the house of the LORD
+Forever.
+
+== Psalm 91
+He who dwells in the secret place of the Most High
+Shall abide under the shadow of the Almighty.
+I will say of the LORD, “He is my refuge and my fortress;
+My God, in Him I will trust.”
+
+Surely He shall deliver you from the snare of the fowler
+And from the perilous pestilence.
+He shall cover you with His feathers,
+And under His wings you shall take refuge;
+His truth shall be your shield and buckler.
+You shall not be afraid of the terror by night,
+Nor of the arrow that flies by day,
+Nor of the pestilence that walks in darkness,
+Nor of the destruction that lays waste at noonday.
+A thousand may fall at your side,
+And ten thousand at your right hand;
+But it shall not come near you.
+Only with your eyes shall you look,
+And see the reward of the wicked.
+
+Because you have made the LORD, who is my refuge,
+Even the Most High, your dwelling place,
+No evil shall befall you,
+Nor shall any plague come near your dwelling;
+For He shall give His angels charge over you,
+To keep you in all your ways.
+In their hands they shall bear you up,
+Lest you dash your foot against a stone.
+You shall tread upon the lion and the cobra,
+The young lion and the serpent you shall trample underfoot.
+
+“Because he has set his love upon Me, therefore I will deliver him;
+I will set him on high, because he has known My name.
+He shall call upon Me, and I will answer him;
+I will be with him in trouble;
+I will deliver him and honor him.
+With long life I will satisfy him,
+And show him My salvation.”
+
+== Deuteronomy 28:2–8
+And all these blessings shall come upon you and overtake you, because you obey the voice of the LORD your God:
+“Blessed shall you be in the city, and blessed shall you be in the country.
+“Blessed shall be the fruit of your body, the produce of your ground and the increase of your herds, the increase of your cattle and the offspring of your flocks.
+“Blessed shall be your basket and your kneading bowl.
+“Blessed shall you be when you come in, and blessed shall you be when you go out.
+“The LORD will cause your enemies who rise against you to be defeated before your face; they shall come out against you one way and flee before you seven ways.
+“The LORD will command the blessing on you in your storehouses and in all to which you set your hand, and He will bless you in the land which the LORD your God is giving you.
+
+== Isaiah 54:9–10
+“For this is like the waters of Noah to Me;
+For as I have sworn
+That the waters of Noah would no longer cover the earth,
+So have I sworn
+That I would not be angry with you, nor rebuke you.
+For the mountains shall depart
+And the hills be removed,
+But My kindness shall not depart from you,
+Nor shall My covenant of peace be removed,”
+Says the LORD, who has mercy on you.
+
+== Isaiah 55:8–11
+“For My thoughts are not your thoughts,
+Nor are your ways My ways,” says the LORD.
+“For as the heavens are higher than the earth,
+So are My ways higher than your ways,
+And My thoughts than your thoughts.
+
+“For as the rain comes down, and the snow from heaven,
+And do not return there,
+But water the earth,
+And make it bring forth and bud,
+That it may give seed to the sower
+And bread to the eater,
+So shall My word be that goes forth from My mouth;
+It shall not return to Me void,
+But it shall accomplish what I please,
+And it shall prosper in the thing for which I sent it.
+
+== Isaiah 58:6–9
+“Is this not the fast that I have chosen:
+To loose the bonds of wickedness,
+To undo the heavy burdens,
+To let the oppressed go free,
+And that you break every yoke?
+Is it not to share your bread with the hungry,
+And that you bring to your house the poor who are cast out;
+When you see the naked, that you cover him,
+And not hide yourself from your own flesh?
+Then your light shall break forth like the morning,
+Your healing shall spring forth speedily,
+And your righteousness shall go before you;
+The glory of the LORD shall be your rear guard.
+Then you shall call, and the LORD will answer;
+You shall cry, and He will say, ‘Here I am.’

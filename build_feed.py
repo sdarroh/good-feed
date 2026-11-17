@@ -609,52 +609,56 @@ def true_vine_post(day: int, now: datetime, base: str) -> dict:
 # Memory cards (whole passage every time)
 # --------------------------------------------------------------------------
 def load_passages() -> list[dict]:
+    """memory.txt: '== Reference', then the text line by line as printed in the Bible.
+    A blank line starts a new stanza. Verse numbers at the start of a line are dropped."""
     passages, cur = [], None
     text = MEMORY.read_text(encoding="utf-8") if MEMORY.exists() else ""
     for line in text.splitlines():
         s = line.strip()
-        if not s or s.startswith("#"):
+        if s.startswith("#"):
             continue
         if s.startswith("=="):
-            cur = {"ref": s.lstrip("=").strip(), "verses": []}
+            cur = {"ref": s.lstrip("=").strip(), "stanzas": [[]]}
             passages.append(cur)
         elif cur is not None:
-            m = re.match(r"^(\d{1,3})[\s.:)]+(.+)$", s)
-            if m:
-                cur["verses"].append([int(m.group(1)), m.group(2).strip()])
-            elif cur["verses"]:
-                cur["verses"][-1][1] += " " + s
-            else:
-                cur["verses"].append([None, s])
-    return [p for p in passages if p["ref"] and p["verses"]]
+            if not s:
+                if cur["stanzas"][-1]:
+                    cur["stanzas"].append([])
+                continue
+            s = re.sub(r"^\d{1,3}[\s.:)]*(?=[A-Za-z\u201c\u2018\"'])", "", s)
+            cur["stanzas"][-1].append(s)
+    for p in passages:
+        p["stanzas"] = [st for st in p["stanzas"] if st]
+    return [p for p in passages if p["ref"] and p["stanzas"]]
 
 
-WORD = re.compile(r"([A-Za-z’']+)")
+WORD = re.compile(r"([A-Za-z\u2019']+)")
 
 
-def verses_html(verses, transform=lambda t: html.escape(t)) -> str:
-    return "<p>" + " ".join((f"<sup>{n}</sup> " if n is not None else "") + transform(t)
-                            for n, t in verses) + "</p>"
+def passage_html(p: dict, transform=lambda t: html.escape(t)) -> str:
+    """The passage as printed: line breaks kept, no verse numbers."""
+    return "".join("<p>" + "<br>".join(transform(line) for line in st) + "</p>" for st in p["stanzas"])
 
 
 def memory_post(p: dict, style: str, now: datetime, base: str, notice: str, rng) -> dict:
-    gap = "<p> </p>" * 6
-    check = "<hr><p><strong>↓ Check yourself</strong></p>"
-    vs, ref = p["verses"], p["ref"]
+    gap = "<p>\u00a0</p>" * 6
+    check = "<hr><p><strong>\u2193 Check yourself</strong></p>"
+    ref = p["ref"]
+    ref_line = f"<p><em>\u2014 {html.escape(ref)}</em></p>"
     if style == "blanks":
         def blank(t):
             return html.escape(WORD.sub(lambda m: "_" * max(5, len(m.group(1)))
                                         if len(m.group(1)) >= 4 and rng.random() < 0.33 else m.group(1), t))
-        title = f"✏️ Fill in the blanks · {ref}"
-        body = verses_html(vs, blank) + gap + check + verses_html(vs)
+        title = f"\u270F\uFE0F Fill in the blanks \u00b7 {ref}"
+        body = passage_html(p, blank) + ref_line + gap + check + passage_html(p) + ref_line
     elif style == "where":
-        title = "❓ Where is this from?"
-        body = (verses_html(vs) + "<p>Name the reference before you scroll.</p>"
+        title = "\u2753 Where is this from?"
+        body = (passage_html(p) + "<p>Name the reference before you scroll.</p>"
                 + gap + check + f"<p><strong>{html.escape(ref)}</strong></p>")
     else:
         style = "verse"
         title = f"\U0001F4D6 {ref}"
-        body = verses_html(vs) + f"<p><em>— {html.escape(ref)}</em></p>"
+        body = passage_html(p) + ref_line
     img = f"{base}cards/memory-{style}.png"
     note = f"<p><small>{html.escape(notice)}</small></p>" if notice else ""
     pid = f"mem-{now.strftime('%Y%m%d%H%M')}-{uid(ref, style)}"
