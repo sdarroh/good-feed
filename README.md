@@ -9,11 +9,11 @@ A hand-picked, Christian-first feed for Inoreader: leaders' Shorts, good news, m
 Every hour GitHub runs `build_feed.py`. At each batch time (6 AM, 9 AM, noon, 3, 6 and 9 PM Central) it:
 
 1. Checks every source in `sources.json` and adds new posts from the last 2 weeks to a pool.
-2. Picks about 7 posts from the pool, newer ones more likely, following the caps.
+2. Picks about 10 posts from the pool, newer ones more likely, following the caps.
 3. Mixes in memory cards and, in the morning, the day's *True Vine* meditation.
 4. Writes `feed.xml`, which Inoreader reads.
 
-**Caps** (counted over the last 24 hours, about 40 posts): each person 5, leaders 15 in all, each other category 5, memory cards 5, podcast teasers 2. Nothing repeats.
+**Caps** (counted over about the last day, about 60 posts): each person 7, leaders 22 in all, each other category 7, memory cards 5, podcast teasers 3 (the same 12.5% / 37.5% shares). Nothing repeats.
 
 If a source stops working for 3 days, a "Feed check" card shows up in the feed.
 
