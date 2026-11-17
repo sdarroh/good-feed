@@ -49,7 +49,7 @@ DEFAULTS = {
     "batch_hours": [6, 9, 12, 15, 18, 21], "pool_days": 14,
     "person_cap": 5, "category_caps": {}, "default_category_cap": 5, "podcast_cap": 2,
     "memory_cards_per_day": 4, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
-    "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "must_see_per_day": 3, "true_vine": True, "warn_after_days": 3,
+    "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "watch_boost": 3, "must_see_per_day": 3, "true_vine": True, "warn_after_days": 3,
 }
 
 
@@ -425,8 +425,13 @@ def collect_source(src: dict, resolved: dict) -> tuple[list[dict], str]:
     if src.get("youtube"):
         specs = src["youtube"] if isinstance(src["youtube"], list) else [src["youtube"]]
         found, empty = [], []
+        failed = []
         for spec in specs:
-            cid, ch = resolve_youtube(spec, resolved)
+            try:
+                cid, ch = resolve_youtube(spec, resolved)
+            except Exception as e:  # noqa: BLE001 - try the other channels
+                failed.append(f"{spec}: {e}")
+                continue
             feed = f"https://www.youtube.com/feeds/videos.xml?playlist_id=UUSH{cid[2:]}"
             try:
                 entries = parse_feed(fetch(feed, tries=3))
@@ -441,6 +446,8 @@ def collect_source(src: dict, resolved: dict) -> tuple[list[dict], str]:
                               "link": f"https://www.youtube.com/shorts/{vid}",
                               "image": e["image"] or f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
             found.append(cid)
+        if failed and not found and not empty:
+            raise RuntimeError("; ".join(failed))
         where = "YouTube Shorts: " + (", ".join(found) or "none") + \
                 (f" (no Shorts on {', '.join(empty)})" if empty else "")
     elif src.get("podcast"):
@@ -760,7 +767,8 @@ def pick_batch(pool: list[dict], recent: list[dict], size: int, cfg: dict, now: 
         pub = parse_date(x.get("published")) or parse_date(x.get("seen")) or now
         age = max(0.0, (now - pub).total_seconds() / 86400)
         half_life = 4 * (x.get("lookback") or cfg["pool_days"]) / cfg["pool_days"]
-        return 0.5 ** (age / half_life) * rng.uniform(0.4, 1.6)
+        boost = cfg["watch_boost"] if mentions_watch_word(x, cfg) else 1
+        return 0.5 ** (age / half_life) * rng.uniform(0.4, 1.6) * boost
 
     history = list(recent)
     chosen = []
