@@ -128,7 +128,8 @@
   "2026-11-16@12",
   "2026-11-16@15",
   "2026-11-16@18",
-  "2026-11-16@18"
+  "2026-11-16@18",
+  "2026-11-16@21"
  ],
  "pool": {
   "2056ba9604282e9d": {
@@ -1893,6 +1894,53 @@
    "category": "missions",
    "must_see_source": true,
    "seen": "2026-11-16T19:48:00-06:00"
+  },
+  "52e656ab4784cc0f": {
+   "id": "52e656ab4784cc0f",
+   "title": "How the Law Strengthens Sin | 1 Corinthians 15:56 #shorts",
+   "link": "https://www.youtube.com/shorts/YhDzR3rpubg",
+   "published": "2026-11-17T03:01:38+00:00",
+   "summary": "First Corinthians 15:56 says, “The strength of sin is the law.” This teaching argues that the law exposed and strengthened the old sinful nature rather than empowering people to overcome it. Watch the full video here: 👉 https://l.awmi.net/TheOldManisDead26-11\n\n#BibleTeaching #ChristianFaith #FirstCorinthians #SinAndGrace",
+   "image": "https://i2.ytimg.com/vi/YhDzR3rpubg/hqdefault.jpg",
+   "video_id": "YhDzR3rpubg",
+   "kind": "video",
+   "source": "Andrew Wommack",
+   "person": "Andrew Wommack",
+   "category": "leaders",
+   "must_see_source": false,
+   "seen": "2026-11-16T21:06:00-06:00"
+  },
+  "880bf375b42ba1b6": {
+   "id": "880bf375b42ba1b6",
+   "title": "How God’s Grace Lifted Reality Star’s Pressure to Be Perfect",
+   "link": "https://www.movieguide.org/news-articles/sadie-robertson-huff-gods-grace-lifted-pressure-to-be-perfect.html",
+   "published": "Tue, 17 Nov 2026 02:00:40 +0000",
+   "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2025/02/GettyImages-2154799466-768x432.jpg\" />Christian speaker and author Sadie Robertson Huff says the pressure to be a perfect example followed her into her relationship with...",
+   "image": "https://cdn.movieguide.org/wp-content/uploads/2025/02/GettyImages-2154799466-768x432.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Movieguide",
+   "person": "Movieguide",
+   "category": "entertainment",
+   "must_see_source": false,
+   "seen": "2026-11-16T21:06:00-06:00"
+  },
+  "c7272dc5dd1954a6": {
+   "id": "c7272dc5dd1954a6",
+   "title": "How Jocko Willink Teaches Kids True Discipline",
+   "link": "https://www.movieguide.org/videos/interviews/how-jocko-willink-teaches-kids-true-discipline.html",
+   "published": "Tue, 17 Nov 2026 02:00:22 +0000",
+   "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/11/BHWnOqxnqhE-maxresdefault-768x432.jpg\" />How Jocko Willink Teaches Kids True Discipline",
+   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/11/BHWnOqxnqhE-maxresdefault-768x432.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Movieguide",
+   "person": "Movieguide",
+   "category": "entertainment",
+   "must_see_source": false,
+   "seen": "2026-11-16T21:06:00-06:00"
   }
  },
  "released_ids": {
