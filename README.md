@@ -17,7 +17,7 @@ Every hour GitHub runs `build_feed.py`. At each batch time (6 AM, 9 AM, noon, 3,
 
 If a source stops working for 3 days, a "Feed check" card shows up in the feed.
 
-**Must-see:** posts from sources marked `"must_see": true` in `sources.json`, or that mention a watch word in `config.json` (`watch_words`), skip the caps and go to the top with a ⭐ (up to 3 a day; extras wait a day).
+**Reaching farther:** a source with `"lookback_days"` in `sources.json` (like Free Burma Rangers, 60 days) stays eligible longer than the usual 2 weeks, and so does any post that mentions a watch word from `config.json`. They flow in under the normal caps. A source marked `"must_see": true` instead goes to the top with a star (up to 3 a day).
 
 ## Making changes
 

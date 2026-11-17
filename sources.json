@@ -1,5 +1,5 @@
 {
-  "_help": "Your sources. 'person' groups a leader's Shorts and podcast under one cap. youtube can be '@handle', a 'UC...' channel id, or 'search:Name'. podcast can be an Apple Podcasts id or 'search:Show name'. url can be a feed or any web page. skip_titles drops posts whose title matches. must_see: true puts every post at the top with a star.",
+  "_help": "Your sources. 'person' groups a leader's Shorts and podcast under one cap. youtube can be '@handle', a 'UC...' channel id, or 'search:Name'. podcast can be an Apple Podcasts id or 'search:Show name'. url can be a feed or any web page. skip_titles drops posts whose title matches. lookback_days reaches further back than the usual 2 weeks. must_see: true puts every post at the top with a star.",
   "sources": [
     {"name": "Andrew Wommack", "category": "leaders", "person": "Andrew Wommack", "youtube": ["UCQeu3sLd-TmsgZFnerbMniQ", "UC8H3lzJU5Qm-s3WVroB87kw"]},
     {"name": "Andrew Wommack", "category": "leaders", "person": "Andrew Wommack", "podcast": "search:The Gospel Truth Andrew Wommack"},
@@ -15,7 +15,7 @@
     {"name": "God Reports", "category": "missions", "url": "https://godreports.com/feed/"},
     {"name": "IMB", "category": "missions", "url": "https://www.imb.org/stories/"},
     {"name": "Voice of the Martyrs", "category": "missions", "url": "https://www.persecution.com/stories/"},
-    {"name": "Free Burma Rangers", "category": "missions", "url": "https://www.freeburmarangers.org/", "must_see": true},
+    {"name": "Free Burma Rangers", "category": "missions", "url": "https://www.freeburmarangers.org/", "lookback_days": 60},
     {"name": "Mission Network News", "category": "missions", "url": "https://www.mnnonline.org/news/"},
     {"name": "Faith Driven Entrepreneur", "category": "business", "url": "https://faithdrivenentrepreneur.org/feed/"},
     {"name": "Faithwire", "category": "politics", "url": "https://www.faithwire.com/feed/"},

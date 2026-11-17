@@ -25,6 +25,7 @@
   "scripture_notice": "Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
 
   "watch_words": ["Free Burma Rangers", "Dave Eubank", "David Eubank"],
+  "watch_lookback_days": 60,
   "must_see_per_day": 3,
 
   "true_vine": true,

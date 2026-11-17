@@ -49,7 +49,7 @@ DEFAULTS = {
     "batch_hours": [6, 9, 12, 15, 18, 21], "pool_days": 14,
     "person_cap": 5, "category_caps": {}, "default_category_cap": 5, "podcast_cap": 2,
     "memory_cards_per_day": 4, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
-    "scripture_notice": "", "watch_words": [], "must_see_per_day": 3, "true_vine": True, "warn_after_days": 3,
+    "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "must_see_per_day": 3, "true_vine": True, "warn_after_days": 3,
 }
 
 
@@ -460,7 +460,8 @@ def collect_source(src: dict, resolved: dict) -> tuple[list[dict], str]:
     if src.get("skip_titles"):
         posts = [p for p in posts if not re.search(src["skip_titles"], p.get("title", ""), re.I)]
     for p in posts:
-        p.update(source=name, person=person, category=cat, must_see_source=bool(src.get("must_see")))
+        p.update(source=name, person=person, category=cat, must_see_source=bool(src.get("must_see")),
+                 lookback=src.get("lookback_days"))
         p["id"] = uid(name, p["id"])
     return posts, where
 
@@ -717,9 +718,11 @@ def render(post: dict, base: str) -> dict:
 # Picking a batch
 # --------------------------------------------------------------------------
 def is_must_see(post: dict, cfg: dict) -> bool:
-    """From a must-see source, or mentions a watch word in its title or preview."""
-    if post.get("must_see_source"):
-        return True
+    """From a source marked must_see: goes to the top with a star."""
+    return bool(post.get("must_see_source"))
+
+
+def mentions_watch_word(post: dict, cfg: dict) -> bool:
     text = f"{post.get('title', '')} {plain(post.get('summary', ''))}"
     return any(re.search(r"\b" + re.escape(w) + r"\b", text, re.I) for w in cfg["watch_words"] if w.strip())
 
@@ -753,7 +756,8 @@ def pick_batch(pool: list[dict], recent: list[dict], size: int, cfg: dict, now: 
     def score(x):
         pub = parse_date(x.get("published")) or parse_date(x.get("seen")) or now
         age = max(0.0, (now - pub).total_seconds() / 86400)
-        return 0.5 ** (age / 4) * rng.uniform(0.4, 1.6)
+        half_life = 4 * (x.get("lookback") or cfg["pool_days"]) / cfg["pool_days"]
+        return 0.5 ** (age / half_life) * rng.uniform(0.4, 1.6)
 
     history = list(recent)
     chosen = []
@@ -862,8 +866,12 @@ def main():
             for p in posts:
                 if p["id"] in released or p["id"] in pool or not p.get("title"):
                     continue
+                days = p.get("lookback") or cfg["pool_days"]
+                if mentions_watch_word(p, cfg):
+                    days = max(days, cfg["watch_lookback_days"])
+                p["lookback"] = days
                 pub = parse_date(p.get("published"))
-                if pub and pub < cutoff:
+                if pub and pub < now - timedelta(days=days):
                     continue
                 p["seen"] = now.isoformat()
                 for k in ("duration",):
@@ -881,7 +889,8 @@ def main():
         if k not in known:
             del status[k]
     for pid, p in list(pool.items()):
-        if (parse_date(p.get("published")) or parse_date(p["seen"])) < cutoff:
+        if (parse_date(p.get("published")) or parse_date(p["seen"])) < \
+                now - timedelta(days=p.get("lookback") or cfg["pool_days"]):
             del pool[pid]
 
     # 2) extras: True Vine (first batch of the day), memory card, broken-source notices
@@ -949,7 +958,7 @@ def main():
             del pool[post["id"]]
             released[post["id"]] = today
     for k, v in list(released.items()):
-        if v < (now.date() - timedelta(days=45)).isoformat():
+        if v < (now.date() - timedelta(days=120)).isoformat():
             del released[k]
 
     state["feed"] = (new_entries + feed)[:150]
