@@ -937,9 +937,9 @@ def main():
     # 3) pick the batch
     size = math.ceil(cfg["posts_per_day"] / max(1, len(cfg["batch_hours"])))
     feed = state.setdefault("feed", [])
-    # caps count the last 24 hours of posts (about 40 of them), so a quiet week can
-    # never freeze the feed. 25h leaves a little slack around batch times.
-    day_ago = (now - timedelta(hours=25)).isoformat()
+    # caps count about the last day of posts (about 40 of them), so a quiet week can
+    # never freeze the feed. 23h so the same batch yesterday has just dropped out.
+    day_ago = (now - timedelta(hours=23)).isoformat()
     recent = [{"person": e["person"], "category": e["category"], "kind": e["kind"]}
               for e in feed if e["posted"] > day_ago]
     must_today = sum(1 for e in feed if e.get("must_see") and e["posted"][:10] == today)
