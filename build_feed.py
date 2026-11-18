@@ -703,13 +703,10 @@ def render(post: dict, base: str) -> dict:
     link = html.escape(post["link"], quote=True)
     if kind == "video":
         e["title"] = f"\U0001F3A5 {src} · {post['title']}"
-        # A tall player only: no duplicate thumbnail, no description boilerplate.
-        # rel=0 keeps end-of-video suggestions to the same channel.
-        e["html"] = (f'<iframe src="https://www.youtube.com/embed/{post["video_id"]}?rel=0&amp;playsinline=0" '
-                     f'width="1080" height="1920" frameborder="0" allowfullscreen '
-                     f'allow="autoplay; fullscreen; picture-in-picture" '
-                     f'style="display:block;width:100%;height:auto;aspect-ratio:9/16;max-height:85vh;border:0">'
-                     f'</iframe>')
+        # Plain YouTube player (Inoreader ignores size/style changes and they broke its
+        # full-screen button). No duplicate thumbnail or description boilerplate.
+        e["html"] = (f'<p><iframe src="https://www.youtube.com/embed/{post["video_id"]}?rel=0" width="360" '
+                     f'height="640" frameborder="0" allowfullscreen></iframe></p>')
     elif kind == "listen":
         audio = post["audio"]
         t_start = "#t=180" if "#" not in audio else ""
