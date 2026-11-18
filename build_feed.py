@@ -594,6 +594,7 @@ def votd_post(now: datetime, base: str, version: str) -> dict | None:
                 text = re.sub(r"\s*Brought to you by.*$", "", plain(entries[0]["summary"]), flags=re.S)
         except Exception as e2:  # noqa: BLE001
             log(f"Verse of the Day (atom): {e2}")
+    text = re.sub(r"^[\u0590-\u05FF]+\s+[A-Z]{2,}\s+", "", text.strip())
     text = text.strip().strip("\u201c\u201d\"").strip()
     if not (ref and text):
         return None
@@ -790,7 +791,7 @@ def pick_batch(pool: list[dict], recent: list[dict], size: int, cfg: dict, now: 
         if x["kind"] not in ("memory", "devotional", "notice") and \
                 c["person"].get(x["person"], 0) >= cfg["person_cap"]:
             return False
-        if x["kind"] != "notice" and \
+        if x["kind"] not in ("notice", "devotional") and \
                 c["cat"].get(x["category"], 0) >= caps.get(x["category"], cfg["default_category_cap"]):
             return False
         if x["kind"] == "listen" and c["listen"] >= cfg["podcast_cap"]:
