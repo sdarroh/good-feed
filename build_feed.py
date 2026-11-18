@@ -49,7 +49,7 @@ DEFAULTS = {
     "batch_hours": [6, 9, 12, 15, 18, 21], "pool_days": 14,
     "person_cap": 5, "category_caps": {}, "default_category_cap": 5, "podcast_cap": 2,
     "memory_cards_per_day": 5, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
-    "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "watch_boost": 3, "must_see_per_day": 3, "true_vine": True, "warn_after_days": 3,
+    "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "watch_boost": 3, "must_see_per_day": 3, "true_vine": True, "verse_of_the_day": True, "verse_of_the_day_version": "NKJV", "warn_after_days": 3,
 }
 
 
@@ -575,6 +575,39 @@ def extract_meditation(raw_html: str, title: str) -> dict | None:
     return {"verse": verse, "paras": body}
 
 
+def votd_post(now: datetime, base: str, version: str) -> dict | None:
+    """Bible Gateway's Verse of the Day (their official feed, free to use with credit)."""
+    q = urllib.parse.quote(version)
+    ref = text = link = credit = ""
+    try:
+        d = json.loads(fetch(f"https://www.biblegateway.com/votd/get/?format=json&version={q}"))["votd"]
+        ref = plain(d.get("display_ref") or d.get("reference"))
+        text = plain(d.get("text") or d.get("content"))
+        link = d.get("permalink") or ""
+        credit = plain(d.get("copyright"))
+    except Exception as e:  # noqa: BLE001 - fall back to their Atom feed
+        log(f"Verse of the Day (json): {e}")
+        try:
+            entries = parse_feed(fetch(f"https://www.biblegateway.com/votd/get/?format=atom&version={q}"))
+            if entries:
+                ref, link = entries[0]["title"], entries[0]["link"]
+                text = re.sub(r"\s*Brought to you by.*$", "", plain(entries[0]["summary"]), flags=re.S)
+        except Exception as e2:  # noqa: BLE001
+            log(f"Verse of the Day (atom): {e2}")
+    text = text.strip().strip("\u201c\u201d\"").strip()
+    if not (ref and text):
+        return None
+    img = f"{base}cards/votd.png"
+    link = link or f"https://www.biblegateway.com/passage/?search={urllib.parse.quote(ref)}&version={q}"
+    return {"id": f"votd-{now.date().isoformat()}", "kind": "devotional", "category": "devotional",
+            "person": "Verse of the Day", "source": "Verse of the Day",
+            "title": f"\u2600\uFE0F Verse of the Day \u00b7 {ref}", "link": link, "image": img,
+            "html": (f'<p><img src="{img}" alt=""></p><blockquote><p>{html.escape(text)}</p></blockquote>'
+                     f"<p><em>\u2014 {html.escape(ref)} ({html.escape(version)})</em></p>"
+                     f'<p><small>Verse of the Day from <a href="https://www.biblegateway.com">BibleGateway.com</a>.'
+                     + (f" {html.escape(credit)}" if credit else "") + "</small></p>")}
+
+
 def true_vine_post(day: int, now: datetime, base: str) -> dict:
     title = TV_TITLES[day - 1]
     url = f"{TV_BASE}vine{day + 3:02d}.htm"
@@ -916,6 +949,11 @@ def main():
         if 1 <= day <= 31:
             extra.append(true_vine_post(day, now, base))
             state["vine_last"] = today
+    if cfg["verse_of_the_day"] and state.get("votd_last") != today:
+        v = votd_post(now, base, cfg["verse_of_the_day_version"])
+        if v:
+            extra.append(v)
+            state["votd_last"] = today
     passages = load_passages()
     # spread the day's memory cards evenly: by this batch, about k/n of them should be out
     hours = sorted(cfg["batch_hours"])
