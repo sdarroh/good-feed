@@ -48,7 +48,7 @@ DEFAULTS = {
     "feed_title": "Good Feed", "timezone": "America/Chicago", "posts_per_day": 40,
     "batch_hours": [6, 9, 12, 15, 18, 21], "pool_days": 14,
     "person_cap": 5, "category_caps": {}, "default_category_cap": 5, "podcast_cap": 2,
-    "memory_cards_per_day": 4, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
+    "memory_cards_per_day": 5, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
     "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "watch_boost": 3, "must_see_per_day": 3, "true_vine": True, "warn_after_days": 3,
 }
 
@@ -917,8 +917,12 @@ def main():
             extra.append(true_vine_post(day, now, base))
             state["vine_last"] = today
     passages = load_passages()
-    per_batch = cfg["memory_cards_per_day"] / max(1, len(cfg["batch_hours"]))
-    n_mem = int(per_batch) + (rng.random() < per_batch - int(per_batch))
+    # spread the day's memory cards evenly: by this batch, about k/n of them should be out
+    hours = sorted(cfg["batch_hours"])
+    k = len([h for h in hours if h <= now.hour]) or 1
+    due_by_now = round(cfg["memory_cards_per_day"] * k / len(hours))
+    out_today = sum(1 for e in state.get("feed", []) if e.get("kind") == "memory" and e["posted"][:10] == today)
+    n_mem = max(0, min(2, due_by_now - out_today))
     for _ in range(n_mem if passages else 0):
         last = state.get("last_memory_ref")
         choices = [p for p in passages if p["ref"] != last] or passages

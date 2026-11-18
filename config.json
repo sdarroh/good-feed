@@ -20,7 +20,7 @@
   "default_category_cap": 7,
   "podcast_cap": 3,
 
-  "memory_cards_per_day": 4,
+  "memory_cards_per_day": 5,
   "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
   "scripture_notice": "Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
 
