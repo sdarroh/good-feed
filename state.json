@@ -140,7 +140,6 @@
   }
  },
  "batches_done": [
-  "2026-11-16@15",
   "2026-11-16@18",
   "2026-11-16@18",
   "2026-11-16@21",
@@ -169,7 +168,8 @@
   "2026-11-20@12",
   "2026-11-20@15",
   "2026-11-20@18",
-  "2026-11-20@21"
+  "2026-11-20@21",
+  "2026-11-21@6"
  ],
  "pool": {
   "2056ba9604282e9d": {
@@ -3069,6 +3069,74 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-20T21:04:00-06:00"
+  },
+  "953e21d26ebbb6b8": {
+   "id": "953e21d26ebbb6b8",
+   "title": "In Return For Being Taught How To Grow Corn, Pilgrims Teach Indians How To Make Stove Top Stuffing",
+   "link": "https://babylonbee.com/news/pilgrims-teach-indians-how-to-make-stovetop-stuffing/",
+   "published": "Sat, 21 Nov 2026 07:30:12 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b009cd6433416b009cd643342.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>PLYMOUTH, MA — In a touching exchange of cultural traditions, the Pilgrims repaid the Indians for teaching them how to plant corn by showing them how to make delicious Stove Top stuffing.</p>",
+   "image": "https://media.babylonbee.com/articles/6b009cd6433416b009cd643342.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-21T07:18:00-06:00"
+  },
+  "9b9a560686c3f253": {
+   "id": "9b9a560686c3f253",
+   "title": "NCIS Star Wants to Make This Character’s Comeback Happen",
+   "link": "https://www.movieguide.org/news-articles/ncis-star-katrina-law-pitches-a-ziva-team-up.html",
+   "published": "Sat, 21 Nov 2026 07:00:19 +0000",
+   "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/04/240B9AD8-1E9A-4CEE-A010-245BE791D975_1_201_a-768x432.jpeg\" />NCIS actress Katrina Law wants Jessica Knight and Ziva David to team up, and her pitch comes with a little trouble for Tony DiNozzo.",
+   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/04/240B9AD8-1E9A-4CEE-A010-245BE791D975_1_201_a-768x432.jpeg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Movieguide",
+   "person": "Movieguide",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-21T07:18:00-06:00"
+  },
+  "9b952fa9f518053a": {
+   "id": "9b952fa9f518053a",
+   "title": "How Giving Jesus His Heart Changed Donnie Wahlberg’s Playlist",
+   "link": "https://www.movieguide.org/news-articles/how-giving-jesus-his-heart-changed-donnie-wahlbergs-playlist.html",
+   "published": "Sat, 21 Nov 2026 06:00:36 +0000",
+   "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/11/FEE65041-9D23-45FD-B6E4-8FC4938E8C24_1_201_a-768x432.jpeg\" />Singer and actor Donnie Wahlberg has noticed a change in his music playlist, and he credits Jesus with the difference.",
+   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/11/FEE65041-9D23-45FD-B6E4-8FC4938E8C24_1_201_a-768x432.jpeg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Movieguide",
+   "person": "Movieguide",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-21T07:18:00-06:00"
+  },
+  "069d34dc8b007657": {
+   "id": "069d34dc8b007657",
+   "title": "Ron Howard Isn’t Making Any Promises About GRINCH Sequel",
+   "link": "https://www.movieguide.org/news-articles/ron-howard-isnt-making-any-promises-about-grinch-sequel.html",
+   "published": "Sat, 21 Nov 2026 05:00:35 +0000",
+   "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/06/DCF9E3C1-2662-4033-96FB-011AE9D18597_1_201_a-768x432.jpeg\" />Director Ron Howard has a caution for anyone already counting on Jim Carrey’s return to Whoville: the proposed HOW THE GRINCH...",
+   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/06/DCF9E3C1-2662-4033-96FB-011AE9D18597_1_201_a-768x432.jpeg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Movieguide",
+   "person": "Movieguide",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-21T07:18:00-06:00"
   }
  },
  "released_ids": {
@@ -3257,10 +3325,65 @@
   "550fa43c9e65de6c": "2026-11-20",
   "b63eaed456fbc67e": "2026-11-20",
   "76efe3e38c78958e": "2026-11-20",
-  "c6d676f39f624d95": "2026-11-20"
+  "c6d676f39f624d95": "2026-11-20",
+  "2cb5be8f1b4669a5": "2026-11-21"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "vine-2026-11-21",
+   "kind": "devotional",
+   "category": "devotional",
+   "person": "The True Vine",
+   "source": "The True Vine",
+   "title": "🌿 The True Vine · Day 21: Obey and Abide",
+   "link": "https://media.sabda.org/alkitab-12/ccel/m/murray/true_vin/vine24.htm",
+   "image": "https://sdarroh.github.io/good-feed/cards/vine-21.png",
+   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/vine-21.png\" alt=\"\"></p>\n<blockquote><em>If Ye Keep My Commandments, Ye Shall Abide In My Love</em>--John 15:10</blockquote>\n<p><br> In our former meditation reference was made to the entrance into a life of rest and strength which has often come through a true insight into the personal love of Christ, and the assurance that that love indeed meant that He would keep the soul. In connection with that transition, and the faith that sees and accepts it, the word <em>surrender</em> or <em>consecration</em> is frequently used. The soul sees that it cannot claim the keeping of this wonderful love unless it yields itself to a life of entire obedience. It sees too that the faith that can trust Christ for keeping from sinning must prove its sincerity by venturing at once to trust Him for strength to obey. In that faith it dares to give up and cut off everything that has hitherto hindered it, and to promise and expect to live a life that is well pleasing to God.<br> This is the thought we have here now in our Saviour's teaching. After having in the words, \"Abide in my love,\" spoken of a life in His love as a necessity, because it is at once a possibility and an obligation, He states what its one condition is: <em>\"If ye keep my commandments, </em>ye shall abide in my love.\" This is surely not meant to close the door to the abode of His love which he had just opened up. Not in the most distant way does it suggest the thought which some are too ready to entertain, that as we cannot keep His commandments, we cannot abide in His love. No; the precept is a promise: \"Abide in my love,\" could not be a precept if it were not a promise. And so the instruction as to the way through this open door points to no unattainable ideal; the love that invites to her blessed abode reaches out the hand, and enables us to keep the commandments. Let us not fear, in the strength of our ascended Lord, to take the vow of obedience, and give ourselves to the keeping of His commandments. Through His will, loved and done, lies the path to His love.<br> Only let us understand well what it means. It refers to our performance of all that we know to be God's will. There may be things doubtful, of which we are not sure. A sin of ignorance has still the nature of sin in it. There may be involuntary sins, which rise up in the flesh, which we cannot control or overcome. With regard to these God will deal in due tome in the way of searching and humbling, and if we be simple and faithful, give us larger deliverance than we dare expect. But all this may be found in a truly obedient soul. Obedience has reference to the positive keeping of the commandments of our Lord, and the performance of His will in everything in which we know it. This is a possible degree of grace, and it is the acceptance in Christ's strength of such obedience as the purpose of our heart, of which our Saviour speaks here. Faith in Christ as our Vine, in His enabling and sanctifying power, fits us for this obedience of faith, and secures a life of abiding in His love.<br> <em>If ye keep My commandments, ye shall abide in My love</em>--It is the heavenly Vine unfolding the mystery of the life He gives. It is to those abiding in Him to whom He opens up the secret of the full abiding in His love. <em>It is the wholehearted surrender in everything to do His will, that gives access to a life in the abiding enjoyment of His love.</em><br> <em>Obey and abide.</em> Gracious Lord, teach me this lesson, that it is only through knowing Thy will one can know Thy heart, and only through doing that <em>will</em> one can abide in Thy love. Lord, teach me that as worthless as is the doing in my own strength, so essential and absolutely indispensable is the doing of faith in Thy strength, if I would abide in Thy love.</p>\n<p><small>Andrew Murray, <em>The True Vine</em> (1898), day 21 of 31. Public domain. <a href=\"https://media.sabda.org/alkitab-12/ccel/m/murray/true_vin/vine24.htm\">Source</a></small></p>",
+   "posted": "2026-11-21T07:18:00-06:00"
+  },
+  {
+   "id": "votd-2026-11-21",
+   "kind": "devotional",
+   "category": "devotional",
+   "person": "Verse of the Day",
+   "source": "Verse of the Day",
+   "title": "☀️ Verse of the Day · 1 Corinthians 1:4-5",
+   "link": "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A4-5&amp;version=NKJV",
+   "image": "https://sdarroh.github.io/good-feed/cards/votd.png",
+   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/votd.png\" alt=\"\"></p><blockquote><p>[Spiritual Gifts at Corinth] I thank my God always concerning you for the grace of God which was given to you by Christ Jesus, that you were enriched in everything by Him in all utterance and all knowledge,</p></blockquote><p><em>— 1 Corinthians 1:4-5 (NKJV)</em></p><p><small>Verse of the Day from <a href=\"https://www.biblegateway.com\">BibleGateway.com</a>.</small></p>",
+   "posted": "2026-11-21T07:17:00-06:00"
+  },
+  {
+   "id": "mem-202611210718-2cd18538de0cfee0",
+   "kind": "memory",
+   "category": "memory",
+   "person": "Memory",
+   "source": "Memory work",
+   "ref": "Psalm 1",
+   "title": "❓ Where is this from?",
+   "link": "https://sdarroh.github.io/good-feed/#mem-202611210718-2cd18538de0cfee0",
+   "image": "https://sdarroh.github.io/good-feed/cards/memory-where.png",
+   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/memory-where.png\" alt=\"\"></p><p>Blessed is the man<br>Who walks not in the counsel of the ungodly,<br>Nor stands in the path of sinners,<br>Nor sits in the seat of the scornful;<br>But his delight is in the law of the LORD,<br>And in His law he meditates day and night.<br>He shall be like a tree<br>Planted by the rivers of water,<br>That brings forth its fruit in its season,<br>Whose leaf also shall not wither;<br>And whatever he does shall prosper.</p><p>The ungodly are not so,<br>But are like the chaff which the wind drives away.<br>Therefore the ungodly shall not stand in the judgment,<br>Nor sinners in the congregation of the righteous.<br>For the LORD knows the way of the righteous,<br>But the way of the ungodly shall perish.</p><p>Name the reference before you scroll.</p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><hr><p><strong>↓ Check yourself</strong></p><p><strong>Psalm 1</strong></p><p><small>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>",
+   "posted": "2026-11-21T07:16:00-06:00"
+  },
+  {
+   "id": "2cb5be8f1b4669a5",
+   "title": "🎧 Kirk Cameron · Is America About to Go Dark? Don’t Panic. Prepare. Ep 224",
+   "link": "https://thekirkcameronshow.podbean.com/e/is-america-about-to-go-dark-don-t-panic-prepare-ep-224/",
+   "image": "https://pbcdn1.podbean.com/imglogo/image-logo/21805283/32212341d949dffc8409335ac74fb55d.png",
+   "audio": "https://mgln.ai/e/p671818/mcdn.podbean.com/mf/web/6qh44txge2xfs3vn/e224_KCS.mp3",
+   "audio_type": "audio/mpeg",
+   "kind": "listen",
+   "show": "The Kirk Cameron Show",
+   "source": "Kirk Cameron",
+   "person": "Kirk Cameron",
+   "category": "leaders",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://pbcdn1.podbean.com/imglogo/image-logo/21805283/32212341d949dffc8409335ac74fb55d.png\" alt=\"\"></p><p><em>The Kirk Cameron Show</em></p><p>What would you do if the lights went out tonight and didn&#x27;t come back on for 90 days? You&#x27;ve probably seen the blackout rumors all over social media. I don&#x27;t have a crystal ball, but I do have a fire extinguisher. Today I&#x27;m talking about the difference between preparation and panic, what Isaiah 8…</p><p><audio controls preload=\"none\" src=\"https://mgln.ai/e/p671818/mcdn.podbean.com/mf/web/6qh44txge2xfs3vn/e224_KCS.mp3#t=180\"></audio></p><p><a href=\"https://mgln.ai/e/p671818/mcdn.podbean.com/mf/web/6qh44txge2xfs3vn/e224_KCS.mp3\">▶ Play the full episode</a></p>",
+   "posted": "2026-11-21T07:15:00-06:00"
+  },
   {
    "id": "mem-202611202104-8562ec8042ad6325",
    "kind": "memory",
@@ -5395,65 +5518,9 @@
    "scraped": true,
    "html": "<p><img src=\"https://cdn.klove.inc/news/126276/126276.webp\" alt=\"\"></p><p>Positive Encouraging K-LOVE</p><p><a href=\"https://www.klove.com/news/god-stories/doctors-didn-t-expect-david-smale-to-live-past-30-his-story-is-still-being-written-andpodcast-59226\">Read the full story →</a></p>",
    "posted": "2026-11-17T17:56:00-06:00"
-  },
-  {
-   "id": "5457c9bbe6408fc8",
-   "title": "🎥 Tim Tebow · Doctors Said She Couldn't...",
-   "link": "https://www.youtube.com/shorts/Ji3nj3QXhQY",
-   "image": "https://i3.ytimg.com/vi/Ji3nj3QXhQY/hqdefault.jpg",
-   "video_id": "Ji3nj3QXhQY",
-   "kind": "video",
-   "source": "Tim Tebow",
-   "person": "Tim Tebow",
-   "category": "leaders",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<iframe src=\"https://www.youtube.com/embed/Ji3nj3QXhQY?rel=0&amp;playsinline=0\" width=\"1080\" height=\"1920\" frameborder=\"0\" allowfullscreen allow=\"autoplay; fullscreen; picture-in-picture\" style=\"display:block;width:100%;height:auto;aspect-ratio:9/16;max-height:85vh;border:0\"></iframe>",
-   "posted": "2026-11-17T17:55:00-06:00"
-  },
-  {
-   "id": "59d06ddea0215a0d",
-   "title": "🎥 Andrew Wommack · Are You Operating in Human Faith or God’s?",
-   "link": "https://www.youtube.com/shorts/LZnbfNsfbQo",
-   "image": "https://i1.ytimg.com/vi/LZnbfNsfbQo/hqdefault.jpg",
-   "video_id": "LZnbfNsfbQo",
-   "kind": "video",
-   "source": "Andrew Wommack",
-   "person": "Andrew Wommack",
-   "category": "leaders",
-   "html": "<iframe src=\"https://www.youtube.com/embed/LZnbfNsfbQo?rel=0&amp;playsinline=0\" width=\"1080\" height=\"1920\" frameborder=\"0\" allowfullscreen allow=\"autoplay; fullscreen; picture-in-picture\" style=\"display:block;width:100%;height:auto;aspect-ratio:9/16;max-height:85vh;border:0\"></iframe>",
-   "posted": "2026-11-17T17:54:00-06:00"
-  },
-  {
-   "id": "mem-202611171509-351a23e15395c9c5",
-   "kind": "memory",
-   "category": "memory",
-   "person": "Memory",
-   "source": "Memory work",
-   "ref": "Psalm 23",
-   "title": "📖 Psalm 23",
-   "link": "https://sdarroh.github.io/good-feed/#mem-202611171509-351a23e15395c9c5",
-   "image": "https://sdarroh.github.io/good-feed/cards/memory-verse.png",
-   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/memory-verse.png\" alt=\"\"></p><p>The LORD is my shepherd;<br>I shall not want.<br>He makes me to lie down in green pastures;<br>He leads me beside the still waters.<br>He restores my soul;<br>He leads me in the paths of righteousness<br>For His name’s sake.</p><p>Yea, though I walk through the valley of the shadow of death,<br>I will fear no evil;<br>For You are with me;<br>Your rod and Your staff, they comfort me.</p><p>You prepare a table before me in the presence of my enemies;<br>You anoint my head with oil;<br>My cup runs over.<br>Surely goodness and mercy shall follow me<br>All the days of my life;<br>And I will dwell in the house of the LORD<br>Forever.</p><p><em>— Psalm 23</em></p><p><small>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>",
-   "posted": "2026-11-17T15:09:00-06:00"
-  },
-  {
-   "id": "14b700d2e023db82",
-   "title": "🎥 Tim Tebow · Help Fight Child Exploitation Today",
-   "link": "https://www.youtube.com/shorts/zN7VqBbftio",
-   "image": "https://i3.ytimg.com/vi/zN7VqBbftio/hqdefault.jpg",
-   "video_id": "zN7VqBbftio",
-   "kind": "video",
-   "source": "Tim Tebow",
-   "person": "Tim Tebow",
-   "category": "leaders",
-   "must_see_source": false,
-   "lookback": 60,
-   "html": "<iframe src=\"https://www.youtube.com/embed/zN7VqBbftio?rel=0&amp;playsinline=0\" width=\"1080\" height=\"1920\" frameborder=\"0\" allowfullscreen allow=\"autoplay; fullscreen; picture-in-picture\" style=\"display:block;width:100%;height:auto;aspect-ratio:9/16;max-height:85vh;border:0\"></iframe>",
-   "posted": "2026-11-17T15:08:00-06:00"
   }
  ],
- "vine_last": "2026-11-20",
- "last_memory_ref": "Isaiah 55:8–11",
- "votd_last": "2026-11-20"
+ "vine_last": "2026-11-21",
+ "last_memory_ref": "Psalm 1",
+ "votd_last": "2026-11-21"
 }

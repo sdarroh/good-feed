@@ -4,15 +4,15 @@
   "ok": true,
   "error": "",
   "last_error": "2026-11-16T12:31:00-06:00",
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 15,
-  "added": 3,
+  "added": 0,
   "using": "YouTube Shorts: UC8H3lzJU5Qm-s3WVroB87kw (no Shorts on UCQeu3sLd-TmsgZFnerbMniQ)"
  },
  "Andrew Wommack (podcast)": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
   "added": 0,
   "using": "Podcast: The Gospel Truth (https://www.spreaker.com/show/3271115/episodes/feed)",
@@ -23,7 +23,7 @@
   "ok": true,
   "error": "",
   "last_error": "2026-11-16T12:29:00-06:00",
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 15,
   "added": 0,
   "using": "YouTube Shorts: UC4NTgAbqbES_ttAGZN88dwA"
@@ -31,7 +31,7 @@
  "Ashley & Carlie Terradez (podcast)": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 8,
   "added": 0,
   "using": "Podcast: T-Time with Ashley and Carlie Terradez (https://feeds.captivate.fm/t-time-podcast/)",
@@ -40,7 +40,7 @@
  "Crosswalk": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
   "added": 0,
   "using": "Feed: https://www.crosswalk.com/headlines/topics/positive-stories/rss.xml",
@@ -49,7 +49,7 @@
  "Faith Driven Entrepreneur": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
   "added": 0,
   "using": "Feed: https://faithdrivenentrepreneur.org/feed/",
@@ -58,7 +58,7 @@
  "Faithwire": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
   "added": 0,
   "using": "Feed: https://www.faithwire.com/feed/",
@@ -67,7 +67,7 @@
  "Free Burma Rangers": {
   "first_tried": "2026-11-16T19:48:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 20,
   "added": 0,
   "using": "Feed: https://www.freeburmarangers.org/blog-feed.xml",
@@ -76,7 +76,7 @@
  "God Reports": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 20,
   "added": 0,
   "using": "Feed: https://godreports.com/feed/",
@@ -85,7 +85,7 @@
  "GodTube": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 20,
   "added": 0,
   "using": "Feed: https://www.godtube.com/blog/god-stories/rss.xml",
@@ -95,7 +95,7 @@
  "IMB": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 8,
   "added": 0,
   "using": "Feed: https://www.imb.org/stories/feed/",
@@ -106,7 +106,7 @@
   "ok": true,
   "error": "",
   "last_error": "2026-11-16T12:31:00-06:00",
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 0,
   "added": 0,
   "using": "YouTube Shorts: none (no Shorts on UCwf90eP2NFZ3CY-wb4A_qUg)"
@@ -114,7 +114,7 @@
  "Jamie Winship (podcast)": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
   "added": 0,
   "using": "Podcast: The Jamie & Donna Winship Podcast (https://feeds.transistor.fm/jamiedonnawinshippodcast-identityexchange)",
@@ -123,7 +123,7 @@
  "K-LOVE": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 12,
   "added": 0,
   "using": "Page links: https://www.klove.com/faith/news/god-stories",
@@ -134,7 +134,7 @@
   "ok": true,
   "error": "",
   "last_error": "2026-11-17T12:36:00-06:00",
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 15,
   "added": 0,
   "using": "YouTube Shorts: UCSDO9_MeVGzzN_twa0ze7fw"
@@ -142,16 +142,16 @@
  "Kirk Cameron (podcast)": {
   "first_tried": "2026-11-17T12:36:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
-  "added": 0,
+  "added": 1,
   "using": "Podcast: The Kirk Cameron Show (https://feed.podbean.com/thekirkcameronshow/feed.xml)",
   "error": ""
  },
  "Mission Network News": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
   "added": 0,
   "using": "Feed: https://www.mnnonline.org/news/feed/",
@@ -162,7 +162,7 @@
   "ok": true,
   "error": "",
   "last_error": "2026-11-19T21:03:00-06:00",
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 20,
   "added": 3,
   "using": "Feed: https://www.movieguide.org/feed"
@@ -170,7 +170,7 @@
  "Relevant": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 1,
   "added": 0,
   "using": "Feed: https://relevantmagazine.com/tag/hopeful-news/feed/",
@@ -180,16 +180,16 @@
  "The Babylon Bee": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
-  "found": 14,
-  "added": 0,
+  "last_ok": "2026-11-21T07:18:00-06:00",
+  "found": 8,
+  "added": 1,
   "using": "Feed: https://babylonbee.com/feed",
   "error": ""
  },
  "Tim Tebow (YouTube)": {
   "first_tried": "2026-11-17T12:36:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 15,
   "added": 0,
   "using": "YouTube Shorts: UC3jEkxDALxafWBSwNcl5N2g",
@@ -200,7 +200,7 @@
   "ok": true,
   "error": "",
   "last_error": "2026-11-16T12:29:00-06:00",
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 15,
   "added": 0,
   "using": "YouTube Shorts: UC1DuOQg0-nr99t17Ca8Hlag"
@@ -208,7 +208,7 @@
  "Voice of the Martyrs": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
-  "last_ok": "2026-11-20T21:04:00-06:00",
+  "last_ok": "2026-11-21T07:18:00-06:00",
   "found": 10,
   "added": 0,
   "using": "Feed: https://www.persecution.com/stories/feed/",
