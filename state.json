@@ -137,10 +137,13 @@
   "yt:UCSDO9_MeVGzzN_twa0ze7fw": {
    "id": "UCSDO9_MeVGzzN_twa0ze7fw",
    "name": "UCSDO9_MeVGzzN_twa0ze7fw"
+  },
+  "yt:user:timhawkinscomedy": {
+   "id": "UCDYmrqySCqrHnah4LNUPt4w",
+   "name": "timhawkinscomedy"
   }
  },
  "batches_done": [
-  "2026-11-18@18",
   "2026-11-18@21",
   "2026-11-19@6",
   "2026-11-19@9",
@@ -168,6 +171,7 @@
   "2026-11-22@21",
   "2026-11-23@6",
   "2026-11-23@9",
+  "2026-11-23@12",
   "2026-11-23@12",
   "2026-11-23@12"
  ],
@@ -963,6 +967,18 @@
  },
  "warned": {},
  "feed": [
+  {
+   "id": "spurgeon-2026-11-23",
+   "kind": "devotional",
+   "category": "devotional",
+   "person": "Spurgeon",
+   "source": "Spurgeon",
+   "title": "🌅 Morning and Evening · November 23: \"Fellowship with him.\"",
+   "link": "https://www.blueletterbible.org/devotionals/me/view.cfm?Time=am&doy=327",
+   "image": "https://sdarroh.github.io/good-feed/cards/spurgeon.png",
+   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/spurgeon.png\" alt=\"\"></p><blockquote><p>&quot;Fellowship with him.&quot;<br><em>— 1 John 1:6</em></p></blockquote><p>When we were united by faith to Christ, we were brought into such complete fellowship with him, that we were made one with him, and his interests and ours became mutual and identical. We have fellowship with Christ in his love. What he loves we love. He loves the saints—so do we. He loves sinners—so do we. He loves the poor perishing race of man, and pants to see earth&#x27;s deserts transformed into the garden of the Lord—so do we. We have fellowship with him in his desires. He desires the glory of God—we also labour for the same. He desires that the saints may be with him where he is—we desire to be with him there too. He desires to drive out sin—behold we fight under his banner. He desires that his Father&#x27;s name may be loved and adored by all his creatures—we pray daily, &quot;Let thy kingdom come. Thy will be done on earth, even as it is in heaven.&quot; We have fellowship with Christ in his sufferings. We are not nailed to the cross, nor do we die a cruel death, but when he is reproached, we are reproached; and a very sweet thing it is to be blamed for his sake, to be despised for following the Master, to have the world against us. The disciple should not be above his Lord. In our measure we commune with him in his labours, ministering to men by the word of truth and by deeds of love. Our meat and our drink, like his, is to do the will of him who hath sent us and to finish his work. We have also fellowship with Christ in his joys. We are happy in his happiness, we rejoice in his exaltation. Have you ever tasted that joy, believer? There is no purer or more thrilling delight to be known this side heaven than that of having Christ&#x27;s joy fulfilled in us, that our joy may be full. His glory awaits us to complete our fellowship, for his Church shall sit with him upon his throne, as his well-beloved bride and queen.</p><p><small>C. H. Spurgeon, <em>Morning and Evening</em> (1865–68), morning reading. Public domain, text from CCEL.</small></p>",
+   "posted": "2026-11-23T14:27:00-06:00"
+  },
   {
    "id": "mem-202611231321-78e2a29cb675e16e",
    "kind": "memory",
@@ -3173,22 +3189,10 @@
    "category": "leaders",
    "html": "<p><img src=\"https://img.transistorcdn.com/D_RJGSJZLcEE6CaoI4uB8Iv2TfD37kUKb8zJXOvgO2U/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82Mzg3/NTBhMzRhMWFlY2Vh/NTUxMmFmN2FjYjFl/MTcxOC5qcGc.jpg\" alt=\"\"></p><p><em>The Jamie &amp; Donna Winship Podcast</em></p><p>In this episode, Jamie and Donna Winship talk about the difference between failing at something and becoming a failure. Drawing from a study on high-resiliency people (including Navy SEALs), they show how resilient people treat unmet expectations as data and opportunity rather than identity.They…</p><p><audio controls preload=\"none\" src=\"https://media.transistor.fm/02c2ca1a/b809be27.mp3#t=180\"></audio></p><p><a href=\"https://media.transistor.fm/02c2ca1a/b809be27.mp3\">▶ Play the full episode</a></p>",
    "posted": "2026-11-18T18:04:00-06:00"
-  },
-  {
-   "id": "83bf37b5cc274831",
-   "title": "☀️ K-LOVE · Family Home Destroyed By Flames, But God's Faithfulness Is Very Clear (+ Podcast)",
-   "link": "https://www.klove.com/news/god-stories/family-home-destroyed-by-flames-but-gods-faithfulness-is-very-clear-and-podcast-59246",
-   "image": "https://cdn.klove.inc/news/126342/126342.webp",
-   "kind": "story",
-   "source": "K-LOVE",
-   "person": "K-LOVE",
-   "category": "news",
-   "scraped": true,
-   "html": "<p><img src=\"https://cdn.klove.inc/news/126342/126342.webp\" alt=\"\"></p><p>Positive Encouraging K-LOVE</p><p><a href=\"https://www.klove.com/news/god-stories/family-home-destroyed-by-flames-but-gods-faithfulness-is-very-clear-and-podcast-59246\">Read the full story →</a></p>",
-   "posted": "2026-11-18T18:03:00-06:00"
   }
  ],
  "vine_last": "2026-11-23",
  "last_memory_ref": "Isaiah 55:8–11",
- "votd_last": "2026-11-23"
+ "votd_last": "2026-11-23",
+ "spurgeon_last": "2026-11-23"
 }
