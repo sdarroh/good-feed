@@ -158,12 +158,6 @@
   "using": "Feed: https://www.mnnonline.org/news/feed/",
   "error": ""
  },
- "Nathan Finochio (YouTube)": {
-  "first_tried": "2026-11-23T13:49:00-06:00",
-  "ok": false,
-  "error": "RuntimeError: @nathanfinochio: HTTPError: HTTP Error 404: Not Found (https://www.youtube.com/@nathanfinochio); @TheosU: couldn't find a channel for @TheosU; search:Nathan Finochio: no YouTube channel found for 'Nathan Finochio'",
-  "last_error": "2026-11-23T13:49:00-06:00"
- },
  "Relevant": {
   "first_tried": "2026-11-16T12:29:00-06:00",
   "ok": true,
