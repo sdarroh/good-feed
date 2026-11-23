@@ -141,10 +141,24 @@
   "yt:user:timhawkinscomedy": {
    "id": "UCDYmrqySCqrHnah4LNUPt4w",
    "name": "timhawkinscomedy"
+  },
+  "pod:1441789978": {
+   "url": "https://feeds.captivate.fm/bobmurphyshow/",
+   "name": "Bob Murphy Show",
+   "at": "2026-11-23T20:36:51.598931+00:00"
+  },
+  "pod:search:The Libertarian Christian Podcast": {
+   "url": "https://feeds.transistor.fm/the-libertarian-christian-podcast",
+   "name": "The Libertarian Christian Podcast",
+   "at": "2026-11-23T20:36:52.504661+00:00"
+  },
+  "pod:search:The Biblical Anarchy Podcast": {
+   "url": "https://feeds.transistor.fm/the-biblical-anarchy-podcast",
+   "name": "The Biblical Anarchy Podcast",
+   "at": "2026-11-23T20:36:52.781418+00:00"
   }
  },
  "batches_done": [
-  "2026-11-18@21",
   "2026-11-19@6",
   "2026-11-19@9",
   "2026-11-19@12",
@@ -171,6 +185,7 @@
   "2026-11-22@21",
   "2026-11-23@6",
   "2026-11-23@9",
+  "2026-11-23@12",
   "2026-11-23@12",
   "2026-11-23@12",
   "2026-11-23@12"
@@ -724,6 +739,112 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-23T13:49:00-06:00"
+  },
+  "5d2437489a253280": {
+   "id": "5d2437489a253280",
+   "title": "Ep. 543 Reflecting on God's Command to Abraham",
+   "link": "https://www.bobmurphyshow.com/ep-543-reflecting-on-gods-command-to-abraham",
+   "published": "Fri, 20 Nov 2026 09:00:00 -0500",
+   "summary": "<p>Inspired by remarks from his pastor, Bob analyzes the classic Genesis account of Abraham being ordered by God to sacrifice his son Isaac.</p><p><strong>Mentioned in the Episode and Other Links of Interest:</strong></p><ul><li>RC Sproul on <a href=\"https://www.youtube.com/watch?v=tIH_epV3cSs\" target=\"_blank\">Abraham and Isaac</a>.</li><li><a href=\"http://bobmurphyshow.com/contribute\" target=\"_blank\">Help support</a> the Bob Murphy Show.</li></ul><br/>",
+   "image": "https://artwork.captivate.fm/216a119f-ca56-4ce1-af88-3c6a69bbc10b/bms_square_logo.png",
+   "audio": "https://episodes.captivate.fm/episode/e9f0ffb4-6359-47b5-9d2c-fc8bbfd2ac5e.mp3",
+   "audio_type": "audio/mpeg",
+   "kind": "listen",
+   "show": "Bob Murphy Show",
+   "source": "Bob Murphy",
+   "person": "Bob Murphy",
+   "category": "business",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-23T14:36:00-06:00"
+  },
+  "f80553f62caaa805": {
+   "id": "f80553f62caaa805",
+   "title": "Ep. 542 Dave Chappelle's Non Sequitur",
+   "link": "https://www.bobmurphyshow.com/ep-542-dave-chappelles-non-sequitur",
+   "published": "Sat, 14 Nov 2026 09:00:00 -0500",
+   "summary": "<p>Adam Haman returns to help Bob assess Dave Chappelle's comedic trap involving Charlie Kirk, and to respond to a string of libertarians giving their most non-libertarian opinion.</p><p><strong>Mentioned in the Episode and Other Links of Interest:</strong></p><ul><li>The <a href=\"https://www.youtube.com/watch?v=-abktn81JZM\" target=\"_blank\">YouTube version</a> of this episode.</li><li>The prior <a href=\"https://www.bobmurphyshow.com/episodes/ep-541-scott-horton-vs-darryl-cooper-on-private-law/\" target=\"_blank\">BMS ep 541</a> featuring a full critique of Darryl Cooper.</li><li><a href=\"https://www.youtube.com/watch?v=hnH8XAGX5ms\" target=\"_blank\">Matt Walsh analyzing</a> a rap video.</li><li>The <a href=\"https://hamannature.substack.com/\" target=\"_blank\">HamanNature substack</a>.</li><li><a href=\"http://bobmurphyshow.com/contribute\" target=\"_blank\">Help support</a> the Bob Murphy Show.</li></ul><br/>",
+   "image": "https://artwork.captivate.fm/216a119f-ca56-4ce1-af88-3c6a69bbc10b/bms_square_logo.png",
+   "audio": "https://episodes.captivate.fm/episode/8806f669-d65c-4ea5-bf80-8d97e2cf9df3.mp3",
+   "audio_type": "audio/mpeg",
+   "kind": "listen",
+   "show": "Bob Murphy Show",
+   "source": "Bob Murphy",
+   "person": "Bob Murphy",
+   "category": "business",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-23T14:36:00-06:00"
+  },
+  "99d94e34fc795bad": {
+   "id": "99d94e34fc795bad",
+   "title": "In Defense of Evangelicalism, with Bonnie Kristian",
+   "link": "https://share.transistor.fm/s/8c6f479b",
+   "published": "Fri, 20 Nov 2026 05:00:00 -0500",
+   "summary": "<p>The critiques of evangelicalism now arrive in a particular register. Not \"you are mistaken,\" but \"you are stupid, backward, and a danger to democracy.\" A whole publishing category runs on it. The question nobody asks before buying the next takedown is the only one that matters: is the accusation actually true?</p><p>Bonnie Kristian, deputy editor at Christianity Today, returns to the show to discuss <a href=\"https://www.penguinrandomhouse.com/books/818937/in-defense-of-evangelicalism-by-bonnie-kristian/\"><em>In Defense of Evangelicalism: A Response to Its Cultured Despisers</em></a>. The book is not a defense of evangelical doctrine. It is an audit of the evidence. The facts in the big critical histories are usually accurate. The inferences drawn from them frequently are not. The fringe gets presented as the center, polling categories get mistaken for theology, and a movement of millions gets summed up by one line on an exit poll.</p><p>What follows is the case the episode makes: where the hostility came from, what the word evangelical actually means, which charges survive contact with the evidence, and why leaving the room is not the honest response to a bad argument.</p><p>Chapters:<br>00:00 Intro<br>00:29 In Defense of Evangelicalism<br>03:30 Why Evangelicals Face Public Contempt<br>10:35 Personal Hurt and Critiques of Evangelicalism<br>14:24 Why Church History Matters<br>17:08 Defining Evangelicalism Beyond Politics<br>22:10 Big Eva and a Fragmented Movement<br>27:44 The Charges Against Evangelicals<br>29:07 Are Evangelicals Sincere?<br>34:02 Harmful Beliefs and Misleading Conclusions<br>39:44 Fringe, Mainstream, and Media Attention<br>45:32 Religious Liberty and the Charge of Imposition<br>52:01 Voting, Politics, and Evangelical Identity</p><p>Audio Production by Podsworth Media - <a href=\"https://podsworth.com\">https://podsworth.com</a></p>\n<strong>\n  <a href=\"https://libertarianchristians.com/donate/\" rel=\"payment\" title=\"★ Support this podcast ★\">★ Support this podcast ★</a>\n</strong>",
+   "image": "https://img.transistorcdn.com/5AFvPYcf1x7EbzBBZhcfQ72BUJWIIbN-lZLp9TF1l8c/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hOTk0/MmM5NzBmYzcwNmE4/MDBkMTgxZjU3MzQ5/NGY1MS5qcGc.jpg",
+   "audio": "https://media.transistor.fm/8c6f479b/30f08671.mp3",
+   "audio_type": "audio/mpeg",
+   "kind": "listen",
+   "show": "The Libertarian Christian Podcast",
+   "source": "Libertarian Christian Institute",
+   "person": "Libertarian Christian Institute",
+   "category": "politics",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-23T14:36:00-06:00"
+  },
+  "d80409bcf40a6670": {
+   "id": "d80409bcf40a6670",
+   "title": "The Churches of Christ & Christian Anarchism: The Political Theology of David Lipscomb, w/ Norman Horn",
+   "link": "https://share.transistor.fm/s/f62921f9",
+   "published": "Fri, 13 Nov 2026 05:00:00 -0500",
+   "summary": "<p>We speak with Norman Horn about David Lipscomb’s role in the Stone-Campbell Restorationist movement and the Churches of Christ, including the movement’s views on scripture, tradition, and peace. We discuss Lipscomb’s views on slavery, racial reconciliation, government, democracy, and Christian political participation, as well as whether his ideas can be described as anarchist or proto-libertarian. We also cover the contents and editorial approach of <em>The Political Theology of David Lipscomb</em> and renewed interest in Lipscomb’s work.</p><p>Chapters:<br>0:00:31 Norman Horn and His New Book<br>0:01:52 David Lipscomb and the Restoration Movement<br>0:06:57 Restoring the New Testament Church<br>0:10:48 The Churches of Christ and the Peace Witness<br>0:16:33 Civil War, Pacifism, and the State<br>0:24:01 Lipscomb’s Family and Abolition<br>0:27:21 Lipscomb’s Case Against Human Government<br>0:33:43 Government as an Instrument of Wrath<br>0:38:14 Does Lipscomb Envision a Stateless Society?<br>0:41:30 Democracy, Anarchism, and Christian Resistance<br>0:51:02 Christian Political Participation<br>0:56:44 Lipscomb’s Continuing Influence<br>1:02:26 Inside The Political Theology of David Lipscomb</p><p>Audio Production by Podsworth Media - <a href=\"https://podsworth.com\">https://podsworth.com</a></p>\n<br><p><br>Use code LCI50 for 50% off your first order at <a href=\"https://podsworth.com/\">Podsworth.com</a> to clean up your voice recordings and also support LCI!</p><p>Full Podsworth Ad Read BEFORE &amp; AFTER processing:<br><a href=\"https://youtu.be/vbsOEODpQGs\">https://youtu.be/vbsOEODpQGs</a></p>\n<strong>\n  <a href=\"https://libertarianchristians.com/donate/\" rel=\"payment\" title=\"★ Support this podcast ★\">★ Support this podcast ★</a>\n</strong>",
+   "image": "https://img.transistorcdn.com/7CTwDCpu2l-SQgyfjEQoThTGP4FP629nv70WxAYzagw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83MmNj/ZGEwMzk0ODU3ZDZj/NWZkZTk0NWQxYWQx/NTY4NC5qcGc.jpg",
+   "audio": "https://media.transistor.fm/f62921f9/5100af8b.mp3",
+   "audio_type": "audio/mpeg",
+   "kind": "listen",
+   "show": "The Libertarian Christian Podcast",
+   "source": "Libertarian Christian Institute",
+   "person": "Libertarian Christian Institute",
+   "category": "politics",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-23T14:36:00-06:00"
+  },
+  "3850b4f16b98cd55": {
+   "id": "3850b4f16b98cd55",
+   "title": "I Don't Support the Troops. Here's Why",
+   "link": "https://share.transistor.fm/s/f97771ae",
+   "published": "Fri, 20 Nov 2026 06:00:00 -0500",
+   "summary": "<p>Is “support the troops” a phrase Christians should repeat without question? In this solo episode, Jacob Winograd responds to Veterans Day observances at church and asks what we teach our children when we tie civic ritual to Christian faith. He also asks why a blanket “thank you for your service” ignores how complicated war is morally.</p><p>This is not an attack on veterans. Jacob explains why our first allegiance belongs to Christ’s kingdom and why the Pledge of Allegiance deserves a second look. He also covers what military oaths ask of a Christian conscience, how protecting the innocent fits with loving enemies, and why the best way to support the troops is to stop sending them to pointless wars.</p>",
+   "image": "https://img.transistorcdn.com/FzRTqwB6w5niSaPA4vQDKLTNPbsMAAwjVInhI30EaPg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4Mzg0LzE3MDQ0/MjA1OTYtYXJ0d29y/ay5qcGc.jpg",
+   "audio": "https://media.transistor.fm/f97771ae/ed244a7f.mp3",
+   "audio_type": "audio/mpeg",
+   "kind": "listen",
+   "show": "The Biblical Anarchy Podcast",
+   "source": "Biblical Anarchy",
+   "person": "Biblical Anarchy",
+   "category": "politics",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-23T14:36:00-06:00"
+  },
+  "095c7cb7651263d2": {
+   "id": "095c7cb7651263d2",
+   "title": "BIG difference 🤡",
+   "link": "https://www.youtube.com/shorts/Dal9kvDnDnA",
+   "published": "2026-09-23T02:24:13+00:00",
+   "summary": "",
+   "image": "https://i1.ytimg.com/vi/Dal9kvDnDnA/hqdefault.jpg",
+   "video_id": "Dal9kvDnDnA",
+   "kind": "video",
+   "source": "Tim Hawkins",
+   "person": "Tim Hawkins",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 90,
+   "seen": "2026-11-23T14:36:00-06:00"
   }
  },
  "released_ids": {
@@ -963,10 +1084,28 @@
   "1124b85c93adeffb": "2026-11-23",
   "7bb33f23068bb05d": "2026-11-23",
   "dd03c2adc34793da": "2026-11-23",
-  "1d207aa8ac4fb0d1": "2026-11-23"
+  "1d207aa8ac4fb0d1": "2026-11-23",
+  "51a56499f16a71a4": "2026-11-23"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "51a56499f16a71a4",
+   "title": "🎧 Bob Murphy · Ep. 544 Problems With Minarchism",
+   "link": "https://www.bobmurphyshow.com/ep-544-problems-with-minarchism",
+   "image": "https://artwork.captivate.fm/216a119f-ca56-4ce1-af88-3c6a69bbc10b/bms_square_logo.png",
+   "audio": "https://episodes.captivate.fm/episode/15c908bf-a3be-4560-9e54-80fbb61461a1.mp3",
+   "audio_type": "audio/mpeg",
+   "kind": "listen",
+   "show": "Bob Murphy Show",
+   "source": "Bob Murphy",
+   "person": "Bob Murphy",
+   "category": "business",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://artwork.captivate.fm/216a119f-ca56-4ce1-af88-3c6a69bbc10b/bms_square_logo.png\" alt=\"\"></p><p><em>Bob Murphy Show</em></p><p>Adam Haman returns to help Bob break down the problems with minarchism. Mentioned in the Episode and Other Links of Interest: The YouTube version of this episode. Bob&#x27;s pamphlets on Texas secession and private law/defense . The prior episode on serial killers and libertarians. The HamanNature…</p><p><audio controls preload=\"none\" src=\"https://episodes.captivate.fm/episode/15c908bf-a3be-4560-9e54-80fbb61461a1.mp3#t=180\"></audio></p><p><a href=\"https://episodes.captivate.fm/episode/15c908bf-a3be-4560-9e54-80fbb61461a1.mp3\">▶ Play the full episode</a></p>",
+   "posted": "2026-11-23T14:36:00-06:00"
+  },
   {
    "id": "spurgeon-2026-11-23",
    "kind": "devotional",
@@ -3174,21 +3313,6 @@
    "image": "https://sdarroh.github.io/good-feed/cards/memory-blanks.png",
    "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/memory-blanks.png\" alt=\"\"></p><p>The _____ is my shepherd;<br>I _____ not want.<br>He makes me to lie down in _____ pastures;<br>He leads me beside the still waters.<br>He restores my soul;<br>He leads me in the _____ of _____________<br>For His name’s sake.</p><p>Yea, though I _____ through the valley of the shadow of _____,<br>I will _____ no evil;<br>For You are _____ me;<br>_____ rod and Your _____, _____ comfort me.</p><p>You _______ a table ______ me in the presence of my enemies;<br>You anoint my _____ _____ oil;<br>My cup runs over.<br>Surely goodness and mercy shall ______ me<br>All the days of my _____;<br>And I will dwell in the _____ of the _____<br>Forever.</p><p><em>— Psalm 23</em></p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><hr><p><strong>↓ Check yourself</strong></p><p>The LORD is my shepherd;<br>I shall not want.<br>He makes me to lie down in green pastures;<br>He leads me beside the still waters.<br>He restores my soul;<br>He leads me in the paths of righteousness<br>For His name’s sake.</p><p>Yea, though I walk through the valley of the shadow of death,<br>I will fear no evil;<br>For You are with me;<br>Your rod and Your staff, they comfort me.</p><p>You prepare a table before me in the presence of my enemies;<br>You anoint my head with oil;<br>My cup runs over.<br>Surely goodness and mercy shall follow me<br>All the days of my life;<br>And I will dwell in the house of the LORD<br>Forever.</p><p><em>— Psalm 23</em></p><p><small>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>",
    "posted": "2026-11-18T21:02:00-06:00"
-  },
-  {
-   "id": "1d3840e69c8069d7",
-   "title": "🎧 Jamie Winship · Two Kinds of Failure and How to Respond to Both",
-   "link": "https://share.transistor.fm/s/02c2ca1a",
-   "image": "https://img.transistorcdn.com/D_RJGSJZLcEE6CaoI4uB8Iv2TfD37kUKb8zJXOvgO2U/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82Mzg3/NTBhMzRhMWFlY2Vh/NTUxMmFmN2FjYjFl/MTcxOC5qcGc.jpg",
-   "audio": "https://media.transistor.fm/02c2ca1a/b809be27.mp3",
-   "audio_type": "audio/mpeg",
-   "kind": "listen",
-   "show": "The Jamie & Donna Winship Podcast",
-   "source": "Jamie Winship",
-   "person": "Jamie Winship",
-   "category": "leaders",
-   "html": "<p><img src=\"https://img.transistorcdn.com/D_RJGSJZLcEE6CaoI4uB8Iv2TfD37kUKb8zJXOvgO2U/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82Mzg3/NTBhMzRhMWFlY2Vh/NTUxMmFmN2FjYjFl/MTcxOC5qcGc.jpg\" alt=\"\"></p><p><em>The Jamie &amp; Donna Winship Podcast</em></p><p>In this episode, Jamie and Donna Winship talk about the difference between failing at something and becoming a failure. Drawing from a study on high-resiliency people (including Navy SEALs), they show how resilient people treat unmet expectations as data and opportunity rather than identity.They…</p><p><audio controls preload=\"none\" src=\"https://media.transistor.fm/02c2ca1a/b809be27.mp3#t=180\"></audio></p><p><a href=\"https://media.transistor.fm/02c2ca1a/b809be27.mp3\">▶ Play the full episode</a></p>",
-   "posted": "2026-11-18T18:04:00-06:00"
   }
  ],
  "vine_last": "2026-11-23",
