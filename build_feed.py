@@ -19,6 +19,8 @@ import json
 import math
 import os
 import random
+import shutil
+import subprocess
 import re
 import sys
 import time
@@ -732,6 +734,105 @@ def enrich(post: dict, budget: list) -> None:
         log(f"preview for {post['link']}: {e}")
 
 
+CLIPS = ROOT / "clips"
+CLIP_SECONDS = 90
+
+
+def parse_duration(d: str | None) -> int | None:
+    """itunes:duration: '6733', '52:13' or '01:52:13' -> seconds."""
+    if not d:
+        return None
+    try:
+        parts = [int(float(x)) for x in str(d).strip().split(":")]
+    except ValueError:
+        return None
+    secs = 0
+    for x in parts:
+        secs = secs * 60 + x
+    return secs or None
+
+
+def fmt_duration(secs: int | None) -> str:
+    if not secs:
+        return ""
+    h, m = divmod(round(secs / 60), 60)
+    return f"{h} hr {m} min" if h else f"{m} min"
+
+
+def show_notes_html(raw: str, limit=1500) -> str:
+    """Podcast show notes, cleaned: line breaks and bullet lists kept, everything else plain."""
+    if not raw:
+        return ""
+    t = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", raw)
+    t = re.sub(r"(?i)<br\s*/?>|</p>|</div>|</h\d>|</li>|</?ul[^>]*>|</?ol[^>]*>", "\n", t)
+    t = re.sub(r"(?i)<li[^>]*>", "\n• ", t)
+    t = re.sub(r"<[^>]+>", "", t)
+    t = html.unescape(t).replace("\r", "")
+    lines = [re.sub(r"[ \t ]+", " ", ln).strip() for ln in t.split("\n")]
+    out, size = [], 0
+    for ln in lines:
+        if not ln:
+            if out and out[-1] != "":
+                out.append("")
+            continue
+        if size + len(ln) > limit:
+            out.append(ln[: max(0, limit - size)].rsplit(" ", 1)[0] + "…")
+            break
+        out.append(ln)
+        size += len(ln)
+    paras, cur = [], []
+    for ln in out + [""]:
+        if ln:
+            cur.append(html.escape(ln))
+        elif cur:
+            paras.append("<p>" + "<br>".join(cur) + "</p>")
+            cur = []
+    return "".join(paras)
+
+
+def make_clip(post: dict, base: str) -> tuple[str, int] | None:
+    """Cut a 90-second preview from about a third of the way in (past intros and opening ads).
+    Returns (url, start_seconds) or None. ffmpeg seeks over HTTP, so the episode isn't downloaded."""
+    if not shutil.which("ffmpeg"):
+        return None
+    dur = parse_duration(post.get("duration"))
+    if not dur and shutil.which("ffprobe"):
+        try:
+            r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                "-of", "default=nw=1:nk=1", post["audio"]],
+                               capture_output=True, text=True, timeout=60)
+            dur = int(float(r.stdout.strip() or 0)) or None
+        except Exception:  # noqa: BLE001
+            dur = None
+    start = int(dur * 0.35) if dur and dur > 600 else 180 if dur and dur > 300 else 0
+    CLIPS.mkdir(exist_ok=True)
+    name = f"{datetime.now(UTC).strftime('%Y%m%d')}-{uid(post['id'])}.mp3"
+    out = CLIPS / name
+    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-user_agent", UAS[0],
+           "-rw_timeout", "30000000", "-ss", str(start), "-i", post["audio"], "-t", str(CLIP_SECONDS),
+           "-vn", "-ac", "1", "-ar", "22050", "-b:a", "48k",
+           "-af", f"afade=t=in:d=2,afade=t=out:st={CLIP_SECONDS - 2}:d=2", "-y", str(out)]
+    try:
+        subprocess.run(cmd, capture_output=True, timeout=180, check=True)
+    except Exception as e:  # noqa: BLE001
+        log(f"preview clip for {post.get('title', '')[:60]}: {e}")
+        out.unlink(missing_ok=True)
+        return None
+    if not out.exists() or out.stat().st_size < 50_000:
+        out.unlink(missing_ok=True)
+        return None
+    return f"{base}clips/{name}", start
+
+
+def prune_clips(days=14):
+    if not CLIPS.exists():
+        return
+    cutoff = (datetime.now(UTC) - timedelta(days=days)).strftime("%Y%m%d")
+    for f in CLIPS.glob("*.mp3"):
+        if f.name[:8] < cutoff:
+            f.unlink()
+
+
 def render(post: dict, base: str) -> dict:
     """Pool post -> feed entry with html/title/image."""
     if "html" in post:
@@ -751,14 +852,23 @@ def render(post: dict, base: str) -> dict:
                      f'height="640" frameborder="0" allowfullscreen></iframe></p>')
     elif kind == "listen":
         audio = post["audio"]
-        t_start = "#t=180" if "#" not in audio else ""
-        e["title"] = f"\U0001F3A7 {src} · {post['title']}"
+        length = fmt_duration(parse_duration(post.get("duration")))
+        e["title"] = f"\U0001F3A7 {length + ' · ' if length else ''}{src} · {post['title']}"
+        preview = make_clip(post, base)
+        player = ""
+        if preview:
+            m, sec = divmod(preview[1], 60)
+            h, m = divmod(m, 60)
+            at = f"{h}:{m:02d}:{sec:02d}" if h else f"{m}:{sec:02d}"
+            player = (f"<p><strong>▶ 90-second preview</strong> (from {at})</p>"
+                      f'<p><audio controls preload="none" src="{html.escape(preview[0], quote=True)}"></audio></p>')
+        notes = show_notes_html(post.get("summary", ""))
         e["html"] = (f'<p><img src="{html.escape(img, quote=True)}" alt=""></p>'
-                     f"<p><em>{html.escape(post.get('show') or src)}</em></p>"
-                     + (f"<p>{summary}</p>" if summary else "")
-                     + f'<p><audio controls preload="none" src="{html.escape(audio + t_start, quote=True)}">'
-                       f"</audio></p>"
-                     f'<p><a href="{html.escape(audio, quote=True)}">▶ Play the full episode</a></p>')
+                     f"<p><em>{html.escape(post.get('show') or src)}"
+                     + (f" · {length}" if length else "") + "</em></p>"
+                     + player + notes
+                     + f'<p><a href="{html.escape(audio, quote=True)}">▶ Play the full episode'
+                     + (f" ({length})" if length else "") + "</a></p>")
     else:
         e["title"] = f"{emoji} {src} · {post['title']}"
         e["html"] = (f'<p><img src="{html.escape(img, quote=True)}" alt=""></p>'
@@ -966,6 +1076,7 @@ def main():
     slot = f"{today}@{due[-1]}" if due else None
     done = state.setdefault("batches_done", [])
     ensure_spurgeon_text()
+    prune_clips()
     first_run = not state.get("feed")
     if not (args.batch_now or first_run or (slot and slot not in done)):
         print("Not batch time.")
@@ -993,8 +1104,6 @@ def main():
                 if pub and pub < now - timedelta(days=days):
                     continue
                 p["seen"] = now.isoformat()
-                for k in ("duration",):
-                    p.pop(k, None)
                 pool[p["id"]] = p
                 added += 1
             st.update(ok=True, last_ok=now.isoformat(), found=len(posts), added=added, using=where, error="")
@@ -1080,6 +1189,7 @@ def main():
     for i, post in enumerate(batch):
         enrich(post, budget)
         e = render(post, base)
+        e.pop("duration", None)
         if post.get("must_see"):
             e["must_see"] = True
             e["title"] = "\u2B50 " + e["title"]
