@@ -21,6 +21,9 @@
     {"name": "Free Burma Rangers", "category": "missions", "url": "https://www.freeburmarangers.org/", "lookback_days": 60},
     {"name": "Mission Network News", "category": "missions", "url": "https://www.mnnonline.org/news/"},
     {"name": "Faith Driven Entrepreneur", "category": "business", "url": "https://faithdrivenentrepreneur.org/feed/"},
+    {"name": "Bob Murphy", "category": "business", "person": "Bob Murphy", "podcast": "1441789978"},
+    {"name": "Libertarian Christian Institute", "category": "politics", "person": "Libertarian Christian Institute", "podcast": "search:The Libertarian Christian Podcast"},
+    {"name": "Biblical Anarchy", "category": "politics", "person": "Biblical Anarchy", "podcast": "search:The Biblical Anarchy Podcast"},
     {"name": "Faithwire", "category": "politics", "url": "https://www.faithwire.com/feed/"},
     {"name": "Tim Hawkins", "category": "entertainment", "person": "Tim Hawkins", "youtube": ["user:timhawkinscomedy"], "lookback_days": 90, "note": "on probation"},
     {"name": "The Babylon Bee", "category": "entertainment", "url": "https://babylonbee.com/feed"}
