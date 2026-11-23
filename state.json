@@ -140,7 +140,6 @@
   }
  },
  "batches_done": [
-  "2026-11-18@15",
   "2026-11-18@18",
   "2026-11-18@21",
   "2026-11-19@6",
@@ -169,6 +168,7 @@
   "2026-11-22@21",
   "2026-11-23@6",
   "2026-11-23@9",
+  "2026-11-23@12",
   "2026-11-23@12"
  ],
  "pool": {
@@ -703,6 +703,23 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-23T06:14:00-06:00"
+  },
+  "586e5a1eba67f86f": {
+   "id": "586e5a1eba67f86f",
+   "title": "De-Escalation Techniques Used By NYC's New Civilian Peace Officers",
+   "link": "https://babylonbee.com/news/de-escalation-techniques-used-by-nycs-new-civilian-peace-officers/",
+   "published": "Mon, 23 Nov 2026 14:44:17 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b0201e2c4e126b0201e2c4e13.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>Mayor Zohran Mamdani is revolutionizing how New York handles public safety by disbanding the NYPD's Strategic Response Group and introducing advanced de-escalation techniques to stop crime in its tracks.</p>",
+   "image": "https://media.babylonbee.com/articles/6b0201e2c4e126b0201e2c4e13.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-23T13:49:00-06:00"
   }
  },
  "released_ids": {
