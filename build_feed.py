@@ -348,6 +348,14 @@ def resolve_youtube(spec: str, resolved: dict) -> tuple[str, str]:
         cid = m.group(1)
         t = re.search(r'<meta property="og:title" content="([^"]+)"', page)
         name = html.unescape(t.group(1)) if t else spec
+    elif spec.startswith("user:"):
+        feed = fetch(f"https://www.youtube.com/feeds/videos.xml?user={urllib.parse.quote(spec[5:])}", tries=3)
+        m = re.search(r"<yt:channelId>(UC[\w-]{22})</yt:channelId>", feed)
+        if not m:
+            raise RuntimeError(f"no channel for user {spec[5:]}")
+        cid = m.group(1)
+        t = re.search(r"<title>([^<]+)</title>", feed)
+        name = html.unescape(t.group(1)) if t else spec
     elif spec.startswith("search:"):
         q = urllib.parse.quote_plus(spec[7:])
         page = fetch(f"https://www.youtube.com/results?search_query={q}&sp=EgIQAg%253D%253D")
@@ -874,6 +882,29 @@ def write_feed(entries: list[dict], cfg: dict, base: str):
 
 
 # --------------------------------------------------------------------------
+SPURGEON = ROOT / "spurgeon" / "morneve.txt"
+SPURGEON_URLS = [
+    "https://www.ccel.org/ccel/s/spurgeon/morneve/cache/morneve.txt",
+    "https://ccel.org/ccel/s/spurgeon/morneve/cache/morneve.txt",
+]
+
+
+def ensure_spurgeon_text():
+    if SPURGEON.exists() and SPURGEON.stat().st_size > 500_000:
+        return
+    for url in SPURGEON_URLS:
+        try:
+            text = fetch(url, timeout=60)
+            if len(text) > 500_000 and "Spurgeon" in text[:5000]:
+                SPURGEON.parent.mkdir(exist_ok=True)
+                SPURGEON.write_text(text, encoding="utf-8")
+                log(f"Saved Morning and Evening ({len(text)} chars) from {url}")
+                return
+            log(f"Morning and Evening: unexpected content from {url} ({len(text)} chars)")
+        except Exception as e:  # noqa: BLE001
+            log(f"Morning and Evening: {e}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--now", help="pretend it's this local time, YYYY-MM-DDTHH:MM (testing)")
@@ -895,6 +926,7 @@ def main():
     due = [h for h in cfg["batch_hours"] if h <= now.hour]
     slot = f"{today}@{due[-1]}" if due else None
     done = state.setdefault("batches_done", [])
+    ensure_spurgeon_text()
     first_run = not state.get("feed")
     if not (args.batch_now or first_run or (slot and slot not in done)):
         print("Not batch time.")
