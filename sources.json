@@ -22,7 +22,7 @@
     {"name": "Mission Network News", "category": "missions", "url": "https://www.mnnonline.org/news/"},
     {"name": "Faith Driven Entrepreneur", "category": "business", "url": "https://faithdrivenentrepreneur.org/feed/"},
     {"name": "Faithwire", "category": "politics", "url": "https://www.faithwire.com/feed/"},
-    {"name": "Tim Hawkins", "category": "entertainment", "person": "Tim Hawkins", "youtube": ["user:timhawkinscomedy"], "note": "on probation"},
+    {"name": "Tim Hawkins", "category": "entertainment", "person": "Tim Hawkins", "youtube": ["user:timhawkinscomedy"], "lookback_days": 90, "note": "on probation"},
     {"name": "The Babylon Bee", "category": "entertainment", "url": "https://babylonbee.com/feed"}
   ]
 }
