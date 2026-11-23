@@ -23,27 +23,27 @@
   "web:https://www.klove.com/faith/news/god-stories": {
    "mode": "page",
    "url": "https://www.klove.com/faith/news/god-stories",
-   "at": "2026-11-16T18:29:49.857313+00:00"
+   "at": "2026-11-23T19:22:06.271393+00:00"
   },
   "web:https://www.godtube.com/blog/god-stories/": {
    "mode": "feed",
    "url": "https://www.godtube.com/blog/god-stories/rss.xml",
-   "at": "2026-11-16T18:29:50.356484+00:00"
+   "at": "2026-11-23T19:22:07.540700+00:00"
   },
   "web:https://www.crosswalk.com/headlines/topics/positive-stories/": {
    "mode": "feed",
    "url": "https://www.crosswalk.com/headlines/topics/positive-stories/rss.xml",
-   "at": "2026-11-16T18:29:51.405456+00:00"
+   "at": "2026-11-23T19:22:08.145177+00:00"
   },
   "web:https://relevantmagazine.com/tag/hopeful-news/feed/": {
    "mode": "feed",
    "url": "https://relevantmagazine.com/tag/hopeful-news/feed/",
-   "at": "2026-11-16T18:29:53.162359+00:00"
+   "at": "2026-11-23T19:22:08.819937+00:00"
   },
   "web:https://godreports.com/feed/": {
    "mode": "feed",
    "url": "https://godreports.com/feed/",
-   "at": "2026-11-16T18:29:57.498855+00:00"
+   "at": "2026-11-23T19:22:12.329188+00:00"
   },
   "web:https://www.joelnews.org": {
    "mode": "page",
@@ -53,17 +53,17 @@
   "web:https://www.imb.org/stories/": {
    "mode": "feed",
    "url": "https://www.imb.org/stories/feed/",
-   "at": "2026-11-16T18:30:04.391243+00:00"
+   "at": "2026-11-23T19:22:15.958773+00:00"
   },
   "web:https://www.persecution.com/stories/": {
    "mode": "feed",
    "url": "https://www.persecution.com/stories/feed/",
-   "at": "2026-11-16T18:30:05.824550+00:00"
+   "at": "2026-11-23T19:22:17.399948+00:00"
   },
   "web:https://www.mnnonline.org/news/": {
    "mode": "feed",
    "url": "https://www.mnnonline.org/news/feed/",
-   "at": "2026-11-16T18:30:07.233562+00:00"
+   "at": "2026-11-23T19:22:18.528508+00:00"
   },
   "web:https://faithdrivenentrepreneur.org/blog": {
    "mode": "page",
@@ -73,12 +73,12 @@
   "web:https://www.faithwire.com/feed/": {
    "mode": "feed",
    "url": "https://www.faithwire.com/feed/",
-   "at": "2026-11-16T18:30:10.033748+00:00"
+   "at": "2026-11-23T19:22:23.415096+00:00"
   },
   "web:https://babylonbee.com/feed": {
    "mode": "feed",
    "url": "https://babylonbee.com/feed",
-   "at": "2026-11-16T18:30:10.291292+00:00"
+   "at": "2026-11-23T19:22:23.838739+00:00"
   },
   "yt:UCQeu3sLd-TmsgZFnerbMniQ": {
    "id": "UCQeu3sLd-TmsgZFnerbMniQ",
@@ -113,7 +113,7 @@
   "web:https://faithdrivenentrepreneur.org/feed/": {
    "mode": "feed",
    "url": "https://faithdrivenentrepreneur.org/feed/",
-   "at": "2026-11-16T18:33:33.240209+00:00"
+   "at": "2026-11-23T19:22:22.567325+00:00"
   },
   "web:https://www.freeburmarangers.org/": {
    "mode": "feed",
@@ -140,7 +140,6 @@
   }
  },
  "batches_done": [
-  "2026-11-18@12",
   "2026-11-18@15",
   "2026-11-18@18",
   "2026-11-18@21",
@@ -169,7 +168,8 @@
   "2026-11-22@18",
   "2026-11-22@21",
   "2026-11-23@6",
-  "2026-11-23@9"
+  "2026-11-23@9",
+  "2026-11-23@12"
  ],
  "pool": {
   "868b7a5e517ce7bb": {
@@ -2559,23 +2559,6 @@
    "lookback": 14,
    "seen": "2026-11-20T21:04:00-06:00"
   },
-  "953e21d26ebbb6b8": {
-   "id": "953e21d26ebbb6b8",
-   "title": "In Return For Being Taught How To Grow Corn, Pilgrims Teach Indians How To Make Stove Top Stuffing",
-   "link": "https://babylonbee.com/news/pilgrims-teach-indians-how-to-make-stovetop-stuffing/",
-   "published": "Sat, 21 Nov 2026 07:30:12 -0500",
-   "summary": "<img src=\"https://media.babylonbee.com/articles/6b009cd6433416b009cd643342.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>PLYMOUTH, MA — In a touching exchange of cultural traditions, the Pilgrims repaid the Indians for teaching them how to plant corn by showing them how to make delicious Stove Top stuffing.</p>",
-   "image": "https://media.babylonbee.com/articles/6b009cd6433416b009cd643342.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-21T07:18:00-06:00"
-  },
   "9b9a560686c3f253": {
    "id": "9b9a560686c3f253",
    "title": "NCIS Star Wants to Make This Character’s Comeback Happen",
@@ -2661,23 +2644,6 @@
    "lookback": 14,
    "seen": "2026-11-22T09:03:00-06:00"
   },
-  "3e1df1c0e5202e13": {
-   "id": "3e1df1c0e5202e13",
-   "title": "Why This Pastor Says Your Worth Isn’t a Competition",
-   "link": "https://www.movieguide.org/news-articles/why-this-pastor-says-your-worth-isnt-a-competition.html",
-   "published": "Sun, 22 Nov 2026 15:00:05 +0000",
-   "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/07/7A49ADB1-A101-473D-BA5C-2A0D2AE75A24_1_201_a-768x432.jpeg\" />Pastor and GIVE ME AN ANSWER host Cliffe Knechtle has a different starting point for anyone trying to prove their worth: God, not the...",
-   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/07/7A49ADB1-A101-473D-BA5C-2A0D2AE75A24_1_201_a-768x432.jpeg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Movieguide",
-   "person": "Movieguide",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-22T09:03:00-06:00"
-  },
   "b740eb417a880c7b": {
    "id": "b740eb417a880c7b",
    "title": "Ah Htoo: A Ranger Testimony of Faith and Service",
@@ -2719,23 +2685,6 @@
    "published": "Mon, 23 Nov 2026 12:00:10 +0000",
    "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/11/936122A3-302D-4354-B003-FCA6CFF7D139_1_201_a-768x432.jpeg\" />A familiar song can bring back the family car, a school dance or a summer afternoon, and new research suggests those deeply personal...",
    "image": "https://cdn.movieguide.org/wp-content/uploads/2026/11/936122A3-302D-4354-B003-FCA6CFF7D139_1_201_a-768x432.jpeg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Movieguide",
-   "person": "Movieguide",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-23T06:14:00-06:00"
-  },
-  "7bb33f23068bb05d": {
-   "id": "7bb33f23068bb05d",
-   "title": "Why NFL Coach Tony Dungy Never Cursed at His Football Players",
-   "link": "https://www.movieguide.org/news-articles/why-tony-dungy-never-swore-at-his-football-players.html",
-   "published": "Mon, 23 Nov 2026 01:00:40 +0000",
-   "summary": "<img src=\"https://cdn.movieguide.org/wp-content/uploads/2025/01/Tony-Dungy-Getty2178390812-768x432.jpg\" />Pro Football Hall of Fame coach Tony Dungy expected excellence from his players, but he didn’t believe he had to curse at them to get it.",
-   "image": "https://cdn.movieguide.org/wp-content/uploads/2025/01/Tony-Dungy-Getty2178390812-768x432.jpg",
    "audio": "",
    "audio_type": "",
    "kind": "story",
@@ -3044,10 +2993,159 @@
   "70bd37eb9c447081": "2026-11-23",
   "6167afdd6fc81b07": "2026-11-23",
   "f3c4694e147a9662": "2026-11-23",
-  "f11b9197d9897bd6": "2026-11-23"
+  "f11b9197d9897bd6": "2026-11-23",
+  "a1fec0065e0088c9": "2026-11-23",
+  "953e21d26ebbb6b8": "2026-11-23",
+  "8a3e6ca34c2d57a6": "2026-11-23",
+  "3e1df1c0e5202e13": "2026-11-23",
+  "1124b85c93adeffb": "2026-11-23",
+  "7bb33f23068bb05d": "2026-11-23",
+  "dd03c2adc34793da": "2026-11-23",
+  "1d207aa8ac4fb0d1": "2026-11-23"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "mem-202611231321-78e2a29cb675e16e",
+   "kind": "memory",
+   "category": "memory",
+   "person": "Memory",
+   "source": "Memory work",
+   "ref": "Isaiah 55:8–11",
+   "title": "✏️ Fill in the blanks · Isaiah 55:8–11",
+   "link": "https://sdarroh.github.io/good-feed/#mem-202611231321-78e2a29cb675e16e",
+   "image": "https://sdarroh.github.io/good-feed/cards/memory-blanks.png",
+   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/memory-blanks.png\" alt=\"\"></p><p>“For My thoughts are not _____ thoughts,<br>Nor are your _____ My _____,” _____ the LORD.<br>“For as the heavens are ______ than the _____,<br>So are My ways higher than your ways,<br>And My ________ _____ _____ thoughts.</p><p>“For as the _____ comes down, and the snow from heaven,<br>And do not return _____,<br>But _____ the _____,<br>And _____ it _____ _____ and bud,<br>That it may _____ seed to the sower<br>And _____ to the _____,<br>So shall My word be that goes forth _____ My mouth;<br>It shall not return to Me void,<br>But it shall accomplish _____ I ______,<br>And it _____ _______ in the _____ for which I _____ it.</p><p><em>— Isaiah 55:8–11</em></p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><hr><p><strong>↓ Check yourself</strong></p><p>“For My thoughts are not your thoughts,<br>Nor are your ways My ways,” says the LORD.<br>“For as the heavens are higher than the earth,<br>So are My ways higher than your ways,<br>And My thoughts than your thoughts.</p><p>“For as the rain comes down, and the snow from heaven,<br>And do not return there,<br>But water the earth,<br>And make it bring forth and bud,<br>That it may give seed to the sower<br>And bread to the eater,<br>So shall My word be that goes forth from My mouth;<br>It shall not return to Me void,<br>But it shall accomplish what I please,<br>And it shall prosper in the thing for which I sent it.</p><p><em>— Isaiah 55:8–11</em></p><p><small>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>",
+   "posted": "2026-11-23T13:21:00-06:00"
+  },
+  {
+   "id": "a1fec0065e0088c9",
+   "title": "☀️ Crosswalk · A Stranger Took a Wrong Turn and Ended Up Helping Save a Georgia Family of 14 From a House Fire",
+   "link": "https://www.crosswalk.com/headlines/topics/positive-stories/wrong-turn-stranger-saves-family-of-14-house-fire.html",
+   "image": "https://media.swncdn.com/via/images/cms-admin/2026/11/23/96837/96837-godupdate-article-images---2026-11-23t100128_source_file.png",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Crosswalk",
+   "person": "Crosswalk",
+   "category": "news",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.swncdn.com/via/images/cms-admin/2026/11/23/96837/96837-godupdate-article-images---2026-11-23t100128_source_file.png\" alt=\"\"></p><p>Casey was driving home to Alabama when a wrong turn took him past a burning house in Georgia. He stopped, alerted the family inside, and helped all 12 children escape before firefighters arrived. The family believes those few unexpected minutes made all the difference.</p><p><a href=\"https://www.crosswalk.com/headlines/topics/positive-stories/wrong-turn-stranger-saves-family-of-14-house-fire.html\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:20:00-06:00"
+  },
+  {
+   "id": "953e21d26ebbb6b8",
+   "title": "🎬 The Babylon Bee · In Return For Being Taught How To Grow Corn, Pilgrims Teach Indians How To Make Stove Top Stuffing",
+   "link": "https://babylonbee.com/news/pilgrims-teach-indians-how-to-make-stovetop-stuffing/",
+   "image": "https://media.babylonbee.com/articles/6b009cd6433416b009cd643342.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b009cd6433416b009cd643342.jpg\" alt=\"\"></p><p>PLYMOUTH, MA — In a touching exchange of cultural traditions, the Pilgrims repaid the Indians for teaching them how to plant corn by showing them how to make delicious Stove Top stuffing.</p><p><a href=\"https://babylonbee.com/news/pilgrims-teach-indians-how-to-make-stovetop-stuffing/\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:19:00-06:00"
+  },
+  {
+   "id": "8a3e6ca34c2d57a6",
+   "title": "☀️ Crosswalk · Father Thought His Wedding Ring Was Gone for Good Until 3 Men Went Above and Beyond",
+   "link": "https://www.crosswalk.com/headlines/topics/positive-stories/lost-wedding-ring-returned-by-three-strangers.html",
+   "image": "https://media.swncdn.com/via/images/cms-admin/2026/11/23/96839/96839-godupdate-article-images---2026-11-23t104017_source_file.png",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Crosswalk",
+   "person": "Crosswalk",
+   "category": "news",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.swncdn.com/via/images/cms-admin/2026/11/23/96839/96839-godupdate-article-images---2026-11-23t104017_source_file.png\" alt=\"\"></p><p>Patrick Mohr thought his wedding ring was gone for good after losing it while swimming on vacation in Italy. Three strangers spent hours searching until they found it, then went far beyond simply mailing it back—they traveled to Ireland to return the treasured ring themselves, beginning an…</p><p><a href=\"https://www.crosswalk.com/headlines/topics/positive-stories/lost-wedding-ring-returned-by-three-strangers.html\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:18:00-06:00"
+  },
+  {
+   "id": "3e1df1c0e5202e13",
+   "title": "🎬 Movieguide · Why This Pastor Says Your Worth Isn’t a Competition",
+   "link": "https://www.movieguide.org/news-articles/why-this-pastor-says-your-worth-isnt-a-competition.html",
+   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/07/7A49ADB1-A101-473D-BA5C-2A0D2AE75A24_1_201_a-768x432.jpeg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Movieguide",
+   "person": "Movieguide",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/07/7A49ADB1-A101-473D-BA5C-2A0D2AE75A24_1_201_a-768x432.jpeg\" alt=\"\"></p><p>Pastor and GIVE ME AN ANSWER host Cliffe Knechtle has a different starting point for anyone trying to prove their worth: God, not the...</p><p><a href=\"https://www.movieguide.org/news-articles/why-this-pastor-says-your-worth-isnt-a-competition.html\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:17:00-06:00"
+  },
+  {
+   "id": "1124b85c93adeffb",
+   "title": "🏛️ Faithwire · Horrific: Pakistani Girl Allegedly Abducted, Forced to Convert and Marry Muslim Man",
+   "link": "https://www.faithwire.com/2026/11/23/horrific-pakistani-girl-allegedly-abducted-forced-to-convert-and-marry-muslim-man/",
+   "image": "https://www.faithwire.com/wp-content/uploads/2026/11/Screenshot-2026-11-19-at-1.17.46-PM-1024x503.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Faithwire",
+   "person": "Faithwire",
+   "category": "politics",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://www.faithwire.com/wp-content/uploads/2026/11/Screenshot-2026-11-19-at-1.17.46-PM-1024x503.jpg\" alt=\"\"></p><p>A human rights attorney is sounding the alarm about a case surrounding forced marriage in Pakistan. Kelsey Zorzi, vice president of international advocacy with Alliance Defending Freedom, told CBN News about the tragic case of Maria, who was allegedly kidnapped, forcibly converted to Islam, and…</p><p><a href=\"https://www.faithwire.com/2026/11/23/horrific-pakistani-girl-allegedly-abducted-forced-to-convert-and-marry-muslim-man/\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:16:00-06:00"
+  },
+  {
+   "id": "7bb33f23068bb05d",
+   "title": "🎬 Movieguide · Why NFL Coach Tony Dungy Never Cursed at His Football Players",
+   "link": "https://www.movieguide.org/news-articles/why-tony-dungy-never-swore-at-his-football-players.html",
+   "image": "https://cdn.movieguide.org/wp-content/uploads/2025/01/Tony-Dungy-Getty2178390812-768x432.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "Movieguide",
+   "person": "Movieguide",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://cdn.movieguide.org/wp-content/uploads/2025/01/Tony-Dungy-Getty2178390812-768x432.jpg\" alt=\"\"></p><p>Pro Football Hall of Fame coach Tony Dungy expected excellence from his players, but he didn’t believe he had to curse at them to get it.</p><p><a href=\"https://www.movieguide.org/news-articles/why-tony-dungy-never-swore-at-his-football-players.html\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:15:00-06:00"
+  },
+  {
+   "id": "dd03c2adc34793da",
+   "title": "🎬 The Babylon Bee · Reinstated Jensen Huang Thrilled To Hear Girlfriend Wants To Get Back Together",
+   "link": "https://babylonbee.com/news/reinstated-jensen-huang-thrilled-to-hear-girlfriend-wants-to-get-back-together/",
+   "image": "https://media.babylonbee.com/articles/6b0479d9af2a06b0479d9af2a1.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b0479d9af2a06b0479d9af2a1.jpg\" alt=\"\"></p><p>SANTA CLARA, CA — Shortly after being reinstated as CEO of Nvidia, Jensen Huang&#x27;s day reportedly got even better as his former girlfriend, Alice Huang, called him and wanted to get back together.</p><p><a href=\"https://babylonbee.com/news/reinstated-jensen-huang-thrilled-to-hear-girlfriend-wants-to-get-back-together/\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:14:00-06:00"
+  },
+  {
+   "id": "1d207aa8ac4fb0d1",
+   "title": "🎬 The Babylon Bee · California Thanksgivings Canceled After Newsom Commutes Death Sentences Of All Turkeys",
+   "link": "https://babylonbee.com/news/california-thanksgivings-canceled-after-newsom-commutes-death-sentences-of-all-turkeys/",
+   "image": "https://media.babylonbee.com/articles/6b048f1d571476b048f1d57148.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b048f1d571476b048f1d57148.jpg\" alt=\"\"></p><p>SACRAMENTO, CA — This holiday season in the Golden State took a historic turn today, as California Thanksgivings were officially canceled after Governor Gavin Newsom commuted the death sentences of all turkeys in the state.</p><p><a href=\"https://babylonbee.com/news/california-thanksgivings-canceled-after-newsom-commutes-death-sentences-of-all-turkeys/\">Read the full story →</a></p>",
+   "posted": "2026-11-23T13:13:00-06:00"
+  },
   {
    "id": "6167afdd6fc81b07",
    "title": "🎥 Andrew Wommack · AWM Now: Healed of Irritable Bowel Syndrome",
@@ -5130,136 +5228,9 @@
    "scraped": true,
    "html": "<p><img src=\"https://cdn.klove.inc/news/126342/126342.webp\" alt=\"\"></p><p>Positive Encouraging K-LOVE</p><p><a href=\"https://www.klove.com/news/god-stories/family-home-destroyed-by-flames-but-gods-faithfulness-is-very-clear-and-podcast-59246\">Read the full story →</a></p>",
    "posted": "2026-11-18T18:03:00-06:00"
-  },
-  {
-   "id": "6394d87721708428",
-   "title": "🎥 Andrew Wommack · Christians, Stop Condemning Yourself Under the Law #shorts",
-   "link": "https://www.youtube.com/shorts/sckZdyZAbg4",
-   "image": "https://i4.ytimg.com/vi/sckZdyZAbg4/hqdefault.jpg",
-   "video_id": "sckZdyZAbg4",
-   "kind": "video",
-   "source": "Andrew Wommack",
-   "person": "Andrew Wommack",
-   "category": "leaders",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><iframe src=\"https://www.youtube.com/embed/sckZdyZAbg4?rel=0\" width=\"360\" height=\"640\" frameborder=\"0\" allowfullscreen></iframe></p>",
-   "posted": "2026-11-18T18:02:00-06:00"
-  },
-  {
-   "id": "62b38941ab04acdd",
-   "title": "☀️ Crosswalk · After 4-Year-Old’s Medical Donations Are Stolen, Community Steps In to Restore Hope",
-   "link": "https://www.crosswalk.com/headlines/topics/positive-stories/community-rallies-after-boys-medical-donations-stolen.html",
-   "image": "https://media.swncdn.com/via/images/cms-admin/2026/11/09/82332/82332-godupdate-article-images---2026-11-09t085933_source_file.png",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Crosswalk",
-   "person": "Crosswalk",
-   "category": "news",
-   "html": "<p><img src=\"https://media.swncdn.com/via/images/cms-admin/2026/11/09/82332/82332-godupdate-article-images---2026-11-09t085933_source_file.png\" alt=\"\"></p><p>Four-year-old Cashton Krause’s family was already navigating medical treatments and the loss of their home to a tornado when someone stole a donation jar intended to help with his care. But once the community learned what happened, people responded with donations that more than made up for what was…</p><p><a href=\"https://www.crosswalk.com/headlines/topics/positive-stories/community-rallies-after-boys-medical-donations-stolen.html\">Read the full story →</a></p>",
-   "posted": "2026-11-18T18:01:00-06:00"
-  },
-  {
-   "id": "mem-202611181804-8562ec8042ad6325",
-   "kind": "memory",
-   "category": "memory",
-   "person": "Memory",
-   "source": "Memory work",
-   "ref": "Isaiah 55:8–11",
-   "title": "❓ Where is this from?",
-   "link": "https://sdarroh.github.io/good-feed/#mem-202611181804-8562ec8042ad6325",
-   "image": "https://sdarroh.github.io/good-feed/cards/memory-where.png",
-   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/memory-where.png\" alt=\"\"></p><p>“For My thoughts are not your thoughts,<br>Nor are your ways My ways,” says the LORD.<br>“For as the heavens are higher than the earth,<br>So are My ways higher than your ways,<br>And My thoughts than your thoughts.</p><p>“For as the rain comes down, and the snow from heaven,<br>And do not return there,<br>But water the earth,<br>And make it bring forth and bud,<br>That it may give seed to the sower<br>And bread to the eater,<br>So shall My word be that goes forth from My mouth;<br>It shall not return to Me void,<br>But it shall accomplish what I please,<br>And it shall prosper in the thing for which I sent it.</p><p>Name the reference before you scroll.</p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><hr><p><strong>↓ Check yourself</strong></p><p><strong>Isaiah 55:8–11</strong></p><p><small>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>",
-   "posted": "2026-11-18T18:00:00-06:00"
-  },
-  {
-   "id": "19c195f2665e6717",
-   "title": "☀️ Crosswalk · Man Buys an Old Video Camera and Discovers a Family’s Forgotten Home Movies Inside",
-   "link": "https://www.crosswalk.com/headlines/topics/positive-stories/man-finds-family-lost-home-movies-old-camera.html",
-   "image": "https://media.swncdn.com/via/images/cms-admin/2026/11/10/83643/83643-godupdate-article-images---2026-11-10t105507_source_file.png",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Crosswalk",
-   "person": "Crosswalk",
-   "category": "news",
-   "html": "<p><img src=\"https://media.swncdn.com/via/images/cms-admin/2026/11/10/83643/83643-godupdate-article-images---2026-11-10t105507_source_file.png\" alt=\"\"></p><p>Ben Coleman thought he was simply buying a vintage video camera, but inside he discovered years of a stranger’s family memories. Using names and other clues from the recordings, he tracked down the Darling family and returned footage of birthdays, vacations, and childhood moments they thought were…</p><p><a href=\"https://www.crosswalk.com/headlines/topics/positive-stories/man-finds-family-lost-home-movies-old-camera.html\">Read the full story →</a></p>",
-   "posted": "2026-11-18T17:59:00-06:00"
-  },
-  {
-   "id": "5abd58300ce30922",
-   "title": "🎥 Andrew Wommack · God Is Already in You",
-   "link": "https://www.youtube.com/shorts/hPw_IEhLFO4",
-   "image": "https://i1.ytimg.com/vi/hPw_IEhLFO4/hqdefault.jpg",
-   "video_id": "hPw_IEhLFO4",
-   "kind": "video",
-   "source": "Andrew Wommack",
-   "person": "Andrew Wommack",
-   "category": "leaders",
-   "html": "<p><iframe src=\"https://www.youtube.com/embed/hPw_IEhLFO4?rel=0\" width=\"360\" height=\"640\" frameborder=\"0\" allowfullscreen></iframe></p>",
-   "posted": "2026-11-18T17:58:00-06:00"
-  },
-  {
-   "id": "0f78f0d308fad772",
-   "title": "☀️ K-LOVE · Mission Mules: How Their Ministry Grew Out Of Hurricane Helene (+Podcast)",
-   "link": "https://www.klove.com/news/god-stories/mission-mules-how-their-ministry-grew-out-of-hurricane-helene-andpodcast-58971",
-   "image": "https://cdn.klove.inc/news/124065/124065.webp",
-   "scraped": true,
-   "kind": "story",
-   "source": "K-LOVE",
-   "person": "K-LOVE",
-   "category": "news",
-   "must_see_source": false,
-   "html": "<p><img src=\"https://cdn.klove.inc/news/124065/124065.webp\" alt=\"\"></p><p>Positive Encouraging K-LOVE</p><p><a href=\"https://www.klove.com/news/god-stories/mission-mules-how-their-ministry-grew-out-of-hurricane-helene-andpodcast-58971\">Read the full story →</a></p>",
-   "posted": "2026-11-18T17:57:00-06:00"
-  },
-  {
-   "id": "1ead6778e87b9ddd",
-   "title": "🎥 Ashley & Carlie Terradez · So many great options to choose from! 📚",
-   "link": "https://www.youtube.com/shorts/hoI4VqeI9ks",
-   "image": "https://i1.ytimg.com/vi/hoI4VqeI9ks/hqdefault.jpg",
-   "video_id": "hoI4VqeI9ks",
-   "kind": "video",
-   "source": "Ashley & Carlie Terradez",
-   "person": "Terradez",
-   "category": "leaders",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><iframe src=\"https://www.youtube.com/embed/hoI4VqeI9ks?rel=0\" width=\"360\" height=\"640\" frameborder=\"0\" allowfullscreen></iframe></p>",
-   "posted": "2026-11-18T17:56:00-06:00"
-  },
-  {
-   "id": "759a8e018c87870d",
-   "title": "🎥 Andrew Wommack · Your Dominant Thoughts Shape Your Life—Choose Your Identity #shorts",
-   "link": "https://www.youtube.com/shorts/7dCU0-6tdfw",
-   "image": "https://i4.ytimg.com/vi/7dCU0-6tdfw/hqdefault.jpg",
-   "video_id": "7dCU0-6tdfw",
-   "kind": "video",
-   "source": "Andrew Wommack",
-   "person": "Andrew Wommack",
-   "category": "leaders",
-   "html": "<p><iframe src=\"https://www.youtube.com/embed/7dCU0-6tdfw?rel=0\" width=\"360\" height=\"640\" frameborder=\"0\" allowfullscreen></iframe></p>",
-   "posted": "2026-11-18T17:55:00-06:00"
-  },
-  {
-   "id": "77b289e26b3e8854",
-   "title": "🎬 Movieguide · Chris Pratt Wants Kids to Know a Bully Doesn’t Define Them",
-   "link": "https://www.movieguide.org/news-articles/chris-pratt-wants-kids-to-know-a-bully-doesnt-define-them.html",
-   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/11/3F6A8EA1-59D9-494C-97B1-CBAD9D2FED40_1_201_a-768x432.jpeg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Movieguide",
-   "person": "Movieguide",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/11/3F6A8EA1-59D9-494C-97B1-CBAD9D2FED40_1_201_a-768x432.jpeg\" alt=\"\"></p><p>Actor Chris Pratt wants children watching WAY OF THE WARRIOR KID to leave with something more useful than a fantasy about getting even...</p><p><a href=\"https://www.movieguide.org/news-articles/chris-pratt-wants-kids-to-know-a-bully-doesnt-define-them.html\">Read the full story →</a></p>",
-   "posted": "2026-11-18T16:07:00-06:00"
   }
  ],
  "vine_last": "2026-11-23",
- "last_memory_ref": "Psalm 91",
+ "last_memory_ref": "Isaiah 55:8–11",
  "votd_last": "2026-11-23"
 }
