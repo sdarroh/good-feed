@@ -455,7 +455,8 @@ def collect_source(src: dict, resolved: dict) -> tuple[list[dict], str]:
                 posts.append({**e, "id": f"yt:{vid}", "kind": "video", "video_id": vid,
                               "link": f"https://www.youtube.com/shorts/{vid}",
                               "image": e["image"] or f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
-            found.append(cid)
+            newest = max((e.get("published") or "")[:10] for e in entries) if entries else "none"
+            found.append(f"{cid} (newest {newest})")
         if failed and not found and not empty:
             raise RuntimeError("; ".join(failed))
         where = "YouTube Shorts: " + (", ".join(found) or "none") + \
