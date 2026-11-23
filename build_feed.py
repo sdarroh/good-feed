@@ -49,7 +49,7 @@ DEFAULTS = {
     "batch_hours": [6, 9, 12, 15, 18, 21], "pool_days": 14,
     "person_cap": 5, "category_caps": {}, "default_category_cap": 5, "podcast_cap": 2,
     "memory_cards_per_day": 5, "memory_styles": {"verse": 1, "blanks": 1, "where": 1},
-    "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "watch_boost": 3, "must_see_per_day": 3, "true_vine": True, "verse_of_the_day": True, "verse_of_the_day_version": "NKJV", "warn_after_days": 3,
+    "scripture_notice": "", "watch_words": [], "watch_lookback_days": 60, "watch_boost": 3, "must_see_per_day": 3, "true_vine": True, "spurgeon": True, "verse_of_the_day": True, "verse_of_the_day_version": "NKJV", "warn_after_days": 3,
 }
 
 
@@ -905,6 +905,45 @@ def ensure_spurgeon_text():
             log(f"Morning and Evening: {e}")
 
 
+def spurgeon_post(now: datetime, base: str) -> dict | None:
+    """Today's morning reading from Spurgeon's Morning and Evening (public domain, via CCEL)."""
+    if not SPURGEON.exists():
+        return None
+    when = f"{now.strftime('%B')} {now.day}"
+    lines = SPURGEON.read_text(encoding="utf-8").splitlines()
+    try:
+        start = lines.index(f"Morning, {when}") + 1
+    except ValueError:
+        return None
+    body = []
+    for ln in lines[start:]:
+        if ln.strip().startswith("____") or re.match(r"^(Morning|Evening), ", ln):
+            break
+        if "Go To Evening Reading" in ln or "Go To Morning Reading" in ln:
+            continue
+        body.append(ln)
+    paras, cur = [], []
+    for ln in body + [""]:
+        if ln.strip():
+            cur.append(ln.strip())
+        elif cur:
+            paras.append(re.sub(r"\[\d+\]", "", " ".join(cur)).replace("--", "\u2014").strip())
+            cur = []
+    if len(paras) < 3:
+        return None
+    text, ref, rest = paras[0], paras[1], paras[2:]
+    img = f"{base}cards/spurgeon.png"
+    link = f"https://www.blueletterbible.org/devotionals/me/view.cfm?Time=am&doy={now.timetuple().tm_yday}"
+    return {"id": f"spurgeon-{now.date().isoformat()}", "kind": "devotional", "category": "devotional",
+            "person": "Spurgeon", "source": "Spurgeon",
+            "title": f"\U0001F305 Morning and Evening \u00b7 {when}: {text}", "link": link, "image": img,
+            "html": (f'<p><img src="{img}" alt=""></p><blockquote><p>{html.escape(text)}<br>'
+                     f"<em>\u2014 {html.escape(ref)}</em></p></blockquote>"
+                     + "".join(f"<p>{html.escape(x)}</p>" for x in rest)
+                     + "<p><small>C. H. Spurgeon, <em>Morning and Evening</em> (1865\u201368), morning reading. "
+                       "Public domain, text from CCEL.</small></p>")}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--now", help="pretend it's this local time, YYYY-MM-DDTHH:MM (testing)")
@@ -982,6 +1021,11 @@ def main():
         if 1 <= day <= 31:
             extra.append(true_vine_post(day, now, base))
             state["vine_last"] = today
+    if cfg["spurgeon"] and state.get("spurgeon_last") != today:
+        sp = spurgeon_post(now, base)
+        if sp:
+            extra.append(sp)
+            state["spurgeon_last"] = today
     if cfg["verse_of_the_day"] and state.get("votd_last") != today:
         v = votd_post(now, base, cfg["verse_of_the_day_version"])
         if v:
