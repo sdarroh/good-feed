@@ -159,7 +159,6 @@
   }
  },
  "batches_done": [
-  "2026-11-19@21",
   "2026-11-20@6",
   "2026-11-20@9",
   "2026-11-20@12",
@@ -188,7 +187,8 @@
   "2026-11-23@18",
   "2026-11-23@21",
   "2026-11-24@6",
-  "2026-11-24@9"
+  "2026-11-24@9",
+  "2026-11-24@12"
  ],
  "pool": {
   "868b7a5e517ce7bb": {
@@ -913,6 +913,24 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-24T06:17:00-06:00"
+  },
+  "a8526e3fa984b12f": {
+   "id": "a8526e3fa984b12f",
+   "title": "Trump Announces Thanksgiving Turkey Won't Be Pardoned, Will Face Firing Squad",
+   "link": "https://babylonbee.com/news/trump-announces-thanksgiving-turkey-wont-be-pardoned-will-face-firing-squad/",
+   "published": "Tue, 24 Nov 2026 12:54:36 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b05cd8d36de16b05cd8d36de2.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>WASHINGTON, D.C. — President Donald Trump announced today that this year's Thanksgiving Turkey will not be pardoned and will instead face execution by a firing squad.</p>",
+   "image": "https://media.babylonbee.com/articles/6b05cd8d36de16b05cd8d36de2.jpg",
+   "audio": "",
+   "audio_type": "",
+   "duration": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-24T12:07:00-06:00"
   }
  },
  "released_ids": {
@@ -1186,10 +1204,26 @@
   "ab2254e4a58660aa": "2026-11-24",
   "6719dd86d4b1531c": "2026-11-24",
   "184f4ad5796c9a92": "2026-11-24",
-  "673ff784ff02d58c": "2026-11-24"
+  "673ff784ff02d58c": "2026-11-24",
+  "26c8dbc3018fc9e6": "2026-11-24"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "26c8dbc3018fc9e6",
+   "title": "☀️ K-LOVE · \"We See Smiles And We Hear Happiness\" Safe Trail Hikes For People With Physical Disabilities",
+   "link": "https://www.klove.com/news/god-stories/we-see-smiles-and-we-hear-happiness-safe-trail-hikes-for-people-with-physical-disabilities-59483",
+   "image": "https://cdn.klove.inc/news/127956/127956.webp",
+   "scraped": true,
+   "kind": "story",
+   "source": "K-LOVE",
+   "person": "K-LOVE",
+   "category": "news",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://cdn.klove.inc/news/127956/127956.webp\" alt=\"\"></p><p>Positive Encouraging K-LOVE</p><p><a href=\"https://www.klove.com/news/god-stories/we-see-smiles-and-we-hear-happiness-safe-trail-hikes-for-people-with-physical-disabilities-59483\">Read the full story →</a></p>",
+   "posted": "2026-11-24T12:07:00-06:00"
+  },
   {
    "id": "5df8cbfcde65402c",
    "title": "☀️ K-LOVE · A Story Of Forgiveness: How One Student Forgave The Man Who Took His Father's Life (+Podcast)",
@@ -3403,23 +3437,10 @@
    "lookback": 14,
    "html": "<p><iframe src=\"https://www.youtube.com/embed/r73Aq8CpBuE?rel=0\" width=\"360\" height=\"640\" frameborder=\"0\" allowfullscreen></iframe></p>",
    "posted": "2026-11-19T20:56:00-06:00"
-  },
-  {
-   "id": "ad543d428436f6e1",
-   "title": "🎥 Andrew Wommack · Stop Waiting for Faith You Already Have",
-   "link": "https://www.youtube.com/shorts/SwgRnASGWQY",
-   "image": "https://i4.ytimg.com/vi/SwgRnASGWQY/hqdefault.jpg",
-   "video_id": "SwgRnASGWQY",
-   "kind": "video",
-   "source": "Andrew Wommack",
-   "person": "Andrew Wommack",
-   "category": "leaders",
-   "html": "<p><iframe src=\"https://www.youtube.com/embed/SwgRnASGWQY?rel=0\" width=\"360\" height=\"640\" frameborder=\"0\" allowfullscreen></iframe></p>",
-   "posted": "2026-11-19T19:28:00-06:00"
   }
  ],
  "vine_last": "2026-11-24",
- "last_memory_ref": "Isaiah 58:6–9a",
+ "last_memory_ref": "Psalm 91",
  "votd_last": "2026-11-24",
  "spurgeon_last": "2026-11-24"
 }
