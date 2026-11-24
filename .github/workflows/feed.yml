@@ -17,14 +17,14 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Make sure ffmpeg is installed (for podcast previews)
-        run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+        run: which ffmpeg || timeout 300 bash -c 'sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg' || echo "ffmpeg unavailable this run; podcast previews skipped"
       - name: Build feed
         env:
           BATCH_NOW: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[batch]') }}
