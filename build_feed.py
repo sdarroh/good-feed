@@ -847,10 +847,12 @@ def render(post: dict, base: str) -> dict:
     link = html.escape(post["link"], quote=True)
     if kind == "video":
         e["title"] = f"\U0001F3A5 {src} · {post['title']}"
-        # Plain YouTube player (Inoreader ignores size/style changes and they broke its
-        # full-screen button). No duplicate thumbnail or description boilerplate.
-        e["html"] = (f'<p><iframe src="https://www.youtube.com/embed/{post["video_id"]}?rel=0" width="360" '
-                     f'height="640" frameborder="0" allowfullscreen></iframe></p>')
+        # The original Nov 16 layout, which is the one that could go full screen in Inoreader:
+        # player, then the thumbnail linking to the Short on YouTube, then the description.
+        e["html"] = (f'<p><iframe src="https://www.youtube.com/embed/{post["video_id"]}" width="360" '
+                     f'height="640" frameborder="0" allowfullscreen></iframe></p>'
+                     f'<p><a href="{link}"><img src="{html.escape(img, quote=True)}" alt=""></a></p>'
+                     + (f"<p>{summary}</p>" if summary else ""))
     elif kind == "listen":
         audio = post["audio"]
         length = fmt_duration(parse_duration(post.get("duration")))
