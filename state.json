@@ -159,7 +159,6 @@
   }
  },
  "batches_done": [
-  "2026-11-21@9",
   "2026-11-21@12",
   "2026-11-21@15",
   "2026-11-21@18",
@@ -188,7 +187,8 @@
   "2026-11-25@6",
   "2026-11-25@9",
   "2026-11-25@12",
-  "2026-11-25@15"
+  "2026-11-25@15",
+  "2026-11-25@18"
  ],
  "pool": {
   "485d8c94dc24a56e": {
@@ -728,42 +728,6 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-25T12:02:00-06:00"
-  },
-  "d0d29b724c9286a6": {
-   "id": "d0d29b724c9286a6",
-   "title": "Nation Breathes Sigh Of Relief As Toxic Lead Cloud To Only Wind Up Covering Ohio",
-   "link": "https://babylonbee.com/news/nation-breathes-sigh-of-relief-as-toxic-lead-cloud-to-only-wind-up-covering-ohio/",
-   "published": "Wed, 25 Nov 2026 11:32:34 -0500",
-   "summary": "<img src=\"https://media.babylonbee.com/articles/6b070aebb2dce6b070aebb2dcf.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>U.S. — After the U.S. Army detonated five tons of lead azide this morning, the nation breathed a deep sigh of relief as the resulting toxic cloud was blown toward Ohio.</p>",
-   "image": "https://media.babylonbee.com/articles/6b070aebb2dce6b070aebb2dcf.jpg",
-   "audio": "",
-   "audio_type": "",
-   "duration": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-25T12:02:00-06:00"
-  },
-  "7034b8a711132c49": {
-   "id": "7034b8a711132c49",
-   "title": "Taco Bell Announces Strict ‘Three Handfuls Of Lettuce For Every Shred Of Cheese’ Policy",
-   "link": "https://babylonbee.com/news/taco-bell-announces-strict-three-handfuls-of-lettuce-for-every-shred-of-cheese-policy/",
-   "published": "Wed, 25 Nov 2026 14:14:48 -0500",
-   "summary": "<img src=\"https://media.babylonbee.com/articles/6b073271e10c16b073271e10c2.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>IRVINE, CL — Taco Bell released a statement today announcing their new &#34;three handfuls of lettuce for every shred of cheese&#34; policy.</p>",
-   "image": "https://media.babylonbee.com/articles/6b073271e10c16b073271e10c2.jpg",
-   "audio": "",
-   "audio_type": "",
-   "duration": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-25T15:20:00-06:00"
   }
  },
  "released_ids": {
@@ -1077,10 +1041,44 @@
   "ae033193ea8f2dba": "2026-11-25",
   "775eac9f0f1fed42": "2026-11-25",
   "31c0b28cadce79ec": "2026-11-25",
-  "c99b564227bfe459": "2026-11-25"
+  "c99b564227bfe459": "2026-11-25",
+  "7034b8a711132c49": "2026-11-25",
+  "d0d29b724c9286a6": "2026-11-25"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "7034b8a711132c49",
+   "title": "🎬 The Babylon Bee · Taco Bell Announces Strict ‘Three Handfuls Of Lettuce For Every Shred Of Cheese’ Policy",
+   "link": "https://babylonbee.com/news/taco-bell-announces-strict-three-handfuls-of-lettuce-for-every-shred-of-cheese-policy/",
+   "image": "https://media.babylonbee.com/articles/6b073271e10c16b073271e10c2.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b073271e10c16b073271e10c2.jpg\" alt=\"\"></p><p>IRVINE, CL — Taco Bell released a statement today announcing their new &quot;three handfuls of lettuce for every shred of cheese&quot; policy.</p><p><a href=\"https://babylonbee.com/news/taco-bell-announces-strict-three-handfuls-of-lettuce-for-every-shred-of-cheese-policy/\">Read the full story →</a></p>",
+   "posted": "2026-11-25T18:04:00-06:00"
+  },
+  {
+   "id": "d0d29b724c9286a6",
+   "title": "🎬 The Babylon Bee · Nation Breathes Sigh Of Relief As Toxic Lead Cloud To Only Wind Up Covering Ohio",
+   "link": "https://babylonbee.com/news/nation-breathes-sigh-of-relief-as-toxic-lead-cloud-to-only-wind-up-covering-ohio/",
+   "image": "https://media.babylonbee.com/articles/6b070aebb2dce6b070aebb2dcf.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b070aebb2dce6b070aebb2dcf.jpg\" alt=\"\"></p><p>U.S. — After the U.S. Army detonated five tons of lead azide this morning, the nation breathed a deep sigh of relief as the resulting toxic cloud was blown toward Ohio.</p><p><a href=\"https://babylonbee.com/news/nation-breathes-sigh-of-relief-as-toxic-lead-cloud-to-only-wind-up-covering-ohio/\">Read the full story →</a></p>",
+   "posted": "2026-11-25T18:03:00-06:00"
+  },
   {
    "id": "6718a906509e8ae9",
    "title": "🎧 24 min · Kirk Cameron · Boys Will Find a Father Figure. The Question Is Who Ep 226",
@@ -3291,41 +3289,10 @@
    "lookback": 14,
    "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/cat-missions.png\" alt=\"\"></p><p>As a young man, Pastor Desalegn Abebe was forced out of his family home when he chose to follow Jesus Christ. For many months he lived in the forest, foraging fruit and climbing trees at night to sleep out of reach of wild animals. Despite so much difficulty, Desalegn says he often spent nights in…</p><p><a href=\"https://www.persecution.com/stories/ethiopia-christian-persecution-not-something-we-pray-for-but-god-uses-it/\">Read the full story →</a></p>",
    "posted": "2026-11-21T15:52:00-06:00"
-  },
-  {
-   "id": "1ee5aa68fac1f0c5",
-   "title": "🎬 Movieguide · How GREY’S ANATOMY Actress’ Daughter With Down Syndrome Changed Her Parenting",
-   "link": "https://www.movieguide.org/news-articles/how-caterina-scorsones-daughter-pippa-changed-her-parenting.html",
-   "image": "https://cdn.movieguide.org/wp-content/uploads/2026/11/E72C44E1-40EA-44F1-ACED-E6DD00ED4356_1_201_a-768x432.jpeg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Movieguide",
-   "person": "Movieguide",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://cdn.movieguide.org/wp-content/uploads/2026/11/E72C44E1-40EA-44F1-ACED-E6DD00ED4356_1_201_a-768x432.jpeg\" alt=\"\"></p><p>GREY’S ANATOMY actress Caterina Scorsone says raising her daughter Pippa, who has Down syndrome, has changed how she sees the...</p><p><a href=\"https://www.movieguide.org/news-articles/how-caterina-scorsones-daughter-pippa-changed-her-parenting.html\">Read the full story →</a></p>",
-   "posted": "2026-11-21T13:08:00-06:00"
-  },
-  {
-   "id": "0a75f67947e05583",
-   "title": "🎧 Andrew Wommack · The Old Man Is Dead: Episode 9",
-   "link": "https://www.spreaker.com/episode/the-old-man-is-dead-episode-9--75829787",
-   "image": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/2ad1c6f640bd03d507b4b263340c324f.jpg",
-   "audio": "https://api.spreaker.com/download/episode/75829787/spreaker_3295566d_6fb2_45c2_b137_3f56e34153ab.mp3",
-   "audio_type": "audio/mpeg",
-   "kind": "listen",
-   "show": "The Gospel Truth",
-   "source": "Andrew Wommack",
-   "person": "Andrew Wommack",
-   "category": "leaders",
-   "html": "<p><img src=\"https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/2ad1c6f640bd03d507b4b263340c324f.jpg\" alt=\"\"></p><p><em>The Gospel Truth</em></p><p>What actually happens when you’re born again? Join Andrew Wommack and discover the great exchange that takes place when you make Jesus your Lord and Savior. Old things pass away, your spirit becomes brand new (2 Cor. 5:17), and you are free to live from your new identity in Christ. This is the…</p><p><audio controls preload=\"none\" src=\"https://api.spreaker.com/download/episode/75829787/spreaker_3295566d_6fb2_45c2_b137_3f56e34153ab.mp3#t=180\"></audio></p><p><a href=\"https://api.spreaker.com/download/episode/75829787/spreaker_3295566d_6fb2_45c2_b137_3f56e34153ab.mp3\">▶ Play the full episode</a></p>",
-   "posted": "2026-11-21T13:07:00-06:00"
   }
  ],
  "vine_last": "2026-11-25",
- "last_memory_ref": "Psalm 23",
+ "last_memory_ref": "Isaiah 55:8–11",
  "votd_last": "2026-11-25",
  "spurgeon_last": "2026-11-25"
 }
