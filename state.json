@@ -159,7 +159,6 @@
   }
  },
  "batches_done": [
-  "2026-11-21@21",
   "2026-11-22@6",
   "2026-11-22@9",
   "2026-11-22@12",
@@ -188,7 +187,8 @@
   "2026-11-25@18",
   "2026-11-25@21",
   "2026-11-26@6",
-  "2026-11-26@9"
+  "2026-11-26@9",
+  "2026-11-26@12"
  ],
  "pool": {
   "485d8c94dc24a56e": {
@@ -765,6 +765,60 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-26T06:22:00-06:00"
+  },
+  "cb44cb538693302a": {
+   "id": "cb44cb538693302a",
+   "title": "Zoom Introduces New Virtual Hair Feature For Middle-Aged Guys",
+   "link": "https://babylonbee.com/news/zoom-introduces-new-virtual-hair-feature-for-middle-aged-guys/",
+   "published": "Thu, 26 Nov 2026 12:03:27 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b074246ec4f66b074246ec4f7.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>SAN JOSE, CA — In a recent update, Zoom added the ability for middle-aged men to apply a camera filter that gives them a full head of hair.</p>",
+   "image": "https://media.babylonbee.com/articles/6b074246ec4f66b074246ec4f7.jpg",
+   "audio": "",
+   "audio_type": "",
+   "duration": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-26T12:07:00-06:00"
+  },
+  "98699d23e2f52904": {
+   "id": "98699d23e2f52904",
+   "title": "‘I May Have Undercooked It,’ Wife Says As Turkey Runs Away",
+   "link": "https://babylonbee.com/news/i-may-have-undercooked-it-wife-says-as-turkey-runs-away/",
+   "published": "Thu, 26 Nov 2026 11:55:41 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b0719cfb8ee96b0719cfb8eea.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>ANTHEM, AZ — Local wife Alice Stillwater became concerned that she may have slightly undercooked the Thanksgiving turkey after the 20-pound bird hopped off the dining table and ran away.</p>",
+   "image": "https://media.babylonbee.com/articles/6b0719cfb8ee96b0719cfb8eea.jpg",
+   "audio": "",
+   "audio_type": "",
+   "duration": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-26T12:07:00-06:00"
+  },
+  "19cdb70083e41ba0": {
+   "id": "19cdb70083e41ba0",
+   "title": "Joe Biden Thankful To Still Be President",
+   "link": "https://babylonbee.com/news/joe-biden-thankful-to-still-be-president/",
+   "published": "Thu, 26 Nov 2026 11:40:40 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b085f79b20e86b085f79b20e9.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>NANTUCKET — As families across the United States gathered once again to express gratitude on Thanksgiving, Joe Biden gave a public address wishing everyone a happy holiday and telling the nation how thankful he was to still be president.</p>",
+   "image": "https://media.babylonbee.com/articles/6b085f79b20e86b085f79b20e9.jpg",
+   "audio": "",
+   "audio_type": "",
+   "duration": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-26T12:07:00-06:00"
   }
  },
  "released_ids": {
@@ -3350,7 +3404,7 @@
   }
  ],
  "vine_last": "2026-11-26",
- "last_memory_ref": "Psalm 23",
+ "last_memory_ref": "Isaiah 54:9–10",
  "votd_last": "2026-11-26",
  "spurgeon_last": "2026-11-26"
 }
