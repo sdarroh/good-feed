@@ -159,7 +159,6 @@
   }
  },
  "batches_done": [
-  "2026-11-22@21",
   "2026-11-23@6",
   "2026-11-23@9",
   "2026-11-23@12",
@@ -188,7 +187,8 @@
   "2026-11-26@18",
   "2026-11-26@21",
   "2026-11-27@6",
-  "2026-11-27@9"
+  "2026-11-27@9",
+  "2026-11-27@12"
  ],
  "pool": {
   "485d8c94dc24a56e": {
@@ -641,6 +641,42 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-27T09:17:00-06:00"
+  },
+  "5384b76fa5203e75": {
+   "id": "5384b76fa5203e75",
+   "title": "Grandpa’s Thanksgiving Prayer Enters Third Hour",
+   "link": "https://babylonbee.com/news/grandpas-thanksgiving-prayer-enters-third-hour/",
+   "published": "Fri, 27 Nov 2026 12:49:43 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b09bfd8046bb6b09bfd8046bc.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>SAVANNAH, GA — Witnesses said it would be some time before one local family got to eat Thanksgiving dinner, as Grandpa's prayer reportedly entered its third hour.</p>",
+   "image": "https://media.babylonbee.com/articles/6b09bfd8046bb6b09bfd8046bc.jpg",
+   "audio": "",
+   "audio_type": "",
+   "duration": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-27T13:18:00-06:00"
+  },
+  "b8b89101fb7d90d5": {
+   "id": "b8b89101fb7d90d5",
+   "title": "Congress Offers Black Friday Sale With Great Deals On All Its Members",
+   "link": "https://babylonbee.com/news/congress-offers-black-friday-sale-with-great-deals-on-all-its-members/",
+   "published": "Fri, 27 Nov 2026 12:21:00 -0500",
+   "summary": "<img src=\"https://media.babylonbee.com/articles/6b09bbeb069596b09bbeb0695a.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>WASHINGTON, D.C. — As Americans scoured the consumer landscape for big savings the day after Thanksgiving, the U.S. Congress generated major buzz by offering a Black Friday sale with great deals on all its members.</p>",
+   "image": "https://media.babylonbee.com/articles/6b09bbeb069596b09bbeb0695a.jpg",
+   "audio": "",
+   "audio_type": "",
+   "duration": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-27T13:18:00-06:00"
   }
  },
  "released_ids": {
@@ -991,10 +1027,39 @@
   "04edd8043cd16db4": "2026-11-27",
   "184b4e6672f708b8": "2026-11-27",
   "aa24838b977935d9": "2026-11-27",
-  "255deb8a511cbc68": "2026-11-27"
+  "255deb8a511cbc68": "2026-11-27",
+  "d94af82078da2619": "2026-11-27"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "d94af82078da2619",
+   "title": "☀️ K-LOVE · What If We've Been Wrong About Generation Z? K-LOVE's Goodsource Team Says A Spiritual Hunger Is Rising (+Podcast)",
+   "link": "https://www.klove.com/news/god-stories/what-if-weve-been-wrong-about-generation-z-k-loves-goodsource-team-says-a-spiritual-hunger-is-rising-andpodcast-58816",
+   "image": "https://cdn.klove.inc/news/122726/122726.webp",
+   "scraped": true,
+   "kind": "story",
+   "source": "K-LOVE",
+   "person": "K-LOVE",
+   "category": "news",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://cdn.klove.inc/news/122726/122726.webp\" alt=\"\"></p><p>Positive Encouraging K-LOVE</p><p><a href=\"https://www.klove.com/news/god-stories/what-if-weve-been-wrong-about-generation-z-k-loves-goodsource-team-says-a-spiritual-hunger-is-rising-andpodcast-58816\">Read the full story →</a></p>",
+   "posted": "2026-11-27T13:18:00-06:00"
+  },
+  {
+   "id": "mem-202611271318-93f582640ab2481b",
+   "kind": "memory",
+   "category": "memory",
+   "person": "Memory",
+   "source": "Memory work",
+   "ref": "Psalm 23",
+   "title": "✏️ Fill in the blanks · Psalm 23",
+   "link": "https://sdarroh.github.io/good-feed/#mem-202611271318-93f582640ab2481b",
+   "image": "https://sdarroh.github.io/good-feed/cards/memory-blanks.png",
+   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/memory-blanks.png\" alt=\"\"></p><p>The LORD is my ________;<br>I shall not _____.<br>He makes me to lie down in green pastures;<br>He leads me beside the _____ waters.<br>He restores my soul;<br>He leads me in the paths of _____________<br>For His ______ sake.</p><p>Yea, though I _____ through the valley of the shadow of death,<br>I _____ _____ no evil;<br>For You are with me;<br>Your rod and Your _____, they comfort me.</p><p>You _______ a table ______ me in the presence of my _______;<br>You anoint my head _____ oil;<br>My cup _____ _____.<br>______ goodness and mercy shall follow me<br>All the _____ of my _____;<br>And I will dwell in the _____ of the LORD<br>Forever.</p><p><em>— Psalm 23</em></p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><hr><p><strong>↓ Check yourself</strong></p><p>The LORD is my shepherd;<br>I shall not want.<br>He makes me to lie down in green pastures;<br>He leads me beside the still waters.<br>He restores my soul;<br>He leads me in the paths of righteousness<br>For His name’s sake.</p><p>Yea, though I walk through the valley of the shadow of death,<br>I will fear no evil;<br>For You are with me;<br>Your rod and Your staff, they comfort me.</p><p>You prepare a table before me in the presence of my enemies;<br>You anoint my head with oil;<br>My cup runs over.<br>Surely goodness and mercy shall follow me<br>All the days of my life;<br>And I will dwell in the house of the LORD<br>Forever.</p><p><em>— Psalm 23</em></p><p><small>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>",
+   "posted": "2026-11-27T13:17:00-06:00"
+  },
   {
    "id": "255deb8a511cbc68",
    "title": "🎥 Vlad Savchuk · 5 ways the devil distracts you.",
@@ -3221,42 +3286,10 @@
    "lookback": 14,
    "html": "<p><img src=\"https://www.faithwire.com/wp-content/uploads/2026/11/Screenshot-2026-11-19-at-1.17.46-PM-1024x503.jpg\" alt=\"\"></p><p>A human rights attorney is sounding the alarm about a case surrounding forced marriage in Pakistan. Kelsey Zorzi, vice president of international advocacy with Alliance Defending Freedom, told CBN News about the tragic case of Maria, who was allegedly kidnapped, forcibly converted to Islam, and…</p><p><a href=\"https://www.faithwire.com/2026/11/23/horrific-pakistani-girl-allegedly-abducted-forced-to-convert-and-marry-muslim-man/\">Read the full story →</a></p>",
    "posted": "2026-11-23T13:16:00-06:00"
-  },
-  {
-   "id": "7bb33f23068bb05d",
-   "title": "🎬 Movieguide · Why NFL Coach Tony Dungy Never Cursed at His Football Players",
-   "link": "https://www.movieguide.org/news-articles/why-tony-dungy-never-swore-at-his-football-players.html",
-   "image": "https://cdn.movieguide.org/wp-content/uploads/2025/01/Tony-Dungy-Getty2178390812-768x432.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Movieguide",
-   "person": "Movieguide",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://cdn.movieguide.org/wp-content/uploads/2025/01/Tony-Dungy-Getty2178390812-768x432.jpg\" alt=\"\"></p><p>Pro Football Hall of Fame coach Tony Dungy expected excellence from his players, but he didn’t believe he had to curse at them to get it.</p><p><a href=\"https://www.movieguide.org/news-articles/why-tony-dungy-never-swore-at-his-football-players.html\">Read the full story →</a></p>",
-   "posted": "2026-11-23T13:15:00-06:00"
-  },
-  {
-   "id": "dd03c2adc34793da",
-   "title": "🎬 The Babylon Bee · Reinstated Jensen Huang Thrilled To Hear Girlfriend Wants To Get Back Together",
-   "link": "https://babylonbee.com/news/reinstated-jensen-huang-thrilled-to-hear-girlfriend-wants-to-get-back-together/",
-   "image": "https://media.babylonbee.com/articles/6b0479d9af2a06b0479d9af2a1.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b0479d9af2a06b0479d9af2a1.jpg\" alt=\"\"></p><p>SANTA CLARA, CA — Shortly after being reinstated as CEO of Nvidia, Jensen Huang&#x27;s day reportedly got even better as his former girlfriend, Alice Huang, called him and wanted to get back together.</p><p><a href=\"https://babylonbee.com/news/reinstated-jensen-huang-thrilled-to-hear-girlfriend-wants-to-get-back-together/\">Read the full story →</a></p>",
-   "posted": "2026-11-23T13:14:00-06:00"
   }
  ],
  "vine_last": "2026-11-27",
- "last_memory_ref": "Psalm 1",
+ "last_memory_ref": "Psalm 91",
  "votd_last": "2026-11-27",
  "spurgeon_last": "2026-11-27"
 }
