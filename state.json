@@ -159,7 +159,6 @@
   }
  },
  "batches_done": [
-  "2026-11-22@18",
   "2026-11-22@21",
   "2026-11-23@6",
   "2026-11-23@9",
@@ -188,7 +187,8 @@
   "2026-11-26@15",
   "2026-11-26@18",
   "2026-11-26@21",
-  "2026-11-27@6"
+  "2026-11-27@6",
+  "2026-11-27@9"
  ],
  "pool": {
   "485d8c94dc24a56e": {
@@ -622,6 +622,25 @@
    "must_see_source": false,
    "lookback": 90,
    "seen": "2026-11-23T14:36:00-06:00"
+  },
+  "ec2eaf783e3bb12e": {
+   "id": "ec2eaf783e3bb12e",
+   "title": "Ep. 545 Happy Fourth Birthday ChatGPT",
+   "link": "https://www.bobmurphyshow.com/ep-545-happy-fourth-birthday-chatgpt",
+   "published": "Fri, 27 Nov 2026 09:00:00 -0500",
+   "summary": "<p>Adam Haman returns to join Bob in a discussion with Michael Fraser commemorating the 4th anniversary (Nov. 30, 2022) of the release of ChatGPT 3.5. Fraser is a student of Austrian economics, and his day job is a consultant to companies on how they can incorporate AI into their business practices. The conversation includes bold yet plausible predictions for the near future.</p><p><strong>Mentioned in the Episode and Other Links of Interest:</strong></p><ul><li>The <a href=\"https://www.youtube.com/watch?v=IsZX3H5ArJw\" target=\"_blank\">YouTube version</a> of this episode.</li><li>Michael Fraser's AI consulting company, <a href=\"https://actioninsight.ai/\" target=\"_blank\">Action / Insight</a>.</li><li>Bob's interview of <a href=\"https://www.youtube.com/watch?v=jwB_yIkTlNE\" target=\"_blank\">Michael Fraser on whether LLMs act</a> in the praxeological sense.</li><li>Bob's interview of Steve Landsburg <a href=\"https://www.youtube.com/watch?v=qu7Ryc1jIyI\" target=\"_blank\">on the math genius Grothendieck</a>.</li><li>A <a href=\"https://www.youtube.com/watch?v=EmP9IdXciIw\" target=\"_blank\">brief history of flawed \"proofs\"</a> that fooled mathematicians for years.</li><li>The <a href=\"https://hamannature.substack.com/\" target=\"_blank\">HamanNature substack</a>.</li><li><a href=\"http://bobmurphyshow.com/contribute\" target=\"_blank\">Help support</a> the Bob Murphy Show.</li></ul><br/>",
+   "image": "https://artwork.captivate.fm/216a119f-ca56-4ce1-af88-3c6a69bbc10b/bms_square_logo.png",
+   "audio": "https://episodes.captivate.fm/episode/780895df-989d-4368-9023-3c2a5aba39f6.mp3",
+   "audio_type": "audio/mpeg",
+   "duration": "01:57:00",
+   "kind": "listen",
+   "show": "Bob Murphy Show",
+   "source": "Bob Murphy",
+   "person": "Bob Murphy",
+   "category": "business",
+   "must_see_source": false,
+   "lookback": 14,
+   "seen": "2026-11-27T09:17:00-06:00"
   }
  },
  "released_ids": {
@@ -971,10 +990,26 @@
   "4c5973b24b998f7b": "2026-11-27",
   "04edd8043cd16db4": "2026-11-27",
   "184b4e6672f708b8": "2026-11-27",
-  "aa24838b977935d9": "2026-11-27"
+  "aa24838b977935d9": "2026-11-27",
+  "255deb8a511cbc68": "2026-11-27"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "255deb8a511cbc68",
+   "title": "🎥 Vlad Savchuk · 5 ways the devil distracts you.",
+   "link": "https://www.youtube.com/shorts/BRjSk9lqCRs",
+   "image": "https://i3.ytimg.com/vi/BRjSk9lqCRs/hqdefault.jpg",
+   "video_id": "BRjSk9lqCRs",
+   "kind": "video",
+   "source": "Vlad Savchuk",
+   "person": "Vlad Savchuk",
+   "category": "leaders",
+   "must_see_source": false,
+   "lookback": 90,
+   "html": "<p><iframe src=\"https://www.youtube.com/embed/BRjSk9lqCRs\" width=\"360\" height=\"640\" frameborder=\"0\" allowfullscreen></iframe></p><p><a href=\"https://www.youtube.com/shorts/BRjSk9lqCRs\"><img src=\"https://i3.ytimg.com/vi/BRjSk9lqCRs/hqdefault.jpg\" alt=\"\"></a></p><p>5 ways the devil distracts you. ____________ Subscribe to my YouTube channels: https://youtube.com/@vladhungrygen?si=nPd7k9k7U6qQp0bK https://youtube.com/@vladsguidedprayer?si=eVM_p6Ed4q6S6tdv https://youtube.com/@vladsavchukespanol?si=Vdpb-bJ4t4-5HgpW…</p>",
+   "posted": "2026-11-27T09:17:00-06:00"
+  },
   {
    "id": "vine-2026-11-27",
    "kind": "devotional",
@@ -3218,26 +3253,10 @@
    "lookback": 14,
    "html": "<p><img src=\"https://media.babylonbee.com/articles/6b0479d9af2a06b0479d9af2a1.jpg\" alt=\"\"></p><p>SANTA CLARA, CA — Shortly after being reinstated as CEO of Nvidia, Jensen Huang&#x27;s day reportedly got even better as his former girlfriend, Alice Huang, called him and wanted to get back together.</p><p><a href=\"https://babylonbee.com/news/reinstated-jensen-huang-thrilled-to-hear-girlfriend-wants-to-get-back-together/\">Read the full story →</a></p>",
    "posted": "2026-11-23T13:14:00-06:00"
-  },
-  {
-   "id": "1d207aa8ac4fb0d1",
-   "title": "🎬 The Babylon Bee · California Thanksgivings Canceled After Newsom Commutes Death Sentences Of All Turkeys",
-   "link": "https://babylonbee.com/news/california-thanksgivings-canceled-after-newsom-commutes-death-sentences-of-all-turkeys/",
-   "image": "https://media.babylonbee.com/articles/6b048f1d571476b048f1d57148.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b048f1d571476b048f1d57148.jpg\" alt=\"\"></p><p>SACRAMENTO, CA — This holiday season in the Golden State took a historic turn today, as California Thanksgivings were officially canceled after Governor Gavin Newsom commuted the death sentences of all turkeys in the state.</p><p><a href=\"https://babylonbee.com/news/california-thanksgivings-canceled-after-newsom-commutes-death-sentences-of-all-turkeys/\">Read the full story →</a></p>",
-   "posted": "2026-11-23T13:13:00-06:00"
   }
  ],
  "vine_last": "2026-11-27",
- "last_memory_ref": "Psalm 23",
+ "last_memory_ref": "Psalm 1",
  "votd_last": "2026-11-27",
  "spurgeon_last": "2026-11-27"
 }
