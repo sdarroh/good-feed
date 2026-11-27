@@ -159,7 +159,6 @@
   }
  },
  "batches_done": [
-  "2026-11-22@9",
   "2026-11-22@12",
   "2026-11-22@15",
   "2026-11-22@18",
@@ -188,7 +187,8 @@
   "2026-11-26@6",
   "2026-11-26@9",
   "2026-11-26@12",
-  "2026-11-26@15"
+  "2026-11-26@15",
+  "2026-11-26@18"
  ],
  "pool": {
   "485d8c94dc24a56e": {
@@ -555,23 +555,6 @@
    "lookback": 14,
    "seen": "2026-11-19T19:28:00-06:00"
   },
-  "b76c620a2848a400": {
-   "id": "b76c620a2848a400",
-   "title": "Peter Plays Keyboard Softly As Jesus Wraps Up Sermon On The Mount",
-   "link": "https://babylonbee.com/news/peter-plays-keyboard-softly-as-jesus-wraps-up-sermon-on-the-mount/",
-   "published": "Thu, 19 Nov 2026 16:25:11 -0500",
-   "summary": "<img src=\"https://media.babylonbee.com/articles/6aff61ad561bd6aff61ad561be.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>CAPERNAUM — As Jesus of Nazareth began to wrap up a sermon he was giving on a nearby hilltop, the apostle Peter reportedly joined in with a soft keyboard melody to complement what was sure to be an emotional conclusion.</p>",
-   "image": "https://media.babylonbee.com/articles/6aff61ad561bd6aff61ad561be.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-19T19:28:00-06:00"
-  },
   "6b72efb48e0e8211": {
    "id": "6b72efb48e0e8211",
    "title": "Trump Meets With Ruthless Dictators To Prepare For Dealing With Democrat-Controlled Congress",
@@ -605,23 +588,6 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-20T13:22:00-06:00"
-  },
-  "28f15cb164d5efb4": {
-   "id": "28f15cb164d5efb4",
-   "title": "Theologians Say While You Don't Have To Sleep In Heaven, There Will Still Be Glorious Post-Church Naps On Sunday",
-   "link": "https://babylonbee.com/news/theologians-say-while-you-dont-have-to-sleep-in-heaven-there-will-still-be-glorious-post-church-naps-on-sunday/",
-   "published": "Sun, 22 Nov 2026 09:14:24 -0500",
-   "summary": "<img src=\"https://media.babylonbee.com/articles/6b009b36531126b009b3653113.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>U.S. — A panel of theologians reassured believers that although people will no longer need sleep in heaven, there will still be glorious post-church naps on Sunday.</p>",
-   "image": "https://media.babylonbee.com/articles/6b009b36531126b009b3653113.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-22T09:03:00-06:00"
   },
   "f80553f62caaa805": {
    "id": "f80553f62caaa805",
@@ -1026,10 +992,44 @@
   "c72c5a506abb9d29": "2026-11-26",
   "cb44cb538693302a": "2026-11-26",
   "98699d23e2f52904": "2026-11-26",
-  "8a29646e9c79ab62": "2026-11-26"
+  "8a29646e9c79ab62": "2026-11-26",
+  "28f15cb164d5efb4": "2026-11-26",
+  "b76c620a2848a400": "2026-11-26"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "28f15cb164d5efb4",
+   "title": "🎬 The Babylon Bee · Theologians Say While You Don't Have To Sleep In Heaven, There Will Still Be Glorious Post-Church Naps On Sunday",
+   "link": "https://babylonbee.com/news/theologians-say-while-you-dont-have-to-sleep-in-heaven-there-will-still-be-glorious-post-church-naps-on-sunday/",
+   "image": "https://media.babylonbee.com/articles/6b009b36531126b009b3653113.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b009b36531126b009b3653113.jpg\" alt=\"\"></p><p>U.S. — A panel of theologians reassured believers that although people will no longer need sleep in heaven, there will still be glorious post-church naps on Sunday.</p><p><a href=\"https://babylonbee.com/news/theologians-say-while-you-dont-have-to-sleep-in-heaven-there-will-still-be-glorious-post-church-naps-on-sunday/\">Read the full story →</a></p>",
+   "posted": "2026-11-26T18:17:00-06:00"
+  },
+  {
+   "id": "b76c620a2848a400",
+   "title": "🎬 The Babylon Bee · Peter Plays Keyboard Softly As Jesus Wraps Up Sermon On The Mount",
+   "link": "https://babylonbee.com/news/peter-plays-keyboard-softly-as-jesus-wraps-up-sermon-on-the-mount/",
+   "image": "https://media.babylonbee.com/articles/6aff61ad561bd6aff61ad561be.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6aff61ad561bd6aff61ad561be.jpg\" alt=\"\"></p><p>CAPERNAUM — As Jesus of Nazareth began to wrap up a sermon he was giving on a nearby hilltop, the apostle Peter reportedly joined in with a soft keyboard melody to complement what was sure to be an emotional conclusion.</p><p><a href=\"https://babylonbee.com/news/peter-plays-keyboard-softly-as-jesus-wraps-up-sermon-on-the-mount/\">Read the full story →</a></p>",
+   "posted": "2026-11-26T18:16:00-06:00"
+  },
   {
    "id": "943aa640cf1c7591",
    "title": "🎬 The Babylon Bee · Pelosi Condemns Nvidia For Hiring CEO Back Before She Could Buy The Dip",
@@ -3251,41 +3251,10 @@
    "category": "missions",
    "html": "<p><img src=\"https://www.mnnonline.org/wp-content/uploads/2026/11/Air-Force_Afghan-evac2-225x300.jpg\" alt=\"\"></p><p>USA (MNN) — Court orders have temporarily protected some Afghans from deportation, but the fate of Afghan refugees in the United States remains uncertain. Judges temporarily blocked some individual deportations amid reports of plans to remove about 150 Afghan nationals from the U.S. Advocates began…</p><p><a href=\"https://www.mnnonline.org/news/afghan-deportation-plans-raise-fears-for-christian-evacuees/\">Read the full story →</a></p>",
    "posted": "2026-11-22T15:55:00-06:00"
-  },
-  {
-   "id": "fd18ba6f1db69d48",
-   "title": "🎬 Movieguide · For KING + COUNTRY’S Marriage Reminder: Make Room for Fun",
-   "link": "https://www.movieguide.org/news-articles/for-king-countrys-marriage-reminder-make-room-for-fun.html",
-   "image": "https://cdn.movieguide.org/wp-content/uploads/2025/05/7D05EFED-8971-421B-B9DC-572F60A1AF9D_1_201_a-768x432.jpeg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "Movieguide",
-   "person": "Movieguide",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://cdn.movieguide.org/wp-content/uploads/2025/05/7D05EFED-8971-421B-B9DC-572F60A1AF9D_1_201_a-768x432.jpeg\" alt=\"\"></p><p>For KING + COUNTRY singer-songwriter Luke Smallbone has a marriage reminder that can get lost somewhere between the work...</p><p><a href=\"https://www.movieguide.org/news-articles/for-king-countrys-marriage-reminder-make-room-for-fun.html\">Read the full story →</a></p>",
-   "posted": "2026-11-22T13:10:00-06:00"
-  },
-  {
-   "id": "1346d87dc475a06c",
-   "title": "☀️ K-LOVE · Pastors Need Friends, Take Better Care Of Health (+Podcast)",
-   "link": "https://www.klove.com/news/god-stories/pastors-need-friends-take-better-care-of-health-andpodcast-59003",
-   "image": "https://cdn.klove.inc/news/124314/124314.webp",
-   "scraped": true,
-   "kind": "story",
-   "source": "K-LOVE",
-   "person": "K-LOVE",
-   "category": "news",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://cdn.klove.inc/news/124314/124314.webp\" alt=\"\"></p><p>Positive Encouraging K-LOVE</p><p><a href=\"https://www.klove.com/news/god-stories/pastors-need-friends-take-better-care-of-health-andpodcast-59003\">Read the full story →</a></p>",
-   "posted": "2026-11-22T13:09:00-06:00"
   }
  ],
  "vine_last": "2026-11-26",
- "last_memory_ref": "Isaiah 58:6–9a",
+ "last_memory_ref": "Psalm 91",
  "votd_last": "2026-11-26",
  "spurgeon_last": "2026-11-26"
 }
