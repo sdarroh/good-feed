@@ -159,7 +159,6 @@
   }
  },
  "batches_done": [
-  "2026-11-23@9",
   "2026-11-23@12",
   "2026-11-23@12",
   "2026-11-23@12",
@@ -188,7 +187,8 @@
   "2026-11-27@6",
   "2026-11-27@9",
   "2026-11-27@12",
-  "2026-11-27@15"
+  "2026-11-27@15",
+  "2026-11-27@18"
  ],
  "pool": {
   "485d8c94dc24a56e": {
@@ -470,23 +470,6 @@
    "lookback": 14,
    "seen": "2026-11-18T18:04:00-06:00"
   },
-  "463e190456228dbb": {
-   "id": "463e190456228dbb",
-   "title": "Anthropic Offers Public Amazing Opportunity To Invest In The Apocalypse",
-   "link": "https://babylonbee.com/news/anthropic-offers-public-amazing-opportunity-to-invest-in-the-apocalypse/",
-   "published": "Thu, 19 Nov 2026 12:17:42 -0500",
-   "summary": "<img src=\"https://media.babylonbee.com/articles/6aff2e043d46c6aff2e043d46d.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>NEW YORK, NY — After years of warning that its technology could bring about the end of humanity, Anthropic celebrated its initial public offering today by giving ordinary Americans an amazing opportunity to invest in the apocalypse.</p>",
-   "image": "https://media.babylonbee.com/articles/6aff2e043d46c6aff2e043d46d.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-19T12:08:00-06:00"
-  },
   "144286afed9e7620": {
    "id": "144286afed9e7620",
    "title": "Pope Requests 2 More Hours Of 'Grand Theft Auto VI' Before Ruling On Whether It's Sinful",
@@ -503,23 +486,6 @@
    "must_see_source": false,
    "lookback": 14,
    "seen": "2026-11-19T15:08:00-06:00"
-  },
-  "f57a97fd3fb3839e": {
-   "id": "f57a97fd3fb3839e",
-   "title": "Following Plagiarism Apology, Wes Huff Starts Fresh By Publishing Original Poem Called ‘Psalm 51’",
-   "link": "https://babylonbee.com/news/following-plagiarism-apology-wes-huff-starts-fresh-by-publishing-original-poem-called-psalm-51/",
-   "published": "Thu, 19 Nov 2026 17:30:49 -0500",
-   "summary": "<img src=\"https://media.babylonbee.com/articles/6aff7128bfba16aff7128bfba2.jpg\" width=\"400\" style=\"width: 100%; max-width: 400px;\"><p>TORONTO — Following his public mea culpa for plagiarism, Christian apologist Wes Huff announced that he was making a fresh start by publishing a deeply personal, original poem called &#34;Psalm 51.&#34;</p>",
-   "image": "https://media.babylonbee.com/articles/6aff7128bfba16aff7128bfba2.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "seen": "2026-11-19T19:28:00-06:00"
   },
   "6b72efb48e0e8211": {
    "id": "6b72efb48e0e8211",
@@ -945,10 +911,44 @@
   "b8b89101fb7d90d5": "2026-11-27",
   "5384b76fa5203e75": "2026-11-27",
   "765e2d2cf24243cb": "2026-11-27",
-  "07d779b07f3889c3": "2026-11-27"
+  "07d779b07f3889c3": "2026-11-27",
+  "f57a97fd3fb3839e": "2026-11-27",
+  "463e190456228dbb": "2026-11-27"
  },
  "warned": {},
  "feed": [
+  {
+   "id": "f57a97fd3fb3839e",
+   "title": "🎬 The Babylon Bee · Following Plagiarism Apology, Wes Huff Starts Fresh By Publishing Original Poem Called ‘Psalm 51’",
+   "link": "https://babylonbee.com/news/following-plagiarism-apology-wes-huff-starts-fresh-by-publishing-original-poem-called-psalm-51/",
+   "image": "https://media.babylonbee.com/articles/6aff7128bfba16aff7128bfba2.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6aff7128bfba16aff7128bfba2.jpg\" alt=\"\"></p><p>TORONTO — Following his public mea culpa for plagiarism, Christian apologist Wes Huff announced that he was making a fresh start by publishing a deeply personal, original poem called &quot;Psalm 51.&quot;</p><p><a href=\"https://babylonbee.com/news/following-plagiarism-apology-wes-huff-starts-fresh-by-publishing-original-poem-called-psalm-51/\">Read the full story →</a></p>",
+   "posted": "2026-11-27T18:08:00-06:00"
+  },
+  {
+   "id": "463e190456228dbb",
+   "title": "🎬 The Babylon Bee · Anthropic Offers Public Amazing Opportunity To Invest In The Apocalypse",
+   "link": "https://babylonbee.com/news/anthropic-offers-public-amazing-opportunity-to-invest-in-the-apocalypse/",
+   "image": "https://media.babylonbee.com/articles/6aff2e043d46c6aff2e043d46d.jpg",
+   "audio": "",
+   "audio_type": "",
+   "kind": "story",
+   "source": "The Babylon Bee",
+   "person": "The Babylon Bee",
+   "category": "entertainment",
+   "must_see_source": false,
+   "lookback": 14,
+   "html": "<p><img src=\"https://media.babylonbee.com/articles/6aff2e043d46c6aff2e043d46d.jpg\" alt=\"\"></p><p>NEW YORK, NY — After years of warning that its technology could bring about the end of humanity, Anthropic celebrated its initial public offering today by giving ordinary Americans an amazing opportunity to invest in the apocalypse.</p><p><a href=\"https://babylonbee.com/news/anthropic-offers-public-amazing-opportunity-to-invest-in-the-apocalypse/\">Read the full story →</a></p>",
+   "posted": "2026-11-27T18:07:00-06:00"
+  },
   {
    "id": "mem-202611271513-4dc15d9ef0a30be6",
    "kind": "memory",
@@ -3175,39 +3175,10 @@
    "lookback": 60,
    "html": "<p><img src=\"https://static.wixstatic.com/media/b5a899_9e080bb6ce6f4fe1a6bd5fc5c9029e94~mv2.jpg/v1/fit/w_1000,h_897,al_c,q_80/file.png\" alt=\"\"></p><p>Ah Htoo, a Ranger medic and chaplain in training. Ah Htoo, a 26-year-old Ranger, is a young man who embodies the themes seen in the lives and service of many Rangers. He has witnessed the suffering of war firsthand, including seeing friends die in front of him and moments when he felt helpless to…</p><p><a href=\"https://www.freeburmarangers.org/post/ah-htoo-a-ranger-testimony-of-faith-and-service\">Read the full story →</a></p>",
    "posted": "2026-11-23T15:53:00-06:00"
-  },
-  {
-   "id": "mem-202611231556-351a23e15395c9c5",
-   "kind": "memory",
-   "category": "memory",
-   "person": "Memory",
-   "source": "Memory work",
-   "ref": "Psalm 23",
-   "title": "📖 Psalm 23",
-   "link": "https://sdarroh.github.io/good-feed/#mem-202611231556-351a23e15395c9c5",
-   "image": "https://sdarroh.github.io/good-feed/cards/memory-verse.png",
-   "html": "<p><img src=\"https://sdarroh.github.io/good-feed/cards/memory-verse.png\" alt=\"\"></p><p>The LORD is my shepherd;<br>I shall not want.<br>He makes me to lie down in green pastures;<br>He leads me beside the still waters.<br>He restores my soul;<br>He leads me in the paths of righteousness<br>For His name’s sake.</p><p>Yea, though I walk through the valley of the shadow of death,<br>I will fear no evil;<br>For You are with me;<br>Your rod and Your staff, they comfort me.</p><p>You prepare a table before me in the presence of my enemies;<br>You anoint my head with oil;<br>My cup runs over.<br>Surely goodness and mercy shall follow me<br>All the days of my life;<br>And I will dwell in the house of the LORD<br>Forever.</p><p><em>— Psalm 23</em></p><p><small>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>",
-   "posted": "2026-11-23T15:52:00-06:00"
-  },
-  {
-   "id": "586e5a1eba67f86f",
-   "title": "🎬 The Babylon Bee · De-Escalation Techniques Used By NYC's New Civilian Peace Officers",
-   "link": "https://babylonbee.com/news/de-escalation-techniques-used-by-nycs-new-civilian-peace-officers/",
-   "image": "https://media.babylonbee.com/articles/6b0201e2c4e126b0201e2c4e13.jpg",
-   "audio": "",
-   "audio_type": "",
-   "kind": "story",
-   "source": "The Babylon Bee",
-   "person": "The Babylon Bee",
-   "category": "entertainment",
-   "must_see_source": false,
-   "lookback": 14,
-   "html": "<p><img src=\"https://media.babylonbee.com/articles/6b0201e2c4e126b0201e2c4e13.jpg\" alt=\"\"></p><p>Mayor Zohran Mamdani is revolutionizing how New York handles public safety by disbanding the NYPD&#x27;s Strategic Response Group and introducing advanced de-escalation techniques to stop crime in its tracks.</p><p><a href=\"https://babylonbee.com/news/de-escalation-techniques-used-by-nycs-new-civilian-peace-officers/\">Read the full story →</a></p>",
-   "posted": "2026-11-23T15:51:00-06:00"
   }
  ],
  "vine_last": "2026-11-27",
- "last_memory_ref": "Isaiah 55:8–11",
+ "last_memory_ref": "Isaiah 58:6–9a",
  "votd_last": "2026-11-27",
  "spurgeon_last": "2026-11-27"
 }
